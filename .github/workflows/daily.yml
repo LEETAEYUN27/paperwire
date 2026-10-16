@@ -1,0 +1,46 @@
+name: daily-papers
+
+on:
+  schedule:
+    - cron: "17 1 * * *"   # 매일 10:17 KST (arXiv 신규 공지 09:00 KST 이후)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-papers
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 수집·번역·요약
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python pipeline/fetch.py
+      - name: 결과 커밋
+        run: |
+          git config user.name "paperwire-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add site/data
+          git commit -m "data: $(TZ=Asia/Seoul date +%F)" || echo "변경 없음"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
