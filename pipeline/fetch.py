@@ -334,7 +334,9 @@ def main() -> None:
 
     # 이전 날짜에 이미 게재된 논문 제외
     seen = set()
-    for f in sorted(DATA.glob("20*.json"))[-14:]:
+    for f in sorted(DATA.glob("20*.json"))[-15:]:
+        if f.stem == day.isoformat():
+            continue  # 같은 날 재실행 시 당일 게재분은 제외 대상에서 뺌
         try:
             for p in json.loads(f.read_text("utf-8"))["papers"]:
                 seen.add(norm_title(p["title"]))
