@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>페이퍼와이어 — 글로벌 논문 동향</title>
+<meta name="description" content="전 세계 신규 연구 논문을 매일 수집해 한국어로 번역·요약하는 연구 동향 브리핑">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3f5f8; --panel:#fff; --line:#e3e7ee; --ink:#18202c; --sub:#5b6575; --mute:#8a93a3;
+  --blue:#1f5eff; --blue-d:#1747c4; --blue-l:#eaf0ff; --navy:#0f2a5c;
+  --shadow:0 1px 2px rgba(16,24,40,.05),0 2px 8px rgba(16,24,40,.05);
+}
+*{box-sizing:border-box} html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans KR",system-ui,sans-serif;font-size:14px;line-height:1.6}
+a{color:inherit;text-decoration:none}
+/* 상단 바 */
+.top{position:sticky;top:0;z-index:20;height:52px;background:var(--panel);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:14px;padding:0 18px}
+.brand{display:flex;align-items:center;gap:9px;font-weight:800;font-size:16px;letter-spacing:-.3px;white-space:nowrap}
+.brand i{width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,#3b7bff,#1747c4);display:grid;place-items:center;color:#fff;font-style:normal;font-size:13px;box-shadow:0 2px 6px rgba(31,94,255,.35)}
+.brand small{font-weight:500;color:var(--mute);font-size:12px}
+.top .grow{flex:1}
+.search{display:flex;align-items:center;gap:6px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:0 10px;height:34px;width:min(340px,40vw)}
+.search input{border:0;background:transparent;outline:0;font:inherit;width:100%;color:var(--ink)}
+select{font:inherit;height:34px;border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:0 8px;color:var(--ink)}
+/* 셸 */
+.shell{display:grid;grid-template-columns:232px 1fr;min-height:calc(100vh - 52px)}
+nav{background:var(--panel);border-right:1px solid var(--line);padding:14px 10px;position:sticky;top:52px;height:calc(100vh - 52px);overflow:auto}
+nav h6{margin:12px 10px 6px;font-size:11px;color:var(--mute);font-weight:700;letter-spacing:.4px}
+nav button{all:unset;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;width:100%;padding:8px 10px;border-radius:8px;cursor:pointer;color:var(--sub);font-weight:500}
+nav button:hover{background:var(--bg);color:var(--ink)}
+nav button.on{background:var(--blue-l);color:var(--blue-d);font-weight:700}
+nav button b{font-size:11px;font-weight:600;color:var(--mute);background:var(--bg);border-radius:10px;padding:0 7px}
+nav button.on b{background:#fff;color:var(--blue-d)}
+main{padding:22px 26px 60px;max-width:1180px;width:100%}
+/* 요약 밴드 */
+.band{background:linear-gradient(100deg,#1747c4,#2f6bff);color:#fff;border-radius:12px;padding:14px 18px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px;box-shadow:0 6px 18px rgba(31,94,255,.22)}
+.band .t{font-weight:700;font-size:15px;flex:1 1 320px}
+.band .k{display:flex;gap:18px;font-size:12px;opacity:.95}
+.band .k strong{display:block;font-size:17px;font-weight:800;opacity:1}
+h2{font-size:15px;margin:26px 0 12px;display:flex;align-items:center;gap:8px}
+h2:before{content:"";width:4px;height:15px;border-radius:2px;background:var(--blue)}
+h2 small{color:var(--mute);font-weight:500;font-size:12px}
+/* 주요 논문 */
+.top5{display:grid;grid-template-columns:1.4fr 1fr;gap:12px}
+.lead{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;box-shadow:var(--shadow);cursor:pointer;position:relative;overflow:hidden}
+.lead:after{content:"";position:absolute;right:-40px;top:-40px;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(31,94,255,.12),transparent 70%)}
+.lead .hl{font-size:19px;font-weight:800;line-height:1.45;margin:8px 0 6px;letter-spacing:-.4px}
+.side{display:flex;flex-direction:column;gap:8px}
+.mini{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;display:grid;grid-template-columns:26px 1fr;gap:8px;box-shadow:var(--shadow)}
+.mini .n{font-weight:800;color:var(--blue);font-size:16px}
+.mini .hl{font-weight:700;font-size:13px;line-height:1.45}
+.lead:hover,.mini:hover,.card:hover{border-color:#b9c9f5}
+/* 카드 */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px;align-items:start}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:8px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font-size:11px;font-weight:600;border-radius:5px;padding:1px 7px;background:var(--bg);color:var(--sub);border:1px solid var(--line)}
+.chip.sec{background:var(--blue-l);color:var(--blue-d);border-color:#cfdcff}
+.chip.hot{background:#fff1ec;color:#c2410c;border-color:#fed7c7}
+.chip.lv{background:#eefaf3;color:#15803d;border-color:#c9eed8}
+.card .ko{font-weight:800;font-size:15px;line-height:1.45;letter-spacing:-.3px}
+.card .hl,.lead .sum{color:var(--sub);font-size:13px}
+.card .orig{font-size:12px;color:var(--mute);font-style:italic}
+.more{display:none;border-top:1px dashed var(--line);padding-top:10px}
+.card.open .more{display:block}
+.pts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.pts li{display:grid;grid-template-columns:40px 1fr;gap:6px;font-size:13px}
+.pts li span{font-size:11px;font-weight:700;color:var(--blue-d);background:var(--blue-l);border-radius:4px;text-align:center;height:20px;line-height:20px}
+.impact{margin-top:8px;background:linear-gradient(90deg,#f5f8ff,#fff);border-left:3px solid var(--blue);border-radius:0 8px 8px 0;padding:7px 10px;font-size:13px}
+.impact b{color:var(--blue-d);font-size:11px;margin-right:6px}
+.meta{font-size:12px;color:var(--mute);display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:auto}
+.meta a{color:var(--blue);font-weight:600;white-space:nowrap}
+.toggle{all:unset;cursor:pointer;font-size:12px;color:var(--blue);font-weight:600}
+.empty{padding:40px;text-align:center;color:var(--mute);background:var(--panel);border:1px dashed var(--line);border-radius:12px}
+footer{color:var(--mute);font-size:12px;margin-top:30px;line-height:1.7}
+@media (max-width:860px){
+  .shell{grid-template-columns:1fr}
+  nav{position:sticky;top:52px;z-index:10;height:auto;display:flex;gap:4px;overflow-x:auto;padding:8px 12px;border-right:0;border-bottom:1px solid var(--line)}
+  nav h6{display:none}
+  nav button{width:auto;white-space:nowrap;gap:6px}
+  main{padding:16px}
+  .top5{grid-template-columns:1fr}
+  .grid{grid-template-columns:1fr}
+  .brand small,.search{display:none}
+  .top{padding:0 12px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><i>P</i>페이퍼와이어 <small>글로벌 논문 동향 · 한국어 요약</small></a>
+  <div class="grow"></div>
+  <label class="search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8a93a3" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" placeholder="제목·키워드·학술지 검색"></label>
+  <select id="date" aria-label="날짜"></select>
+</header>
+<div class="shell">
+  <nav id="nav"></nav>
+  <main id="main"><div class="empty">불러오는 중…</div></main>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const LABELS=["배경","방법","결과"];
+const LANG={en:"영어",zh:"중국어",ja:"일본어",de:"독일어",fr:"프랑스어",es:"스페인어",pt:"포르투갈어",ru:"러시아어",ko:"한국어",it:"이탈리아어"};
+let state={sector:"all",q:"",data:null,sectors:{}};
+try{const s=localStorage.getItem("pw_sector");if(s)state.sector=s}catch(e){}
+
+const strip=t=>String(t||"").replace(/^\s*(연구\s*)?(배경|목적|배경·목적|방법|핵심\s*결과|결과)[^:：]{0,8}[:：]\s*/,"");
+
+function chips(p){
+  const c=[`<span class="chip sec">${esc(state.sectors[p.sector]||p.sector)}</span>`];
+  if(p.level)c.push(`<span class="chip lv">${esc(p.level)}</span>`);
+  if(p.hf_upvotes>=20)c.push(`<span class="chip hot">화제 ▲${p.hf_upvotes}</span>`);
+  if(p.lang&&p.lang!=="en")c.push(`<span class="chip">원문 ${esc(LANG[p.lang]||p.lang)}</span>`);
+  if(p.core)c.push(`<span class="chip">핵심 학술지</span>`);
+  return `<div class="chips">${c.join("")}</div>`;
+}
+function card(p){
+  const pts=(p.points||[]).map((t,i)=>`<li><span>${LABELS[i]||"·"}</span><div>${esc(strip(t))}</div></li>`).join("");
+  const au=(p.authors||[]).filter(Boolean);
+  return `<article class="card" id="${esc(p.id)}">
+    ${chips(p)}
+    <div class="ko">${esc(p.title_ko||p.title)}</div>
+    <div class="hl">${esc(p.headline)}</div>
+    <div class="more">
+      <ul class="pts">${pts}</ul>
+      ${p.impact?`<div class="impact"><b>시사점</b>${esc(p.impact)}</div>`:""}
+      <p class="orig">${esc(p.title)}</p>
+      <div class="chips">${(p.keywords||[]).map(k=>`<span class="chip"># ${esc(k)}</span>`).join("")}</div>
+      <p style="font-size:12px;color:var(--mute);margin:6px 0 0">${esc(au.slice(0,4).join(", "))}${au.length>4?" 외":""}</p>
+    </div>
+    <div class="meta"><span>${esc(p.venue)}</span><span><button class="toggle">요약 펼치기</button> · <a href="${esc(p.url)}" target="_blank" rel="noopener">원문 ↗</a></span></div>
+  </article>`;
+}
+function filtered(){
+  const q=state.q.trim().toLowerCase();
+  return state.data.papers.filter(p=>(state.sector==="all"||p.sector===state.sector)&&
+    (!q||[p.title,p.title_ko,p.headline,p.venue,(p.keywords||[]).join(" "),p.impact].join(" ").toLowerCase().includes(q)));
+}
+function renderNav(){
+  const ps=state.data.papers;
+  const cnt=k=>ps.filter(p=>p.sector===k).length;
+  let h=`<h6>전체</h6><button data-s="all" class="${state.sector==="all"?"on":""}">오늘의 브리핑 <b>${ps.length}</b></button><h6>섹터</h6>`;
+  for(const [k,v] of Object.entries(state.sectors)){const n=cnt(k);if(!n)continue;
+    h+=`<button data-s="${k}" class="${state.sector===k?"on":""}">${esc(v)} <b>${n}</b></button>`}
+  $("#nav").innerHTML=h;
+}
+function render(){
+  renderNav();
+  const d=state.data,list=filtered();
+  const st=d.stats||{};
+  let h=`<section class="band"><div class="t">${esc(d.date.replace(/-/g,". "))}. 기준 · 전 세계 신규 논문 ${(st.collected||0).toLocaleString()}편 중 ${list.length}편 선별·한국어 요약</div>
+    <div class="k"><span><strong>${(st.collected||0).toLocaleString()}</strong>수집</span><span><strong>${(st.screened||0).toLocaleString()}</strong>AI 1차 검토</span><span><strong>${d.papers.length}</strong>게재</span></div></section>`;
+  if(state.sector==="all"&&!state.q){
+    const rk=p=>(p.score||0)+Math.min(p.hf_upvotes||0,50)/25;const used=new Set();
+    const top=[...d.papers].sort((a,b)=>rk(b)-rk(a)).filter(p=>!used.has(p.sector)&&used.add(p.sector)).slice(0,5);
+    if(top.length){
+      const L=top[0];
+      h+=`<h2>오늘의 주요 논문 <small>섹터별 최고 중요도 5편</small></h2><div class="top5">
+        <div class="lead" data-go="${esc(L.id)}">${chips(L)}<div class="hl">${esc(L.headline)}</div><div class="sum">${esc(L.title_ko)}</div>
+        ${L.impact?`<div class="impact"><b>시사점</b>${esc(L.impact)}</div>`:""}<div class="meta" style="margin-top:10px"><span>${esc(L.venue)}</span></div></div>
+        <div class="side">${top.slice(1).map((p,i)=>`<div class="mini" data-go="${esc(p.id)}"><span class="n">${i+2}</span><div><div class="hl">${esc(p.headline)}</div><div style="font-size:11px;color:var(--mute)">${esc(state.sectors[p.sector]||"")} · ${esc(p.venue)}</div></div></div>`).join("")}</div></div>`;
+    }
+    for(const [k,v] of Object.entries(state.sectors)){
+      const ps=list.filter(p=>p.sector===k);if(!ps.length)continue;
+      h+=`<h2>${esc(v)} <small>${ps.length}편</small></h2><div class="grid">${ps.map(card).join("")}</div>`;
+    }
+  }else{
+    h+=`<h2>${esc(state.sector==="all"?"검색 결과":state.sectors[state.sector])} <small>${list.length}편</small></h2>`;
+    h+=list.length?`<div class="grid">${list.map(card).join("")}</div>`:`<div class="empty">해당 조건의 논문 없음</div>`;
+  }
+  h+=`<footer>수집원 : OpenAlex · arXiv · bioRxiv · medRxiv · Hugging Face Daily Papers. 선별·번역·요약은 AI(Gemini) 자동 생성 — 정확한 내용은 원문 확인 필요.<br>최종 갱신 ${esc((d.generated_at||"").replace("T"," "))} KST</footer>`;
+  $("#main").innerHTML=h;
+}
+async function load(date){
+  $("#main").innerHTML='<div class="empty">불러오는 중…</div>';
+  const r=await fetch(`data/${date}.json`,{cache:"no-cache"});
+  state.data=await r.json();state.sectors=state.data.sectors||state.sectors;
+  if(state.sector!=="all"&&!state.data.papers.some(p=>p.sector===state.sector))state.sector="all";
+  render();
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("nav button");
+  if(b){state.sector=b.dataset.s;try{localStorage.setItem("pw_sector",state.sector)}catch(_){}render();scrollTo(0,0);return}
+  const t=e.target.closest(".toggle");
+  if(t){const c=t.closest(".card");c.classList.toggle("open");t.textContent=c.classList.contains("open")?"접기":"요약 펼치기";return}
+  const g=e.target.closest("[data-go]");
+  if(g){const c=document.getElementById(g.dataset.go);if(c){c.classList.add("open");c.querySelector(".toggle").textContent="접기";c.scrollIntoView({behavior:"smooth",block:"center"})}}
+});
+$("#q").addEventListener("input",e=>{state.q=e.target.value;render()});
+$("#date").addEventListener("change",e=>load(e.target.value));
+(async()=>{
+  try{
+    const idx=await (await fetch("data/index.json",{cache:"no-cache"})).json();
+    state.sectors=idx.sectors||{};
+    $("#date").innerHTML=idx.dates.map(d=>`<option value="${d}">${d.replace(/-/g,". ")}.</option>`).join("");
+    await load(idx.dates[0]);
+  }catch(e){$("#main").innerHTML='<div class="empty">데이터 없음 — 첫 자동 갱신 이후 표시됨</div>'}
+})();
+</script>
+</body>
+</html>
