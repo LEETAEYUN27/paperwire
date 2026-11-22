@@ -1,0 +1,2620 @@
+{
+ "date": "2026-11-22",
+ "generated_at": "2026-11-22T17:03+09:00",
+ "stats": {
+  "collected": 474,
+  "screened": 397,
+  "published": 80,
+  "by_source": {
+   "biorxiv": 17,
+   "OpenAlex": 457
+  }
+ },
+ "sectors": {
+  "ai": "AI·컴퓨팅",
+  "robotics": "로보틱스·자율주행",
+  "semi": "반도체·전자",
+  "energy": "에너지·배터리",
+  "materials": "소재·화학",
+  "mobility": "모빌리티·기계·제조",
+  "bio": "바이오·제약",
+  "medical": "의학·헬스케어",
+  "physics": "물리·우주·양자",
+  "climate": "기후·환경·농식품",
+  "econ": "경제·금융",
+  "social": "사회과학·정책",
+  "math": "수학·통계"
+ },
+ "papers": [
+  {
+   "id": "W7237234642",
+   "title": "AI Will Make Coding Redundant for Humans",
+   "title_ko": "AI는 인간의 코딩을 불필요하게 만들 것임",
+   "headline": "AI 코드 생성 능력 향상으로 주니어 개발자 고용 시장 축소 및 코딩 역할 전환 확인",
+   "points": [
+    "연구 배경·목적: AI 도입에 따른 소프트웨어 개발 노동 시장의 변화와 코딩 작업의 자동화 가능성 분석",
+    "방법: 2년간 2%에서 81%로 상승한 벤치마크 기록 및 22~25세 소프트웨어 개발자 고용 감소 데이터 분석",
+    "핵심 결과: 22~25세 개발자 고용이 정점 대비 약 20% 감소했으며, 대형 기술 기업의 신규 졸업자 채용 비중 급감 확인"
+   ],
+   "impact": "주니어 개발자 중심의 채용 축소와 프롬프트 엔지니어링 중심의 개발 도구 재편이 가속화될 것임.",
+   "keywords": [
+    "인공지능",
+    "소프트웨어 개발",
+    "노동 시장"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Abdelrahman El Sayad"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408553",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237084603",
+   "title": "Making AI Adoption ROI Transparent: Empirical Dispersion, Payback Lags, and the Productivity Paradox",
+   "title_ko": "AI 도입 ROI의 투명화: 실증적 분산, 회수 지연, 그리고 생산성 역설",
+   "headline": "대기업 AI 도입 시 생산성 향상은 높으나 당해 긍정적 ROI 달성은 24.8%에 불과함",
+   "points": [
+    "연구 배경·목적: AI 생산성 향상이 실제 재무적 수익으로 전환되지 않는 원인 분석",
+    "방법: 8,000개 대기업의 20만 개 기업-연도 ROI 관측치 분석",
+    "핵심 결과: 관측치의 66.5%가 30% 이상의 생산성 향상을 달성했으나, 당해 긍정적 ROI는 24.8%에 그침"
+   ],
+   "impact": "AI 투자 시 단순 생산성 지표가 아닌 매출 전환 주기를 고려한 실증적 ROI 검증이 필수적임.",
+   "keywords": [
+    "투자 수익률",
+    "생산성 역설",
+    "기업용 AI"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Karen Laing",
+    "Rex Orchid Labs"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408359",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.17.767465",
+   "title": "MicroBioAgent: an AI agent for automated microbiome analysis",
+   "title_ko": "MicroBioAgent: 자동화된 마이크로바이옴 분석을 위한 AI 에이전트",
+   "headline": "마이크로바이옴 분석을 자동화하여 기존 연구 결과와 높은 분석적 일치율을 달성함",
+   "points": [
+    "연구 배경·목적: 복잡한 마이크로바이옴 데이터 분석 파이프라인 구축의 진입 장벽 해결",
+    "방법: 폐쇄 루프 실행 아키텍처와 비동기 백그라운드 태스크 관리를 결합한 AI 에이전트 프레임워크 개발",
+    "핵심 결과: 토마토 근권, 대장암 코호트, 폴리에틸렌 분해 연구 등 3가지 벤치마크에서 원연구의 주요 생물학적 발견을 충실히 재현함"
+   ],
+   "impact": "바이오인포마틱스 분석 공정의 효율성 증대 및 LLM 토큰 비용 절감을 통한 실무 연구 가속화가 기대됨.",
+   "keywords": [
+    "마이크로바이옴",
+    "AI 에이전트",
+    "바이오인포마틱스"
+   ],
+   "level": "실증·임상",
+   "sector": "ai",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (bioinformatics)",
+   "core": false,
+   "authors": [
+    "Li, Z.",
+    "WANG, J.",
+    "Wang, C.",
+    "Ding, Y.",
+    "Zhang, L."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.17.767465",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W4403048355",
+   "title": "What is the Role of Small Models in the LLM Era: A Survey",
+   "title_ko": "LLM 시대 소형 모델의 역할은 무엇인가: 서베이",
+   "headline": "대형 언어 모델 시대에서 소형 모델의 협력 및 경쟁 관계를 체계적으로 분석함",
+   "points": [
+    "연구 배경·목적: 대형 모델의 높은 연산 비용 문제를 해결하기 위한 소형 모델(SM)의 역할 재조명",
+    "방법: LLM과 SM의 관계를 협력과 경쟁(보완성) 관점에서 체계적 문헌 조사",
+    "핵심 결과: 자원이 제한된 환경에서 계산 자원의 효율적 사용을 위한 소형 모델의 기여도와 중요성 확인"
+   ],
+   "impact": "자원 한계가 있는 기업 환경에서 비용 효율적인 AI 모델 도입 전략 수립에 기여함.",
+   "keywords": [
+    "소형 언어 모델",
+    "대형 언어 모델",
+    "컴퓨팅 효율성"
+   ],
+   "level": "기초연구",
+   "sector": "ai",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Computational Linguistics",
+   "core": true,
+   "authors": [
+    "Lihu Chen",
+    "Gael P. Varoquaux"
+   ],
+   "url": "https://doi.org/10.1162/coli.a.652",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237231698",
+   "title": "Dual-Role Evaluation of Large Language Models in Cybersecurity: A Unified Framework for Offensive Generation and Defensive Intelligence",
+   "title_ko": "사이버보안에서 대형 언어 모델의 이중 역할 평가: 공격 생성과 방어 지능을 위한 통합 프레임워크",
+   "headline": "LLM의 공격 및 방어 능력을 단일 턴 환경에서 통합 평가하는 프레임워크를 제시함",
+   "points": [
+    "연구 배경·목적: 사이버보안에서 LLM의 이중적 활용성(공격·방어)을 객관적으로 평가할 통합 방법론 부재 해결",
+    "방법: 역할, 역량, 의도, 맥락 사용을 포함한 다차원 분류 체계 기반 단일 턴 평가 프레임워크 구축",
+    "핵심 결과: 전반적인 높은 탐지 성능과 낮은 오류율을 확인하였으나 악의적 의도와 양성 입력을 구분하는 데 맥락 인식의 중요성 확인"
+   ],
+   "impact": "보안 관제 및 위협 분석 시스템에 LLM 도입 시 신뢰성 있는 성능 평가 기준을 제공함.",
+   "keywords": [
+    "사이버보안",
+    "대형 언어 모델",
+    "취약점 탐지"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Journal of Engineering Research and Sciences",
+   "core": true,
+   "authors": [
+    "Vaibhavi Tiwari",
+    "Ola Suaifan",
+    "Ramy Othman"
+   ],
+   "url": "https://doi.org/10.55708/js0511007",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237051988",
+   "title": "The Operator in the Loop: LLM Agents Loosen Alarm Settings Under Repeated True Alarms, Attack or Not, and a Deterministic Gate Holds the Ceiling",
+   "title_ko": "루프 속의 오퍼레이터: 반복되는 실제 경보 속에서 LLM 에이전트의 경보 설정 완화 현상과 결정론적 게이트의 역할",
+   "headline": "LLM 에이전트가 반복되는 경보 상황에서 임계치를 임의로 완화하는 경향을 확인하고 통제 방안을 제시함",
+   "points": [
+    "연구 배경·목적: 자율형 LLM 에이전트가 이상 탐지 경보 시스템의 임계치 설정에 미치는 영향 분석",
+    "방법: Claude 모델을 활용해 시뮬레이션된 경보 로그를 검토하고 임계치 변경 작업을 수행하는 실험 진행",
+    "핵심 결과: 제어 장치가 없는 경우 모델이 설정 범위를 벗어나 경보 지연을 과도하게 완화하는 비율이 높게 나타났으며, 결정론적 게이트 적용 시 문제 해결 확인"
+   ],
+   "impact": "산업용 자율 제어 시스템에 LLM 에이전트 도입 시 안전성 확보를 위한 강제적 제어 장치의 필수성을 시사함.",
+   "keywords": [
+    "LLM 에이전트",
+    "이상 탐지",
+    "산업용 제어"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Vyom Kulshrestha"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24405605",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237013046",
+   "title": "Reasoning-Guided Cross-Lingual Patch Transfer: Bridging High-Resource Python Fixes to Memory-Safe Systems Languages",
+   "title_ko": "추론 기반 교차 언어 패치 전송: 고자원 Python 수정 사항을 메모리 안전 시스템 언어로 연결",
+   "headline": "Python의 구조화된 수정 지식을 활용해 Rust와 Go의 제로샷 패치 합성을 시도함.",
+   "points": [
+    "연구 배경·목적: 기존 코드 생성 데이터셋은 Python에 편중되어 있어, 컴파일러 제약이 강한 시스템 언어(Rust, Go)의 제로샷 패치 생성에 Python의 수정 지식을 활용할 수 있는지 검증함.",
+    "방법: Python 이슈-패치 쌍을 5가지 필드(증상, 원인, 위반 불변식, 수정 연산자, 검증 의무)로 압축하고, 대상 언어의 제약 조건을 추가하여 Qwen2.5-Coder-7B-Instruct 모델로 패치를 생성함.",
+    "핵심 결과: 스키마 조건부 생성으로 Go의 유사도가 소폭 상승(0.373→0.381)했으나 Rust는 하락(0.281→0.263)했으며, 정확히 일치하는(exact match) 결과는 도출되지 않음."
+   ],
+   "impact": "Python 중심의 코드 생성 지식을 시스템 언어로 이전하는 방식은 현재 수준에서 기능적 정확성 확보에 한계가 있음.",
+   "keywords": [
+    "코드 생성",
+    "패치 전송",
+    "시스템 언어"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Fardin Evne Ayub"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408259",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237203725",
+   "title": "Structural Vulnerabilities in Hyperscale Cloud Identity Infrastructure and Public Oversight Governance: An Empirical Analysis of Microsoft Intrusion Incidents Based on the 2024 U.S. Cyber Safety Review Board (CSRB) Report and CISA Emergency Directives/ハイパースケール・クラウド認証基盤の構造的脆弱性と公的監督ガバナンス:米国サイバー安全審査委員会(CSRB)2024年報告書およびCISA緊急指令に基づくMicrosoft侵入事案の実証的分析",
+   "title_ko": "하이파스케일 클라우드 인증 기반의 구조적 Vulnerabilities 및 공적 감독 Governance: 2024 미국 사이버안전심사위원회(CSRB) 보고서 및 CISA 긴급 지침 기반 Microsoft 침해 사고 실증 분석",
+   "headline": "미국 CSRB 보고서 등을 바탕으로 하이파스케일 클라우드 인증 기반의 구조적 보안 취약점과 거버넌스 과제를 실증 분석함.",
+   "points": [
+    "연구 배경·목적: 클라우드 서비스 제공업체(CSP)로의 핵심 인프라 집중화에 따라, 클라우드 인증 기반 침해가 국가 안보 위협으로 대두되어 공식 기록을 바탕으로 구조적 취약점을 분석함.",
+    "방법: U.S. CSRB의 Microsoft Exchange Online 침해 사건 보고서, CISA 긴급 지침(ED 24-02), KEV 등록 CVE 기록 등을 활용하여 Storm-0558 및 Midnight Blizzard 침해 사례를 검증함.",
+    "핵심 결과: 2016 MSA 소비자 서명 키 손상, 교차 렐름 토큰 검증 결함, 비인가 레거시 테스트 테넌트, 과도한 권한의 OAuth 앱 등이 주요 원인으로 지목됨."
+   ],
+   "impact": "클라우드 인증 인프라의 단일화 리스크에 대응하기 위해 HSM 키 수명주기 격리 및 감사 로그 강화 등 강력한 규제 준수가 요구됨.",
+   "keywords": [
+    "클라우드 보안",
+    "인증 기반",
+    "취약점 분석"
+   ],
+   "level": "실증·임상",
+   "sector": "ai",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Yoko(洋子) Hasebe (長谷部)"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408249",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237168890",
+   "title": "Patient perception of robotic-assisted spine surgery",
+   "title_ko": "로봇 보조 척추 수술에 대한 환자 인식",
+   "headline": "환자 설문 조사를 통해 로봇 보조 척추 수술에 대한 인식과 실제 병원 선택 행동의 괴리를 밝혀냄.",
+   "points": [
+    "연구 배경·목적: 로봇 보조 척추 수술에 대한 환자들의 인식과 이를 채택하려는 행동 특성이 명확히 규명되지 않아 이를 평가함.",
+    "방법: 초기 상담 환자(101명) 및 수술 후 환자(15명) 등 총 116명의 성인 척추 환자를 대상으로 설문조사를 실시하고 기술 통계 및 하위 그룹 비교를 수행함.",
+    "핵심 결과: 환자의 65%가 정확성, 63%가 최소 침습성을 인식했으나, 실제 수술 선택 시 73%는 로봇 여부에 무관하다고 답했으며 적극적으로 로봇 수술 의사를 찾은 비율은 6.4%에 그침."
+   ],
+   "impact": "환자들은 로봇 수술의 기술적 장점을 인지하고 있으나, 실제 의료기관 선택 시 결정적 요인으로는 작용하지 않음.",
+   "keywords": [
+    "로봇 수술",
+    "척추 수술",
+    "환자 인식"
+   ],
+   "level": "실증·임상",
+   "sector": "robotics",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Journal of Robotic Surgery",
+   "core": true,
+   "authors": [
+    "Robert G. WATKINS V",
+    "David L. Skaggs",
+    "Christopher Mikhail"
+   ],
+   "url": "https://doi.org/10.1007/s11701-026-04195-7",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7167069481",
+   "title": "A complete-coverage path-planning algorithm based on local path cost",
+   "title_ko": "로컬 경로 비용에 기반한 완전 커버리지 경로 계획 알고리즘",
+   "headline": "복잡한 환경에서 모바일 로봇의 효율적인 완전 커버리지를 위해 로컬 경로 비용 기반의 CCPP-LPC 알고리즘을 제안함.",
+   "points": [
+    "연구 배경·목적: 기존 휴리스틱 경로 계획기는 대규모 환경에서 수렴 속도가 느리고 지역 최적화에 빠지는 문제가 있어 이를 개선하고자 함.",
+    "방법: 각 노드의 전체 경로 영향도를 정량화하는 로컬 경로 비용 평가 모델을 구축하고, 최적화 및 다양성 지향 확률을 도출하는 적응형 이중 유도 교란 노드 선택 전략을 설계함.",
+    "핵심 결과: 4개의 시뮬레이션 그리드 맵과 실제 환경 맵 실험 결과, CCPP-LPC는 경로 길이와 중복 커버리지 비율 등 핵심 지표에서 가장 우수한 성능을 기록함."
+   ],
+   "impact": "무인 이동체(USV) 및 로봇의 자율 주행 시 복잡한 환경에서의 탐색 효율성과 경로 최적화를 향상시킴.",
+   "keywords": [
+    "경로 계획",
+    "자율 주행",
+    "알고리즘"
+   ],
+   "level": "응용연구",
+   "sector": "robotics",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Scientific Reports",
+   "core": true,
+   "authors": [
+    "Xia Wang",
+    "Yuhang Zhu",
+    "Jianing Tang",
+    "Z Dai",
+    "Chenjia Li"
+   ],
+   "url": "https://doi.org/10.1038/s41598-026-71501-6",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237148110",
+   "title": "Chebyshev State-Space Compression: Provably Stable Near-Minimax Continuous Memory in Sub-Kilobyte SRAM for Real-Time Edge Microcontrollers",
+   "title_ko": "체비쇼프 상태 공간 압축: 실시간 엣지 마이크로컨트롤러를 위한 서브킬로바이트 SRAM 내 증명 가능한 안정적 준최소imax 연속 메모리",
+   "headline": "체비쇼프 기반 압축 아키텍처를 통해 마이크로컨트롤러에서 딥 리커런트 신경망을 초경량으로 구동함.",
+   "points": [
+    "연구 배경·목적: 마이크로컨트롤러에서의 딥 RNN 배포는 런타임 작업 공간 메모리 병목 현상을 겪으므로, 이를 해결하기 위한 연속 시간 상태 공간 아키텍처를 개발함.",
+    "방법: 체비쇼프 다항식 투영을 통해 균일한 미니맥스 신호 근사를 달성하고, 이산 합산부파스(SBP) 리아푸노프 소실 항등식을 증명하여 안정성을 보장하는 컴파일된 C99 엔진을 구현함.",
+    "핵심 결과: ARM Cortex-M4F 기준 608바이트의 알고리즘 액티브 SRAM만으로 구동되며, NASA C-MAPSS 및 진동 벤치마크에서 x86-64 기준 7.4마이크로초, ESP32 등에서 실시간 처리 성능을 입증함."
+   ],
+   "impact": "자원 헌터인 엣지 마이크로컨트롤러 환경에서 복잡한 시계열 딥러닝 모델의 실시간 구동 가능성을 열어줌.",
+   "keywords": [
+    "상태 공간 모델",
+    "마이크로컨트롤러",
+    "엣지 AI"
+   ],
+   "level": "응용연구",
+   "sector": "semi",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Ihsan Sukandar"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408631",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237019787",
+   "title": "Gravitational Mass of Trapped Charge Carriers in Non-Volatile Flash Memory",
+   "title_ko": "비휘발성 플래시 메모리 내 포획된 전하 캐리어의 중력 질량",
+   "headline": "비휘발성 메모리에 저장된 데이터의 진정한 순 중력 질량 변화는 정지 질량이 아닌 저장된 자유 에너지에 기인함을 밝힘.",
+   "points": [
+    "연구 배경·목적: 솔리드스테이트 메모리 어레이에 저장된 디지털 정보의 중력 질량 변화 원인을 전하 보존 법칙과 상대론적 에너지-질량 등가 원리를 통해 규명함.",
+    "방법: 매크로적으로 중성인 메모리 다이의 전하 보존 특성을 분석하고, 플로팅 게이트 내 전자 유입과 제어 게이트의 영상 전하 균형을 고려하여 실제 순 질량 차이를 도출함.",
+    "핵심 결과: 순수 캐리어 정지 질량은 개방 하위 시스템의 회계 지표에 불과하며, 1TB TLC 기준 실제 순 중력 질량 차이는 정전기적 잠재 에너지와 결합 엔탈피 등 저장된 자유 에너지로 인해 약 2×10⁻¹⁹ kg/TB 수준임을 증명함."
+   ],
+   "impact": "메모리 물리 및 정보 저장의 기초 물리학적 한계를 명확히 하여 극단적 정밀 측정 분야의 이론적 오류를 방지함.",
+   "keywords": [
+    "플래시 메모리",
+    "중력 질량",
+    "에너지 등가"
+   ],
+   "level": "기초연구",
+   "sector": "semi",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Arttu Pitou At"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24406897",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237208786",
+   "title": "Metode PSO untuk Tuning PI Controller dalam Mengatur Kestabilan Tegangan Cuk Converter",
+   "title_ko": "Cuk 컨버터의 전압 안정성 조절을 위한 PI 제어기 튜닝 메타휴리스틱 PSO 방법",
+   "headline": "Cuk 컨버터의 전압 안정성을 높이기 위해 PSO 기반 PI 제어기 튜닝 기법 적용함",
+   "points": [
+    "연구 배경·목적: Cuk 컨버터는 전력 전자에서 효과적이나 출력 전압 조절에 한계가 있어, 시스템 응답을 개선할 수 있는 PI 제어기 파라미터 최적화 목적임",
+    "방법: 메타휴리스틱 접근법인 입자 군집 최적화(PSO) 알고리즘을 활용하여 PI 제어기의 파라미터를 튜닝함",
+    "핵심 결과: PI-PSO 시스템은 ITAE 에러 값이 작고, 상승 시간과 정정 시간이 단축되었으며, 오버슈트도 허용 오차 범위 내를 기록함"
+   ],
+   "impact": "태양광 및 배터리 시스템 등 전력 전자 장치에서 Cuk 컨버터의 전압 출력 안정성과 응답 속도를 향상하는 데 기여함",
+   "keywords": [
+    "Cuk 컨버터",
+    "PSO 알고리즘",
+    "PI 제어기"
+   ],
+   "level": "응용연구",
+   "sector": "semi",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Jejak digital Jurnal Ilmiah Multidisiplin",
+   "core": false,
+   "authors": [
+    "Daeng Dwi Saputra",
+    "Rifqi Firmansyah"
+   ],
+   "url": "https://doi.org/10.63822/wj8bnq96",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237047998",
+   "title": "Mechanical Energy Storage and Spherical Lattice Winding",
+   "title_ko": "기계적 에너지 저장 및 구형 격자 권선",
+   "headline": "공간 격자의 구형 권선과 수축을 통한 기계적 에너지 저장 가능성을 정량적으로 분석함",
+   "points": [
+    "연구 배경·목적: 중력 및 전자기 전도 경로로 구성된 가설적 기판에서 구형 권선과 수축을 통해 기계적 에너지가 저장될 수 있는지 검증함",
+    "방법: 3차원 변형 매핑과 압축성 네오후케이언 연속체 모델을 결합하여 변형 에너지를 평가하고 심프슨 구적법을 적용함",
+    "핵심 결과: 20%의 중심 수축과 정규화된 권선 진폭 조건에서 반경 방향 변형 에너지는 13.66753, 추가 권선 에너지는 208.18480, 총 에너지는 221.85233 모델 유닛으로 산출됨"
+   ],
+   "impact": "복잡한 공간 구조체에서의 기계적 에너지 저장 메커니즘을 정량적 모델링으로 규명함",
+   "keywords": [
+    "기계적 에너지 저장",
+    "구형 격자",
+    "연속체 모델"
+   ],
+   "level": "기초연구",
+   "sector": "energy",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Andrej Eisenbraun"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.23965877",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237107263",
+   "title": "Cascade Synthesis of Alternating Thiolactone–Episulfide Copolymers via Multi-Site Single-Unit Monomer Insertion",
+   "title_ko": "다중 사이트 단일 단위 단량체 삽입을 통한 교대 티올락톤-에피수파이드 공중합체의 캐스케이드 합성",
+   "headline": "캐스케이드 전략을 통해 새로운 황 함유 교대 공중합체를 합성하여 기계적 물성을 확인함",
+   "points": [
+    "연구 배경·목적: 티올락톤과 에피수파이드의 직접적인 교대 공중합의 경쟁적 호모폴리머화 한계를 극복하기 위한 새로운 합성 경로 개발 목적임",
+    "방법: 티올락톤 개환 중합 후 S-아릴 티오에스터 매개 단일 단위 단량체 삽입(SUMI)을 적용하는 2단계 캐스케이드 전략을 활용함",
+    "핵심 결과: 23개의 새로운 황 함유 교대 공중합체를 합성하였으며, 분자량 최대 157.1 kDa, 인장 강도 최대 75.2 MPa, 영률 최대 2.24 GPa를 기록함"
+   ],
+   "impact": "친환경 원료 기반의 고기능성 서열 제어 고분자 설계 및 물성 제어의 폭을 확장함",
+   "keywords": [
+    "교대 공중합체",
+    "티올락톤",
+    "캐스케이드 합성"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Journal of the American Chemical Society",
+   "core": true,
+   "authors": [
+    "Yu Xiong",
+    "Shun-Ran Peng",
+    "Zong-Bin Lu",
+    "Zhe Wang",
+    "Guang Chen",
+    "Weiqiang Huang"
+   ],
+   "url": "https://doi.org/10.1021/jacs.6c16715",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237078887",
+   "title": "Counterion Selection Governs Poly(acrylic acid) Binder Performance in Silicon-Graphite Composite Anodes",
+   "title_ko": "실리콘-흑연 복합 음극에서 반대이온 선택이 폴리아크릴산 바인더 성능에 미치는 영향",
+   "headline": "PAA 바인더의 중화 이온 종류가 리튬이온배터리 실리콘 음극의 성능을 좌우함을 규명함",
+   "points": [
+    "연구 배경·목적: 실리콘 음극의 기계적 열화와 SEI 불안정성을 해결하기 위해 PAA 바인더 중화 시 도입되는 양이온의 영향을 조사함",
+    "방법: PAA 중화에 1가(Li+, Na+) 및 2가(Ca2+, Mg2+, Zn2+) 양이온을 도입하여 슬러리, 기계적, 전기화학적 특성을 분석함",
+    "핵심 결과: 2가 양이온은 응집을 유발한 반면, Na+ 등 1가 양이온은 슬러리 안정성을 높였으며 PAAH0.8Na0.2 제형이 50사이클 후 4.5 mAh cm–2의 면 용량을 유지함"
+   ],
+   "impact": "고에너지 밀도 리튬이온배터리용 실리콘 음극 바인더의 최적화 가이드라인을 제공함",
+   "keywords": [
+    "폴리아크릴산",
+    "실리콘 음극",
+    "반대이온"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "ACS Applied Polymer Materials",
+   "core": true,
+   "authors": [
+    "Natalie Herkendaal",
+    "Nicolas Dupré",
+    "Jean-Marc Suau",
+    "Thomas Devic",
+    "Bernard Lestriez",
+    "Lionel Roué"
+   ],
+   "url": "https://doi.org/10.1021/acsapm.6c03482",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237242035",
+   "title": "Enhanced Stability of Crystalline Protein against Ethanol Denaturation",
+   "title_ko": "에탄올 변성에 대한 결정질 단백질의 안정성 향상",
+   "headline": "단백질 결정화가 유기용매 환경에서 생리활성 저하를 막는 효과적인 보호 전략임을 입증함",
+   "points": [
+    "연구 배경·목적: 바이오의약품과 효소의 환경 민감성 및 보관 한계를 극복하기 위해 결정화된 단백질의 고체 및 용액 상태 안정성을 조사함",
+    "방법: 모델 단백질인 라이소자임의 액상 및 결정 샘플을 10~100% 에탄올에 노출시킨 후 세포 용해 활성을 측정함",
+    "핵심 결과: 라이소자임 결정은 에탄올 노출 후 용액 상태보다 현저히 높은 활성을 유지하였으며, 대다수 조건에서 액상 단백질 대비 2배에서 20배 이상의 생리활성 보호 효과를 보임"
+   ],
+   "impact": "까다로운 환경에서의 단백질 보관 및 제형화 비용을 절감하는 물리적 안정화 전략을 제시함",
+   "keywords": [
+    "단백질 결정화",
+    "에탄올 변성",
+    "생리활성"
+   ],
+   "level": "실증·임상",
+   "sector": "materials",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Chem & Bio Engineering",
+   "core": true,
+   "authors": [
+    "Ella Owen",
+    "Huaiyu Yang"
+   ],
+   "url": "https://doi.org/10.1021/cbe.6c00108",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7236992449",
+   "title": "Synthesis of Biographite from Starch Biomass Using Additive Assisted Templating Approach",
+   "title_ko": "첨가제 보조 템플릿 접근법을 이용한 전분 바이오매스로부터의 바이오그래파이트 합성",
+   "headline": "산화그래핀 템플릿을 활용해 금속 촉매 없이 전분 바이오매스에서 흑연 탄소를 합성함",
+   "points": [
+    "연구 배경·목적: 천연 흑연 매장량 한계에 대응하여 재생 가능한 전분 바이오매스를 활용한 친환경 흑연 제조 경로 확보 목적임",
+    "방법: 산화그래핀(GO)과 그래핀(Gr)을 템플릿 첨가제로 사용하여 전분 기반 포장재를 무촉매 열처리(탄화 및 흑연화) 공정에 적용함",
+    "핵심 결과: 2.5 wt% GO 로딩 조건에서 천연 흑연에 가까운 결정자 파라미터 La=77.9 nm, Lc=25.94 nm를 달성하며 후처리 정정이 불필요함을 확인토록 함"
+   ],
+   "impact": "에너지 저장 및 첨단 소재 분야의 핵심 광물인 흑연을 친환경 바이오매스로 대체할 수 있는 기반 기술을 마련함",
+   "keywords": [
+    "바이오그래파이트",
+    "전분 바이오매스",
+    "산화그래핀"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "ACS Omega",
+   "core": true,
+   "authors": [
+    "Shakshi Segar",
+    "Randy L. Vander Wal"
+   ],
+   "url": "https://doi.org/10.1021/acsomega.6c08092",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237261727",
+   "title": "Melt Strength Regulation of Cellular Structure and Thermal–Acoustic–Mechanical Synergy in ZnO/Polyethylene Composite Foams",
+   "title_ko": "ZnO/폴리에틸렌 복합 발포체의 세포 구조 용융 강도 조절 및 열·음향·기계적 시너지",
+   "headline": "ZnO/PE 발포체에서 용융 강도 조절을 통한 열·음향·기계적 물성 동시 향상 확인",
+   "points": [
+    "연구 배경·목적: 단열, 방음, 하중 지지 능력을 동시에 갖춘 경량 고분자 발포체 제조의 난제를 해결하기 위해 용융 강도 조절과 마이크로채널 기반 기체 수송을 결합한 다기능성 ZnO/폴리에틸렌 복합 발포체 제조를 목적으로 함.",
+    "방법: 저용융 강도와 고용융 강도 폴리에틸렌을 블렌딩하고, 분쇄 및 냉간 압압 후 초임계 이산화탄소 발포를 수행하였으며, 유한요소 시뮬레이션과 SHAP 분석을 통해 구조와 성능의 관계를 분석함.",
+    "핵심 결과: 80 wt% LD605를 포함한 발포체는 열전도도 0.085 W/(m·K), 음향 손실 37.6 dB를 기록했으며, 압축 모듈러스와 강도가 순수 2426H 발포체 대비 각각 2336%, 653% 향상됨."
+   ],
+   "impact": "경량화와 고단열·방음·고강도를 동시에 요구하는 친환경 건축재 및 운송수단 내장재 시장에 실용적인 제조 공정을 제시함.",
+   "keywords": [
+    "폴리에틸렌 발포체",
+    "용융 강도",
+    "다기능성 복합재"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "ACS Applied Polymer Materials",
+   "core": true,
+   "authors": [
+    "Ziran Liu",
+    "Xinwen Hu",
+    "Mingxiao Jiang",
+    "Ruizhi Zhang",
+    "Jian Zhang",
+    "Qinqin Wei"
+   ],
+   "url": "https://doi.org/10.1021/acsapm.6c04491",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237046322",
+   "title": "DFT-Informed Cross-Interaction Parameters for CH4, CO2, H2S, and N2 with Carbonate Surfaces, H2O, and S8",
+   "title_ko": "탄산염 표면, H2O, S8과 CH4, CO2, H2S, N2의 상호작용을 위한 DFT 기반 교차 상호작용 매개변수",
+   "headline": "탄산염 저류층 다성분 가스 거동 모사를 위한 DFT 기반 교차 상호작용 매개변수 개발",
+   "points": [
+    "연구 배경·목적: 탄산염 저류층 내 다성분 가스 거동의 정확한 분자 모사를 위해 가스-표면 및 가스-분자 간의 균형 잡힌 교차 상호작용 설명이 필요함에 따라 DFT 기반 매개변수를 개발하고자 함.",
+    "방법: 분산 보정 DFT 계산(GGA-PBE+TS)을 통해 기준 상호작용 에너지 프로파일을 생성하고, 선택된 버킹엄 교차 상호작용 매개변수를 이에 맞춤 피팅함.",
+    "핵심 결과: 기체-탄산염 벤치마크 세트에서 MAE 4.40 kcal/mol, RMSE 7.98 kcal/mol을 기록했으며, 전체 550개 데이터 세트 비교에서 R2 0.9951과 MAE 0.0103 g·cm–3의 밀도 예측 정확도를 달성함."
+   ],
+   "impact": "탄산염 저류층에서의 가스 흡착 및 계면 현상 시뮬레이션 정확도를 높여 석유·가스 공정 및 탄소 포집·저장(CCUS) 기술 개발에 기여함.",
+   "keywords": [
+    "분자 동역학",
+    "밀도범함수이론",
+    "저류층 시뮬레이션"
+   ],
+   "level": "기초연구",
+   "sector": "materials",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Langmuir",
+   "core": true,
+   "authors": [
+    "Chaoping Mo",
+    "Zhaojie Song",
+    "Guangdong Zhang",
+    "Xiao Han",
+    "Minchen Chen",
+    "Zhiyue He"
+   ],
+   "url": "https://doi.org/10.1021/acs.langmuir.6c05492",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237091807",
+   "title": "LMCT-Enabled Ferrioxalate Reductive C–O Bond Cleavage of Activated Aldehydes and Ketones",
+   "title_ko": "리간드-금속 간 전하 이동(LMCT)을 활성화한 페리옥살레이트 기반 알데히드 및 케톤의 환원적 C-O 결합 절단",
+   "headline": "페리옥살레이트 광환원을 통한 알데히드와 케톤의 효율적인 탈산소 시안화 반응 구현",
+   "points": [
+    "연구 배경·목적: 유기 합성에서 활성화된 카르보닐 유도체의 환원적 C-O 결합 절단은 큰 난제이며, 이를 극복하기 위한 새로운 광촉매 전략 개발을 목적으로 함.",
+    "방법: 페리옥살레이트의 광여기(photoexcitation)를 통해 리간드-금속 간 전하 이동(LMCT)과 탈산소를 유발하여 환원력을 지닌 Fe(I) 종을 생성하고 단일 전자 전송을 유도함.",
+    "핵심 결과: 온화한 조건에서 다양한 지방족 및 방향족 알데히드와 지방족 케톤을 우수한 작용기 허용 범위를 유지하며 다양한 니트릴로 변환함."
+   ],
+   "impact": "복잡한 의약품 및 정밀화학 중간체 합성에서 난이도가 높은 C-O 결합 활성화를 위한 친환경적이고 온화한 합성 경로를 제공함.",
+   "keywords": [
+    "광촉매",
+    "C-O 결합 절단",
+    "페리옥살레이트"
+   ],
+   "level": "기초연구",
+   "sector": "materials",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Organic Letters",
+   "core": true,
+   "authors": [
+    "Hui Zhang",
+    "Wen-Bo He",
+    "Yingjie Wang",
+    "Hao-Wen Jiang",
+    "Xu-Gang Zhang",
+    "Peng‐Fei Xu"
+   ],
+   "url": "https://doi.org/10.1021/acs.orglett.6c04689",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7203454314",
+   "title": "Low-background 3D Bi2WO6 enables in situ sulfidation-induced photocurrent polarity switching for highly selective photoelectrochemical detection of sulfide ions",
+   "title_ko": "저배경 3D Bi2WO6 기반 황화물 이온의 고선택성 광전화학적 검출을 위한 현장 황화 유도 광전류 극성 전환",
+   "headline": "3D Bi2WO6 기반 현장 황화 반응을 이용한 고감도 황화물 이온 광전화학 센서 개발",
+   "points": [
+    "연구 배경·목적: 실무 적용에서 감도와 신뢰성을 높이기 위해 광전류 극성을 조절하는 광전화학 센서 플랫폼을 구축하고 고유의 높은 배경 전류 문제를 해결하고자 함.",
+    "방법: 3차원 꽃잎 형태의 Bi2WO6를 합성하여 저배경 음극 광전류 특성을 활용한 광전화학 플랫폼을 제작하고 S2- 감지 성능을 평가함.",
+    "핵심 결과: 0~13.3 µM의 넓은 선형 범위와 16 nM의 낮은 검출 한계를 달성했으며, 표면 황화로 인한 Bi2WO6/Bi2S3 이종접합 형성을 통해 광전류가 음극에서 양극으로 역전됨."
+   ],
+   "impact": "복잡한 실제 시료에서도 황화물 이온을 초고감도로 검출할 수 있는 환경 모니터링 및 수질 분석 센서 설계 기술을 제공함.",
+   "keywords": [
+    "광전화학 센서",
+    "황화물 이온",
+    "Bi2WO6"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Microchimica Acta",
+   "core": true,
+   "authors": [
+    "Zi Min",
+    "Li Li",
+    "Chuanfa Luo",
+    "Chuchu Hu",
+    "Zihan Li",
+    "Yansha Gao"
+   ],
+   "url": "https://doi.org/10.1007/s00604-026-08526-1",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237182018",
+   "title": "A cross-method performance study: DOE-based regression, physics-based simulation, and sensor-based machine learning for injection molding quality prediction",
+   "title_ko": "교차 방법론 성능 연구: 사출 성형 품질 예측을 위한 DOE 기반 회귀, 물리 기반 시뮬레이션, 센서 기반 머신러닝",
+   "headline": "사출 성형 품질 예측에서 DOE, 시뮬레이션, 머신러닝 방법론별 성능 및 비용 비교 분석",
+   "points": [
+    "연구 배경·목적: 사출 성형 품질 모니터링 모델링 기법 중 정확도, 투명성, 비용 제약에 따른 최적의 방법론 선택 가이드라인 부재 문제를 해결하기 위해 3가지 예측 모델링 방법론을 비교함.",
+    "방법: 설계를 통한 다변량 회귀(DOE, 평균 MAPE 0.95%), Moldex3D 물리 기반 시뮬레이션(평균 MAPE 2.03%), LSTM 기반 심층학습(평균 MAPE 0.27%)의 성능과 비용을 비교 분석함.",
+    "핵심 결과: 머신러닝이 가장 높은 정확도를 보였으나 센서 인프라 비용이 크고, DOE는 저비용 기계 데이터 기반으로 우수한 효율을 보였으며, 시뮬레이션은 정상 충전 조건에서 우수하나 쇼트 샷에서 한계를 보임."
+   ],
+   "impact": "제조 현장에서 예산, 인프라, 요구 정확도에 따라 최적의 사출 성형 품질 예측 모델을 선택할 수 있는 의사결정 프레임워크를 제공함.",
+   "keywords": [
+    "사출 성형",
+    "품질 예측",
+    "머신러닝"
+   ],
+   "level": "실증·임상",
+   "sector": "mobility",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "The International Journal of Advanced Manufacturing Technology",
+   "core": true,
+   "authors": [
+    "Luke Shannon",
+    "Dhanashree Shinde",
+    "Sai Aditya Pradeep",
+    "Xiaoyi Liu",
+    "Hongpeng Yang",
+    "Xiangyu Hu"
+   ],
+   "url": "https://doi.org/10.1007/s00170-026-19582-5",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7226057883",
+   "title": "Analisis troubleshooting dan preventive maintenance pada starting system dan charging system dump truck komatsu HD1500-7",
+   "title_ko": "코마츠 HD1500-7 덤프 트럭의 시동 시스템 및 충전 시스템 고장 진단 및 예방 정비 분석",
+   "headline": "코마츠 덤프 트럭 HD1500-7의 시동·충전 시스템 고장 원인 분석 및 예방 정비 효과 확인",
+   "points": [
+    "연구 배경·목적: 덤프 트럭의 핵심인 시동 및 충전 시스템의 고장으로 인한 가동 중단(downtime)과 비용 증가를 방지하기 위해 고장 진단 및 예방 정비 프로세스를 분석함.",
+    "방법: 현장 관찰, 부품 검사, 손상 데이터 분석 및 고마츠 정비 표준에 기반한 문헌 연구를 통해 시동 및 충전 시스템의 주요 결함 원인을 조사함.",
+    "핵심 결과: 시동 시스템은 배터리 성능 저하, 단자 부식, 스타터 모터 고장이 주원인이며, 충전 시스템은 교류 발전기, 전압 조정기, 배선 하네스 결함이 주요 원인으로 확인되어 정기적 예방 정비의 필요성이 입증됨."
+   ],
+   "impact": "광산 및 건설 현장에서 대형 중기 장비의 가동률을 극대화하고 예방 정비 계획을 최적화하여 운영 비용을 절감하는 데 기여함.",
+   "keywords": [
+    "덤프 트럭",
+    "고장 진단",
+    "예방 정비"
+   ],
+   "level": "실증·임상",
+   "sector": "mobility",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "Jurnal Integrasi Teknologi dan Inovasi",
+   "core": false,
+   "authors": [
+    "Adi Saputra",
+    "Trinil Muktiningrum"
+   ],
+   "url": "https://journal.pintarologimedia.com/index.php/integrasi/article/view/86",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.20.768104",
+   "title": "Single-base 5mC and 5hmC profiling identifies a dynamic 5hmC-to-5mC transition at gene bodies and transcription end sites during neuronal differentiation of mouse embryonic stem cells.",
+   "title_ko": "단일 염기 5mC 및 5hmC 프로파일링을 통한 마우스 배아 줄기세포의 신경 분화 중 유전자 몸체 및 전사 종료 부위에서의 역동적인 5hmC-to-5mC 전환 규명",
+   "headline": "마우스 신경 분화 과정에서 유전자 부위별 5mC와 5hmC의 역동적 전환 양상 확인",
+   "points": [
+    "연구 배경·목적: 5mC와 5hmC는 염색체 구조와 전사 조절에 관여하는 유전체 전반의 후성유전학적 변형으로, 신경 분화 과정에서의 정확한 상호작용 규명을 목적으로 함.",
+    "방법: Enzymatic Methyl-seq(EM-seq)과 단일 염기 해상도의 E5hmC-seq를 통합하여 마우스 배아 줄기세포의 신경 분화 전반에 걸친 변형 양상을 분석함.",
+    "핵심 결과: 배아체에서 신경 전구세포로의 전환 시 5hmC의 전반적 감소와 5mC의 증가가 관찰되었으며, 탈수산화된 영역은 5mC가 동반 증가하는 상반된 경향을 보임."
+   ],
+   "impact": "후성유전학적 마커의 단일 염기 분석을 통해 세포 분화 및 전사 조절 기전을 이해하는 기초 자료를 제공함.",
+   "keywords": [
+    "후성유전체",
+    "신경분화",
+    "DNA 메틸화"
+   ],
+   "level": "기초연구",
+   "sector": "bio",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (genomics)",
+   "core": false,
+   "authors": [
+    "Evanich, D. J.",
+    "Blum, L. N.",
+    "Sen, S.",
+    "Campbell, M. A.",
+    "Williams, L.",
+    "Langhorst, B. W."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.20.768104",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.19.767734",
+   "title": "Dual mRNA delivery corrects physical and biochemical deficits in a mouse model of hepatic onset trifunctional protein deficiency",
+   "title_ko": "이중 mRNA 전달을 통한 간 발현 삼중 기능 단백질 결핍 마우스 모델의 신체적·생화학적 결함 교정",
+   "headline": "LNP 기반 이중 mRNA 전달로 미토콘드리아 삼중 기능 단백질 결핍증 마우스의 생리적 기능 회복",
+   "points": [
+    "연구 배경·목적: 미토콘드리아 삼중 기능 단백질 결핍증(TFP-D)은 치명적인 지방산 산화 장애이나 기존 식이요법은 한계가 있어 새로운 치료 전략 개발이 필요함.",
+    "방법: HADHA 및 HADHB 서브유닛 mRNA를 모두 탑재한 지질나노입자(LNP)를 TFP-D 마우스 모델과 배양 세포에 정맥 투여하여 효소 기능 회복을 평가함.",
+    "핵심 결과: 세포 수준에서 지방산 산화가 구조되었으며, 생체 내 정맥 투여 시 간 내 TFP 발현이 회복되고 혈중 아실카르니틴이 감소하며 추위 내성 테스트 성적이 최대 71.6% 개선됨."
+   ],
+   "impact": "LNP 기반 이중 mRNA 전달 플랫폼이 희귀 지방산 산화 장애 치료에 유효한 접근법임을 입증함.",
+   "keywords": [
+    "mRNA 치료제",
+    "지질나노입자",
+    "유전질환"
+   ],
+   "level": "응용연구",
+   "sector": "bio",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (genetics)",
+   "core": false,
+   "authors": [
+    "von Beck, T.",
+    "Terranova, T.",
+    "Marayati, B. F.",
+    "Zhang, H.",
+    "Zhu, L.",
+    "Li, S."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.19.767734",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237201578",
+   "title": "Host genomic variation and vaginal microbiome traits associated with preterm birth: a prospective multi-omics cohort study in Chinese pregnant women",
+   "title_ko": "조산과 연관된 숙주 유전체 변이 및 질내 마이크로바이옴 특성: 중국 임산부 대상 전향적 다중 오믹스 코호트 연구",
+   "headline": "중국 임산부 코호트 분석을 통해 조산 위험과 연관된 숙주 유전체 및 질내 마이크로바이옴 특성 규명",
+   "points": [
+    "연구 배경·목적: 조산(PTB)의 생물학적 원인이 완전히 밝혀지지 않았으며 특히 아시아인 데이터를 확보하기 위해 수행됨.",
+    "방법: 임신 중기 여성 4,366명을 대상으로 질 마이크로바이옴 16S rRNA 시퀀싱과 유전자칩 시퀀싱을 수행하여 전장 유전체 연관성 분석(GWAS)을 진행함.",
+    "핵심 결과: PTB-GWAS에서 보체-응고 캐스케이드 및 면역 염증 경로와 관련된 31개의 유의미한 유전자 Locus가 확인되었으며, 특정 혐기성 세균(Dialister micraerophilus 등)이 자발성 조산 및 조기 파수와 연관됨."
+   ],
+   "impact": "아시아인 코호트를 기반으로 한 다중 오믹스 분석을 통해 조산 위험 예측 및 하위 유형 분류의 바이오마커 발굴 가능성 제시.",
+   "keywords": [
+    "조산",
+    "마이크로바이옴",
+    "전장유전체연관분석"
+   ],
+   "level": "실증·임상",
+   "sector": "bio",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Journal of Translational Medicine",
+   "core": true,
+   "authors": [
+    "Baixue Han",
+    "Zongguang Li",
+    "Yao Dong",
+    "Haiyan Liu",
+    "Mengting Cao",
+    "Qing Li"
+   ],
+   "url": "https://doi.org/10.1186/s12967-026-09246-z",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237014572",
+   "title": "Photoaffinity Capture of Unit-Resolved Ubiquitin–Decoder Contacts Underlying Topology-Selective Recognition of Heterotypic Chains",
+   "title_ko": "이형 사슬의 위상 선택적 인식을 뒷받침하는 단위 해상도 유비퀴틴-디코더 접촉의 광친화성 포착",
+   "headline": "광친화성 프로브를 활용해 이형 유비퀴틴 사슬의 위상 선택적 인식 메커니즘 규명",
+   "points": [
+    "연구 배경·목적: 이형 K63/K48 폴리유비퀴틴 사슬은 다양한 세포 신호를 인코딩하지만, 동일한 연결 유형이 서로 다른 출력으로 해독되는 분자적 기전은 명확히 밝혀지지 않음.",
+    "방법: 다지린(diazirine)이 기능화된 K63/K48 삼중 유비퀴틴 프로브를 제작하여 광교차 결합 효율을 정량화하고 LC-MS/MS를 통해 접촉 부위를 분석함.",
+    "핵심 결과: 혼합 K63/K48 사슬에서 OTUB1과 RAD23B가 가지형 사슬보다 더 효율적으로 광교차 결합을 형성하며, K63 연결 세그먼트의 보조 접촉이 위상 선택적 인식의 분자적 기반임을 확인함."
+   ],
+   "impact": "유비퀴틴 사슬의 복잡한 신호전달 코드 해독을 위한 화학적 분석 플랫폼을 제공하여 표적 단백질 분해제(TPD) 등 관련 신약 연구에 기여.",
+   "keywords": [
+    "유비퀴틴",
+    "단백질 구조",
+    "화학생물학"
+   ],
+   "level": "기초연구",
+   "sector": "bio",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Journal of the American Chemical Society",
+   "core": true,
+   "authors": [
+    "Takafumi Furuhata",
+    "Taiki Uno",
+    "Ryota Shinohara",
+    "Takuya Tomita",
+    "Usano Toyoda",
+    "Tokiha Masuda-Ozawa"
+   ],
+   "url": "https://doi.org/10.1021/jacs.6c13215",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237200585",
+   "title": "Biosynthesis of iboga alkaloids",
+   "title_ko": "이보가 알칼로이드의 생합성",
+   "headline": "식물 조직 유전자 발현 분석을 통해 이보가 알칼로이드 생합성 미발견 효소 규명",
+   "points": [
+    "연구 배경·목적: 항중독제 이보가인의 반합성 전구체인 보아칸진의 생합성이 이뤄지지 않는 원인인 누락된 효소를 발굴하고 관련 알칼로이드 생합성 경로를 밝히고자 함.",
+    "방법: 잎과 뿌리 조직의 대량 및 단일 세포 유전자 발현 데이터를 활용하여 보아칸진 및 이포필리딘 생합성에 관여하는 미지의 효소를 탐색함.",
+    "핵심 결과: 이종 숙주에서 보아칸진 생합성을 가능하게 하는 PR10 가족 단백질을 포함한 효소들을 발굴하였으며, 상위 전구체를 이포필리딘으로 전환하는 4가지 효소를 추가로 발견함."
+   ],
+   "impact": "약용 식물의 복잡한 알칼로이드 생합성 경로를 규명함으로써, 이종 숙주를 이용한 천연물 유래 의약품 원료 생산 기반 마련.",
+   "keywords": [
+    "생합성",
+    "알칼로이드",
+    "천연물화학"
+   ],
+   "level": "기초연구",
+   "sector": "bio",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Nature Communications",
+   "core": true,
+   "authors": [
+    "Moonyoung Kang",
+    "Mohamed Omar Kamileen",
+    "Yoko Nakamura",
+    "John P. Hamilton",
+    "Gyumin Kang",
+    "Bruno Hüettel"
+   ],
+   "url": "https://doi.org/10.1038/s41467-026-79750-9",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237270004",
+   "title": "True ADAR editing in coding regions is rare yet conserved in mammals",
+   "title_ko": "코딩 영역에서의 진정한 ADAR 편집은 드물지만 포유류에서 보존됨",
+   "headline": "고출력 스크리닝과 생거 시퀀싱을 통해 포유류 유전체의 단백질 코딩 ADAR RNA 편집 지도 구축",
+   "points": [
+    "연구 배경·목적: ADAR 매개 A-to-I RNA 편집이 트랜스크립톰 다양성을 넓히지만 기존 편집 부위의 신뢰성과 단백질 재코딩 범위에 대한 논란이 있어 이를 재평가함.",
+    "방법: 고속 발굴법과 생거 시퀀싱 기반의 엄격한 검증을 결합하여 마우스 편집 부위의 고신뢰도 아틀라스를 구축하고 인간과 비교 분석함.",
+    "핵심 결과: 단백질 코딩 서열에 매핑되는 편집 부위는 극히 일부이나 대부분 아미노산 재코딩으로 이어지며, 마우스와 인간 간에 단백질 코딩 영역에 주로 위치한 100개 이상의 보존된 편집 부위를 확인함."
+   ],
+   "impact": "정제된 ADAR 편집 부위 데이터베이스를 제공함으로써 후성전사체 조절 연구 및 관련 질병 치료제 개발의 정확도 제고.",
+   "keywords": [
+    "RNA편집",
+    "후성전사체",
+    "유전체학"
+   ],
+   "level": "기초연구",
+   "sector": "bio",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "BMC Biology",
+   "core": true,
+   "authors": [
+    "Yue Chen",
+    "Fang Wang",
+    "Fan Gao",
+    "Haiqing Hou",
+    "Zhili Guo",
+    "Lu Tang"
+   ],
+   "url": "https://doi.org/10.1186/s12915-026-02787-1",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.20.768214",
+   "title": "Homologs of the Major Vault Protein defend bacteria against ribotoxins",
+   "title_ko": "주요 금고 단백질의 상동체는 리보독소로부터 박테리아를 방어함",
+   "headline": "Pseudomonas aeruginosa가 상동체 단백질과 비코딩 RNA로 RNA 손상 리보독소를 방어함을 규명함",
+   "points": [
+    "연구 배경·목적: 박테리아 간 경쟁에서 독소에 대응하는 방어 기전은 잘 알려지지 않아, Pseudomonas aeruginosa의 RNA 손상 리보독소 방어 기전을 규명하고자 함.",
+    "방법: 엔지니어링된 pyocin 전달 시스템을 활용하여 박테리아의 리보독소 손상 감지 및 RNA 수복 오페론(band7 포함)의 전사 활성화를 분석함.",
+    "핵심 결과: band7 발현 박테리아는 특정 tRNA anticodon 루프를 절단하는 리보독소로부터 유의하게 보호되었으며, 비코딩 RNA(bRNA)가 방어와 특이성에 필수적임이 확인됨."
+   ],
+   "impact": "진핵생물의 vault 복합체와 유사한 박테리아 구조를 활용한 항균 저항성 및 독소 방어 메커니즘 이해에 기여함.",
+   "keywords": [
+    "리보독소",
+    "Pseudomonas aeruginosa",
+    "RNA 수복"
+   ],
+   "level": "기초연구",
+   "sector": "bio",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (microbiology)",
+   "core": false,
+   "authors": [
+    "Bullen, N. P.",
+    "Holiday, L. C.",
+    "Nagy, T. A.",
+    "Robbins, L. K.",
+    "Whiteley, A. T."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.20.768214",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.20.767967",
+   "title": "Unexpected Long Range Actions of AAV8",
+   "title_ko": "AAV8의 예상치 못한 장거리 작용",
+   "headline": "고농도 AAV8 벡터가 감염 초기 집단 외 장거리 재조합을 유발할 수 있음을 규명함",
+   "points": [
+    "연구 배경·목적: 신경과학에서 널리 쓰이는 AAV 벡터 중 AAV8의 장거리 작용에 대한 기존 문헌의 상반된 증거를 검증하고자 함.",
+    "방법: 마우스의 피질교뇌소뇌로(corticopontocerebellar tract)를 활용하여 고농도 AAV8 투여 시의 재조합 현상과 바이러스 역가 및 실험적 주입의 영향을 분석함.",
+    "핵심 결과: 고농도 AAV8 사용 시 초기 세포 집단을 넘어선 장거리 재조합이 발생하며, 이는 바이러스 역가와 타 주입의 영향을 받는 것으로 나타남."
+   ],
+   "impact": "신경과학 실험 시 AAV 벡터 사용에 따른 위양성 및 간접 효과를 줄이기 위한 신중한 역가 및 주입 설계의 필요성을 시사함.",
+   "keywords": [
+    "AAV8",
+    "신경과학",
+    "바이러스 벡터"
+   ],
+   "level": "기초연구",
+   "sector": "bio",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (neuroscience)",
+   "core": false,
+   "authors": [
+    "Lahr, J. M.",
+    "Ly, J.",
+    "Erdem, E.",
+    "Williams, M. R."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.20.767967",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.20.768232",
+   "title": "Astrocyte-secreted Cathepsin D regulates hippocampal memory through extracellular matrix remodeling",
+   "title_ko": "성상세포 분비 Cathepsin D는 세포외기질 리모델링을 통해 해마 기억을 조절함",
+   "headline": "성상세포 유래 Cathepsin D가 세포외기질 분해를 통해 해마 학습과 기억을 조절함을 규명함",
+   "points": [
+    "연구 배경·목적: 해마 인지 기능에 기여하는 성상세포 유래 인자 중 기억 형성을 조절하는 미지의 분자(CtsD)의 역할을 규명하고자 함.",
+    "방법: 해마 성상세포의 단백질체 프로파일링을 수행하고, 세포외 CtsD 중화 또는 성상세포 특이적 CtsD 억제(aCtsD-KD) 마우스를 통해 시냅스 및 기억 능력을 분석함.",
+    "핵심 결과: aCtsD-KD는 해마 장기부동화(LTP)와 기억 습득을 손상시키고 세포외기질(ECM)의 비정상적 축적을 유발하였으며, chondroitinase ABC 처리를 통해 기억 결손이 구제됨."
+   ],
+   "impact": "성상세포-세포외기질-시냅스 축을 타깃으로 하는 인지 기능 장애 치료제 개발의 기초 근거를 제공함.",
+   "keywords": [
+    "Cathepsin D",
+    "성상세포",
+    "세포외기질"
+   ],
+   "level": "기초연구",
+   "sector": "medical",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (neuroscience)",
+   "core": false,
+   "authors": [
+    "Kim, H.",
+    "Cha, S.",
+    "Ji, M.",
+    "Kim, G. H.",
+    "Shin, S. A.",
+    "Lee, S. E."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.20.768232",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7128439263",
+   "title": "Lessons from the world’s largest hepatitis C elimination program: impact on primary liver cancer burden in Egypt: a global burden of disease analysis with 2050 projections",
+   "title_ko": "세계 최대 C형 간염 퇴치 프로그램의 교훈: 이집트의 원발성 간암 부담에 미친 영향(2050년 전망을 포함한 글로벌 질병 부담 분석)",
+   "headline": "이집트의 대규모 HCV 퇴치 캠페인이 원발성 간암 부담을 대폭 감소시켰음을 입증함",
+   "points": [
+    "연구 배경·목적: 과거 C형 간염(HCV) 유병률이 높았던 이집트에서 1990년부터 2023년까지 원발성 간암(PLC) 부담의 장기 추세를 평가하고 2050년까지 전망하고자 함.",
+    "방법: 글로벌 질병 부담(GBD) 2023 데이터베이스를 활용하여 연령 표준화 발생률, 사망률, 장애보정생존년수(DALYs)를 분석하고 GBD 예측 프레임워크로 2050년 전망치를 산출함.",
+    "핵심 결과: 2014년~2019년 전국적 HCV 박멸 노력 시기에 PLC 발생률과 사망률이 급감하였으나 2019년 이후 반등하였으며, 2050년까지 포괄적 관리 시 사망률을 거의 절반으로 줄일 수 있음."
+   ],
+   "impact": "국가 단위 바이러스성 간염 퇴치 정책의 실질적 효과를 입증하며, 향후 대사성 위험 요소를 포함한 통합 예방 전략의 중요성을 시사함.",
+   "keywords": [
+    "C형 간염",
+    "간암",
+    "질병 부담"
+   ],
+   "level": "실증·임상",
+   "sector": "medical",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Egyptian Liver Journal",
+   "core": true,
+   "authors": [
+    "Mohammed Y. Youssef",
+    "Mohamed H. Eldesouki",
+    "Hazem Maarouf Abosheaishaa",
+    "Mohamed Elgozair",
+    "Mahmoud F. Hammad",
+    "Ahmed Abomhya"
+   ],
+   "url": "https://doi.org/10.1186/s43066-026-00563-y",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237010790",
+   "title": "Light-Sheet Microscopy beyond 3D Imaging: Scalable and Quantitative Measurement across Biomedical and Analytical Sciences",
+   "title_ko": "3차원 이미징을 넘어선 라이트시트 현미경: 생물학 및 분석 과학에서의 확장 가능하고 정량적인 측정",
+   "headline": "라이트시트 현미경 기술의 발전과 AI 융합을 통한 멀티스케일 생물학적 이미징 혁신을 조망함",
+   "points": [
+    "연구 배경·목적: 광학적 절단과 빠른 체적 획득을 결합한 라이트시트 현미경(LSM)의 최근 기술 발전과 생물학·분석 과학에서의 응용 확대를 종합적으로 검토함.",
+    "방법: 개방형 상단 구조, 멀티스케일 이미징 광학 디자인, 데이터 처리 프레임워크, 인공지능(AI) 도입 등 최근 LSM 기술 트렌드를 문헌 종합 방식으로 분석함.",
+    "핵심 결과: 배아 및 오가노이드의 장기 생체 이미징, 아세포 동역학 관찰, 슬라이드 프리 3D 병리학, 단일세포 분자 프로파일링 등 정량적 바이오 어레이 응용 가능성이 크게 확장됨."
+   ],
+   "impact": "LSM이 특수 이미징 장비를 넘어 지능형 정량 생물학 및 분석 플랫폼으로 자리 잡고 있음을 제시함.",
+   "keywords": [
+    "라이트시트 현미경",
+    "3D 이미징",
+    "인공지능"
+   ],
+   "level": "응용연구",
+   "sector": "medical",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Chemical & Biomedical Imaging",
+   "core": true,
+   "authors": [
+    "Sooyeon Kim",
+    "Takuya Hidaka",
+    "Latiefa Kamarulzaman",
+    "Misaki Tsuchida",
+    "Asuma Kubono",
+    "Yuichi Taniguchi"
+   ],
+   "url": "https://doi.org/10.1021/cbmi.6c00167",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237140598",
+   "title": "History-bearing thalamocortical signals reconstruct and redirect later decisions in a circuit model",
+   "title_ko": "이력 보유 시상피질 신호가 회로 모델에서 이후의 결정을 재구성하고 전환함",
+   "headline": "시상피질 회로 모델을 통해 과거의 감각 이력이 이후의 의사결정을 재구성하고 편향시킴을 규명함",
+   "points": [
+    "연구 배경·목적: 과거의 경험이 모호한 선택을 유도하거나 현재 증거에 편향을 주는 과정에서 시상피질 회로가 이력 콘텐츠를 전달하고 조절하는 방식을 탐구하고자 함.",
+    "방법: 성체 수컷 마우스의 공개 데이터와 훈련된 시상피질 회로 모델을 활용하여 후두정엽피질(PPC)과 풀비나르(PUL) 억제에 따른 이력 가중치 변화를 분석함.",
+    "핵심 결과: PUL 입력을 PPC에 재플레이하면 과거의 흔적이 재구성되고 반대 이력을 재플레이하면 이후 선택이 전환되었으며, 재귀적 동역학이 자극 후 궤적 예측에 필수적임이 확인됨."
+   ],
+   "impact": "뇌의 이력 기반 의사결정 및 인지 과정에서 시상피질 회로의 정보 처리 메커니즘을 이해하는 기초 자료를 제공함.",
+   "keywords": [
+    "시상피질 회로",
+    "의사결정",
+    "신경 동역학"
+   ],
+   "level": "기초연구",
+   "sector": "medical",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Yanzhe Zhao",
+    "Yongzhang Ji"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24404928",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.15.766608",
+   "title": "Distinct innate immune states associate with divergent serological outcomes after syphilis treatment",
+   "title_ko": "매독 치료 후 상이한 혈청학적 결과와 연관된 뚜렷한 선천성 면역 상태",
+   "headline": "매독 치료 후 혈청 전환과 비전환 환자 간에 뚜렷한 단핵구 및 NK세포 면역 차이 확인",
+   "points": [
+    "연구 배경·목적: 매독 치료 후 일부 환자는 혈청 전환을 이루는 반면, 일부는 비전환 상태로 남아 염증 해소와 면역 회복의 연관성을 규명하고자 함.",
+    "방법: 임상 샘플의 단일세포 전사체학, 면역표현형 분석, 기능 검정을 활용하여 혈청 전환 및 저·고역가 비전환 상태의 순환 단핵구와 NK세포를 특성 분석함.",
+    "핵심 결과: 혈청 전환 후에도 CD14+ 단핵구는 염증성 프로그램을 유지했으며, 비전환 환자는 IFN-STAT1 활성화와 JUN 발현 감소 및 탈과립 손상을 보임."
+   ],
+   "impact": "전통적인 혈청학적 모니터링으로 포착되지 않는 치료 후 면역 변화를 확인함에 따라 세포 면역 마커를 보조 지표로 활용할 기반을 마련함.",
+   "keywords": [
+    "매독",
+    "선천성 면역",
+    "단일세포 전사체학"
+   ],
+   "level": "응용연구",
+   "sector": "medical",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (immunology)",
+   "core": false,
+   "authors": [
+    "Wei, Q.",
+    "Jin, Y.",
+    "Zhang, Y.",
+    "Li, X.",
+    "Zheng, Q.",
+    "Gan, L."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.15.766608",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.18.767647",
+   "title": "Structural correlates of disease-associated CTSC variants in Papillon-Lefevre syndrome",
+   "title_ko": "파피용-르페브르 증후군에서 질병 연관 CTSC 변이체의 구조적 상관관계",
+   "headline": "파피용-르페브르 증후군 내 CTSC 미스센스 변이체의 구조적 불안정성 연관성 규명",
+   "points": [
+    "연구 배경·목적: 파피용-르페브르 증후군의 연구 우선순위를 정하기 위해 질병 연관 CTSC 미스센스 치환의 구조적 특징을 정량화하고 구조적 규칙을 평가함.",
+    "방법: ClinVar 병원성 미스센스 치환 16개와 gnomAD 치환 234개를 성숙한 카텝신 C 구조(PDB 1K3B)에서 비교하고 문헌 기반 치환 35개를 추가 분석함.",
+    "핵심 결과: 예측된 중앙값 불안정성은 ClinVar 병원성 변이에서 2.209 kcal/mol로, 대조군의 0.763 kcal/mol(AUC 0.764)에 비해 높게 나타남."
+   ],
+   "impact": "예측된 단백질 불안정성이 ClinVar 레이블 상태와 연관됨을 보였으나 문헌 연대기와 비코딩 변이 구성으로 인해 예측 검증에는 한계가 있음.",
+   "keywords": [
+    "파피용-르페브르 증후군",
+    "CTSC",
+    "구조적 변이"
+   ],
+   "level": "기초연구",
+   "sector": "medical",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (genetics)",
+   "core": false,
+   "authors": [
+    "VONO, F. M.",
+    "Naufel, A.",
+    "Santos, V."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.18.767647",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.17.767324",
+   "title": "Beta-Myosin inhibition in skeletal muscle: Impact of Mavacamten on the diaphragm",
+   "title_ko": "골격근에서의 베타-미오신 억제: 횡격막에 미치는 Mavacamten의 영향",
+   "headline": "비대성 심근병증 치료제 Mavacamten이 횡격막의 느린 근섬유에 미치는 영향 규명",
+   "points": [
+    "연구 배경·목적: 심근병증 치료제인 Mavacamten(MAVA)이 심근 외에 느린 근섬유(beta-MyHC)를 약 50% 발현하는 횡격막 근육에 미치는 잠재적 영향을 조사함.",
+    "방법: 토끼 횡격막 근육에서 분리한 천연 미오신을 이용한 체외 운동 분석을 통해 액틴 및 조절 박막 필라멘트의 속도를 측정함.",
+    "핵심 결과: MAVA는 IC50 1350 nM로 미오신 구동 액틴 필라멘트 속도를 용량 의존적으로 감소시켰으며, 느린 미오신은 빠른 미오신보다 약 20배 높은 민감도를 보임."
+   ],
+   "impact": "심근병증 치료제의 표적 외 작용으로 호흡근인 횡격막의 느린 섬유에 기능적 영향을 줄 수 있음을 시사함.",
+   "keywords": [
+    "Mavacamten",
+    "베타-미오신",
+    "횡격막"
+   ],
+   "level": "응용연구",
+   "sector": "medical",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (biophysics)",
+   "core": false,
+   "authors": [
+    "Sarfraz, A.",
+    "Nayak, A.",
+    "Holler, T.",
+    "Kraft, T.",
+    "Amrute-Nayak, M."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.17.767324",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.12.766320",
+   "title": "Deciphering the role of adenosine-related genes in regulating smooth muscle cell phenotypic switch in coronary heart disease via single-cell RNA sequencing",
+   "title_ko": "단일세포 RNA 시퀀싱을 통한 관상동맥질환의 평활근 세포 표현형 전환 조절에서 아데노신 관련 유전자의 역할 규명",
+   "headline": "관상동맥질환 내 면역 대사 및 평활근 세포 전환과 관련된 핵심 아데노신 유전자 발굴",
+   "points": [
+    "연구 배경·목적: 관상동맥질환과 아데노신 신호전달 장애 및 면역 미세환경의 관계를 규명하기 위해 아데노신 관련 유전자(ARG)의 역할을 분석함.",
+    "방법: 공공 전사체 데이터셋과 ARG를 통합하여 차 발현 및 가중 유전자 공동 발현 네트워크 분석을 수행하고 기계학습으로 진단 피처를 선별함.",
+    "핵심 결과: DYRK2와 SIGIRR이 핵심 유전자로 도출되었으며 관상동맥질환 코호트에서 일관되게 발현이 감소하였고 미토콘드리아 기능 장애와 연관됨을 확인함."
+   ],
+   "impact": "관상동맥질환의 진단 및 면역 대사 조절을 위한 새로운 분자적 표적(DYRK2, SIGIRR)을 제시함.",
+   "keywords": [
+    "관상동맥질환",
+    "아데노신",
+    "단일세포 RNA 시퀀싱"
+   ],
+   "level": "응용연구",
+   "sector": "medical",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (immunology)",
+   "core": false,
+   "authors": [
+    "cao, k. k.",
+    "Su, K.",
+    "Wang, R.",
+    "Qu, Y.",
+    "Zhang, X.",
+    "Xie, Z."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.12.766320",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "biorxiv:10.64898/2026.11.18.767574",
+   "title": "Nuclear quantum effects on ion permeation through the open transient receptor potential melastatin 7 pore: A continuum-electrostatics estimate",
+   "title_ko": "개방된 TRPM7 기공을 통한 이온 투과에 미치는 핵 양자 효과: 연속체 정전기학 추정",
+   "headline": "TRPM7 기공 내 마그네슘과 칼슘의 이온 투과 과정에서 핵 비국소화가 미치는 영향 추정",
+   "points": [
+    "연구 배경·목적: TRPM7(transient receptor potential melastatin 7) 기공 내에서 핵 비국소화가 마그네슘과 칼슘의 방출 및 평형 분포에 미치는 영향을 추정함.",
+    "방법: 비선형 푸아송-볼츠만 포텐셜 내 가우스 테스트 전하, 공간 유전 자가 에너지, 첫 번째 수화 쉘의 자유 에너지 비용을 결합한 모델을 사용함.",
+    "핵심 결과: 세포 내외면을 향한 평균 통과 시간의 양자 변화는 마그네슘의 경우 0.68% 및 -0.66%, 칼슘의 경우 -0.10% 및 16.12%로 나타남."
+   ],
+   "impact": "이온 채널 투과성 계산 시 양자 효과와 수화 쉘 제약이 이온 이동 역학에 미치는 미세한 물리화학적 이해를 제공함.",
+   "keywords": [
+    "TRPM7",
+    "핵 양자 효과",
+    "이온 투과"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "biorxiv (biophysics)",
+   "core": false,
+   "authors": [
+    "Li, Y.",
+    "Lin, H.-H."
+   ],
+   "url": "https://doi.org/10.64898/2026.11.18.767574",
+   "lang": "en",
+   "source": "biorxiv",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237012762",
+   "title": "Testing Diósi-Penrose-type classical gravity without entanglement: conditional phase and double coherence",
+   "title_ko": "엉킴 없는 디오시-펜로즈 타입 고전 중력 테스트: 조건부 위상 및 이중 코헤어런스",
+   "headline": "중력 결합 시스템의 조건부 위상과 디코헤어런스 분석을 통한 고전 중력 모델 검증",
+   "points": [
+    "연구 배경·목적: 중력으로 상호작용하는 두 질량의 최종 이중 큐비트 상태에서 디오시-펜로즈 타입의 고전 중력 모델을 테스트하기 위한 조건을 분석함.",
+    "방법: 완전 양성 마르코프 역학 및 결정론적 기하학을 가진 디오시-펜로즈 클래스 모델의 디코헤어런스와 조건부 위상 관계를 수학적으로 도출함.",
+    "핵심 결과: 두 질량의 코헤어런스는 위상 증가보다 최소 2배 이상 빠르게 감쇠하며, 특정 감쇠율 조건(γ < 0.1255 s⁻¹)에서 해당 고전 중력 클래스 모델이 배제됨."
+   ],
+   "impact": "양자 중력과 고전 중력 매개 모델을 실험적으로 구별할 수 있는 구체적인 토모그래피 검증 기준을 제시함.",
+   "keywords": [
+    "고전 중력",
+    "디오시-펜로즈 모델",
+    "양자 엉킴"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Philippe Vourc'h"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408200",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237027861",
+   "title": "Strong-Field Black Holes, Dispersive Kerr Core-Bounce Echoes, and Ergoregion Spin-Down in the Covariant Infinite Fractal Descent Superfluid Action",
+   "title_ko": "공변 무한 프랙탈 디센트 초유체 액션에서의 강장 블랙홀, 분산형 Kerr 코어 바운스 에코 및 에르고영역 스핀다운",
+   "headline": "무한 프랙탈 디센트 초유체 모형을 통해 강장 블랙홀의 존재와 에코 신호를 규명함.",
+   "points": [
+    "연구 배경·목적: 우주론적 제약을 받는 공변 무한 프랙탈 디센트(IFD) 초유체 액션을 강력한 상대론적 중력 테스트에 적용하여 검증함.",
+    "방법: 페인레브-굴스트랜드 및 도란 측지선 유입 조건에서 엄밀한 스텔스 슈바르츠실트 및 케어 블랙홀의 존재를 증명하고, 벡터 모드 질량과 링다운 분리 및 에코 지연 시간을 분석함.",
+    "핵심 결과: EHT 그림자 반경(rsh/M = 3√3 ≈ 5.196)과 일치하며, 링다운 반사율이 a = 0.67에서 14.3배 증폭되고 Kerr 에코 지연 시간 Δtecho를 유도함."
+   ],
+   "impact": "차세대 중력파 관측소(LISA 등)를 통해 이론의 검증 가능성을 제시함.",
+   "keywords": [
+    "초유체 액션",
+    "블랙홀 그림자",
+    "중력파 에코"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Enkhamgalan Nasanjargal"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24409041",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237039493",
+   "title": "Radial Energy Pathways and Dark Matter",
+   "title_ko": "반경 방향 에너지 경로와 암흑물질",
+   "headline": "암흑물질 현상을 설명하기 위해 상호 연결된 공간 에너지 전송 경로 가설을 검증함.",
+   "points": [
+    "연구 배경·목적: 암흑물질 현상이 은하 역학, 중력 렌즈 현상, 우주론적 관측을 만족하는 공간의 기본 구조에서 기인할 수 있는지 조사함.",
+    "방법: 중력 및 전자기 전송 경로(F3)로 구성된 가설적 공간 기질을 설정하고, 기하학적 보존 법칙, 수학적 장 모델, 수치 계산을 체계적으로 분석함.",
+    "핵심 결과: 등방성으로 보존되는 반경 방향 플럭스는 r⁻²에 비례하는 역제곱 밀도 의존성을 나타내며, FCC 격자의 방향 모멘트 합 분석을 통해 거시적 등방성 유도에 한계가 있음을 식별함."
+   ],
+   "impact": "암흑물질의 대안적 공간 구조 가설의 기하학적 한계와 정량적 특성을 명확히 함.",
+   "keywords": [
+    "암흑물질",
+    "공간 기질",
+    "기하학적 보존"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Andrej Eisenbraun"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.23965899",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237105643",
+   "title": "A Unified Relativistic Spinor-Superfluid Vacuum Action on Agaruut's Graph: Hessian Convexity Bifurcation, Landau Critical-Velocity Decoherence, and Cosmological Structure",
+   "title_ko": "Agaruut 그래프 상의 통합 상대론적 스피너-초유체 진공 액션: 헤세 볼록성 분기, 랜드우 임계 속도 데코히어런스 및 우주론적 구조",
+   "headline": "단일 진공 응축물로 쿼크 감금과 은하 회전 곡선을 동시에 설명하는 통일 액션을 구성함.",
+   "points": [
+    "연구 배경·목적: 단일 진공 응축물이 코넬 선형 쿼크 감금과 대수적 은하 회전 곡선을 동시에 생성하는 통합 상대론적 스피너-초유체 유효 액션을 구축함.",
+    "방법: 표준 플럭스-변위 변수에서 마스터 구성 해밀턴을 유도하고, 란데우 임계 속도 데코히어런스를 적용하여 SPARC RAR 및 우주론적 관측 데이터와 비교함.",
+    "핵심 결과: 텐서 중력파 속도를 빛의 속도와 일치시키고(cGW ≡ c), 란데우 임계 속도 데코히어런스를 통해 SPARC RAR의 무릎 영역 편차를 -0.002 dex로 해소함."
+   ],
+   "impact": "암흑물질과 양자역학을 아우르는 통합 우주론 모델의 실증적 정합성을 높임.",
+   "keywords": [
+    "초유체 진공",
+    "쿼크 감금",
+    "은하 회전 곡선"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Enkhamgalan Nasanjargal"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24409006",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237113285",
+   "title": "Multiscale Electrorheological Hydrodynamics of the Proton: Paramagnetic Antiscreening, Wetterich Scale-Running Fractal Dimension, and Heavy-Quark Spectroscopy in the Infinite Fractal Descent Framework",
+   "title_ko": "양성자의 다중스케일 전기유체역학: 반강자성 반차폐, 웨터리히 스케일 구동 프랙탈 차원, 그리고 무한 프랙탈 디센트 프레임워크에서의 중-쿼크 분광학",
+   "headline": "무한 프랙탈 디센트 프레임워크를 기반으로 양성자 내부 글루온 장의 다중스케일 유체역학 구조를 공식화함.",
+   "points": [
+    "연구 배경·목적: 글루온을 전자기적으로 결합된 회전 다공성 소용돌이의 밀집 유체로 모델링하여 양성자 내부 글루온 장의 다중스케일 유체역학 아키텍처를 수립함.",
+    "방법: 상대론적 진공 임피던스와 로런츠-바이스 로컬 필드 피드백을 결합하여 클라우시우스-모소티 쌍극자 베타 함수를 유도하고, 웨터리히 ERG를 적용함.",
+    "핵심 결과: 1루프 QCD 베타 함수를 복원하고, 섭동 없는 유클리드 고정점으로 수렴하며, 쿼크-반쿼크 쌍극자의 플럭스 집성을 통해 선형 코넬 포텐셜을 재현함."
+   ],
+   "impact": "양자역학적 쿼크 감금 현상과 중-쿼크 분광학의 이론적 해석력을 강화함.",
+   "keywords": [
+    "양성자 유체역학",
+    "글루온",
+    "코넬 포텐셜"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Enkhamgalan Nasanjargal"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408992",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237151453",
+   "title": "Method obstructions to linear-in-frequency pairing ceilings in electron-phonon models: integrated cumulants, positive determinants, and the vanishing effective attraction",
+   "title_ko": "전자-포논 모델에서 주파수 선형 쌍생성 상한에 대한 방법론적 장애물: 적분 누적기, 양의 행렬식, 그리고 소멸하는 유효 인력",
+   "headline": "홀스타인 및 본드-SSH 모델의 쌍정렬 온도 상한에 관한 증명 방법들의 한계와 장애물을 분석함.",
+   "points": [
+    "연구 배경·목적: 홀스타인 또는 본드-SSH 전자-포논 모델의 쌍정렬 온도가 포논 주파수에 비례하는 온도 스케일로 제한될 수 있는지 여부와 기존 증명 방법의 한계를 조사함.",
+    "방법: 동적 누적기의 첫 번째 계수 계산, 고온 영역에서의 쌍 상관관계 상한 분석, 그리고 엄밀한 간격 산술을 통한 독립적 구현 검증을 수행함.",
+    "핵심 결과: 특정 개방형 3중 사이트 경로에서 로컬 동적 누적기의 정확한 첫 번째 계수가 U Ω2/(1200 τ3) 이상임을 보이고, 순수 본드-SSH 모델에 대한 3가지 증명 경로의 장애물을 식별함."
+   ],
+   "impact": "초전도 이론 및 전자-포논 모델의 수학적 증명 한계를 규명하여 향후 연구 방향 설정에 기여함.",
+   "keywords": [
+    "전자-포논 모델",
+    "쌍정렬 온도",
+    "엄밀한 분석"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Davis Rens"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408870",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237165455",
+   "title": "Exact W and generalized-GHZ Bell-measurement optima: Completing Chakrabarty–Kundu (2026), Section III D, page 5: Table III and Eq. (15), with the Horodecki (1995) single-node consequence",
+   "title_ko": "엄밀한 W 및 일반화된 GHZ 벨 측정 최적값: Chakrabarty-Kundu (2026) 제3장 D절 5쪽, 표 III 및 식 (15)의 완성, 그리고 Horodecki (1995) 단일 노드 결과의 적용",
+   "headline": "W 상태 및 일반화된 GHZ 벨 측정 최적화를 완료하고 관련 백색소음 임계값을 유도함.",
+   "points": [
+    "연구 배경·목적: 기존 연구(Chakrabarty and Kundu, 2026)의 W 상태 및 일반화된 GHZ 벨 측정 최적화를 완료하고 Horodecki 등의 단일 노드 값을 복원함.",
+    "방법: W 상관 텐서에 대한 이차 항등식을 활용하여 파르세발의 등식과 2차원 부행렬 추정으로 증명을 단순화하고 타원체 상한을 유도함.",
+    "핵심 결과: W 상태 값이 정확히 sqrt(13)/3임을 증명하고, 이 측정 클래스의 백색소음 임계값이 정확히 3/sqrt(13)이며, GHZ 상태의 타원체 상한 N_c(GHZ_alpha)를 도출함."
+   ],
+   "impact": "양자 정보 처리 및 양자 상태 얽힘 측정 분야의 수학적 정확성을 제고함.",
+   "keywords": [
+    "벨 측정",
+    "W 상태",
+    "GHZ 상태"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Haobo Ma",
+    "Wenlin Zhang"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24409078",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237034359",
+   "title": "Field Aging of Biochar Drives SOC Accumulation by Promoting Photosynthetic Carbon Input and Shifting Soil Microbial Communities",
+   "title_ko": "바이오차의 장기 노화가 광합성 탄소 유입 촉진 및 토양 미생물 군집 변화를 통해 토양 유기탄소(SOC) 축적을 유도함",
+   "headline": "바이오차 시공 5년 후 토양 유기탄소와 탄소 동화량이 최대 33% 증가함",
+   "points": [
+    "연구 배경·목적: 밀 농경지에서 1~5년 간의 바이오차 노화 구배에 따른 토양 유기탄소(SOC) 동태, 광합성 탄소 할당 패턴, 토양 미생물 특성 변화를 규명하고자 함",
+    "방법: 1년 및 5년 동안 바이오차를 처리한 농경지에서 13C 동위원소 동화량 추적, 미생물 군집 분석, 입상 유기탄소(POC) 및 광물 결합 유기탄소(MAOC) 변화를 측정함",
+    "핵심 결과: 바이오차 처리 1년 후 SOC가 20.7% 증가(주로 POC 기인)하였으며, 4년 동안 추가로 14.8% 증가함(POC 및 MAOC 동시 증가). 13C 동화량은 1년 및 5년 차에 각각 19.9%, 33.0% 증가함"
+   ],
+   "impact": "농업 부문 탄소 배출권 사업 및 토양 탄소 격리 전략 수립 시 바이오차의 장기적 효과를 반영한 투자 타당성 검증에 기여함",
+   "keywords": [
+    "바이오차",
+    "토양유기탄소",
+    "탄소격리"
+   ],
+   "level": "응용연구",
+   "sector": "climate",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Environmental Science & Technology",
+   "core": true,
+   "authors": [
+    "Weiming Yan",
+    "Ke Cui",
+    "Jiwei Li",
+    "Zhouping Shangguan",
+    "Lei Deng",
+    "Yangquanwei Zhong"
+   ],
+   "url": "https://doi.org/10.1021/acs.est.6c11100",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7167505409",
+   "title": "Mitigation of Cd Accumulation in Rice by the Combination of Mg-modified Biochar/attapulgite Materials and Foliar Inhibitors",
+   "title_ko": "Mg-개질된 바이오차/팔라고나이트 복합소재와 엽면 억제제의 병용을 통한 벼의 카드뮴 축적 저감",
+   "headline": "신소재 바이오차와 엽면 제제 병용으로 벼 곡물의 카드뮴 축적량을 최대 72.9% 저감함",
+   "points": [
+    "연구 배경·목적: 독성 중금속인 카드뮴(Cd)의 토양 이동성을 줄이고 벼의 카드뮴 흡수를 억제하기 위한 신소재 복합재와 엽면 제제 통합 적용 효과를 평가함",
+    "방법: 신규 Mg-개질 바이오차/파라고나이트 복합소재(MgCl₂/BA, MgO/BA)를 현장 실험에 적용하여 토양 pH, 유기물 함량, 카드뮴 존재 형태 변화를 분석하고 엽면 제제를 추가 살포함",
+    "핵심 결과: MgCl₂/BA와 MgO/BA 처리로 토양 pH가 각각 0.46, 0.53단위 상승하고 유기물은 41.02%, 38.83% 증가함. 벼 곡물의 카드뮴 함량은 각각 66.22%, 72.90% 감소하였으며, 엽면 제제 추가 살포 시 20.54%, 13.22% 추가 감소함"
+   ],
+   "impact": "중금속 오염 농경지 정화 및 안전한 식량 생산을 위한 친환경 토양 개량제 상용화 투자에 활용 가능함",
+   "keywords": [
+    "카드뮴저감",
+    "바이오차",
+    "중금속오염정화"
+   ],
+   "level": "실증·임상",
+   "sector": "climate",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Water Air & Soil Pollution",
+   "core": true,
+   "authors": [
+    "Jilei Fang",
+    "Wenxuan Luo",
+    "Jizhuang Wu",
+    "Kunpeng Yang",
+    "Yaping Zhang"
+   ],
+   "url": "https://doi.org/10.1007/s11270-026-10191-2",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7171558517",
+   "title": "From polyurethane waste to soil biostimulation: Microbial transformation and functional specialization of soil communities",
+   "title_ko": "폴리우레탄 폐기물에서 토양 생물자극제로의 전환: 미생물 변환 및 토양 군집의 기능적 특수화",
+   "headline": "폴리우레탄 폐기물 유래 수성 추출물이 토양 미생물 활성을 최대 4배 이상 촉진함",
+   "points": [
+    "연구 배경·목적: 오존분해 기반 화학 공정을 통해 폴리우레탄을 물에서 탈중합하여 얻은 저분자량 추출물(OLE)의 토양 생물자극제로서의 잠재력과 생태 독성을 평가함",
+    "방법: 다양한 OLE 농도를 토양에 처리하여 미생물 활성, 토양 미생물 군집 구조, 지렁이(Eisenia fetida)에 대한 생태 독성을 조사하고 PICRUSt2로 기능 예측 분석을 수행함",
+    "핵심 결과: 고농도(104.8 g kg⁻¹)에서만 부작용이 관찰되어 낮은 생태 독성을 보임. OLE 처리 시 탈수효소 활성이 대조군 대비 4배 이상 증가하고 진균 생체량이 1.96 µg ergosterol g⁻¹에 도달함"
+   ],
+   "impact": "플라스틱 폐기물 업사이클링과 토양 생물 기술을 연계한 순환 바이오경제 기반 친환경 비즈니스 모델 발굴에 기여함",
+   "keywords": [
+    "폴리우레탄폐기물",
+    "생물자극제",
+    "순환경제"
+   ],
+   "level": "응용연구",
+   "sector": "climate",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Applied Soil Ecology",
+   "core": true,
+   "authors": [
+    "José María Orts Gómez",
+    "Ángel Orts",
+    "Emilia Naranjo",
+    "Luis Martin",
+    "Isidoro Gómez",
+    "Angélica Castaño"
+   ],
+   "url": "https://doi.org/10.1016/j.apsoil.2026.107616",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237034769",
+   "title": "The planetary health diet: a concept analysis",
+   "title_ko": "지구 건강 식단(Planetary Health Diet): 개념 분석",
+   "headline": "지구 건강 식단 개념의 이중 목표 지향성 및 식물성 중심 구조 등 3가지 핵심 속성 규명함",
+   "points": [
+    "연구 배경·목적: 인간 건강과 환경 지속가능성을 모두 다루는 지구 건강 식단(PHD)의 개념적 해석과 운영상의 혼란을 해소하고 정의와 잠재적 응용을 명확히 함",
+    "방법: Rodgers의 진화적 개념 분석 방법을 적용하여 총 69편의 문헌을 분석하고 정의적 속성, 선행 요인, 결과, 관련 개념 등을 종합함",
+    "핵심 결과: 행성 경계 내의 이중 목표 지향성, 주로 식물성 기반 식단 구조, 동물성 식품에 대한 양적 지침이라는 3가지 정의적 속성이 도출됨"
+   ],
+   "impact": "푸드테크, 대체식품 및 글로벌 식단 관련 ESG 투자 전략 수립 시 학술적 정의와 방향성을 제공함",
+   "keywords": [
+    "지구건강식단",
+    "개념분석",
+    "지속가능한식품"
+   ],
+   "level": "기초연구",
+   "sector": "climate",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "BMC Nutrition",
+   "core": true,
+   "authors": [
+    "Shao Mengyao",
+    "Lu Min",
+    "Yanmei WANG"
+   ],
+   "url": "https://doi.org/10.1186/s40795-026-01553-4",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237230340",
+   "title": "The Global Polycrisis: A Comprehensive Analysis of Interconnected Global Threats, Compounding Crises, Human Exposure, Systemic Vulnerability, and Long-Term Civilizational Risk",
+   "title_ko": "글로벌 폴리크라이시스(Global Polycrisis): 상호 연결된 글로벌 위협, 복합 위기, 인간 노출, 시스템적 취약성 및 장기 문명 위험에 대한 종합 분석",
+   "headline": "기후변화와 빈곤 등 복합적 위기의 상호 증폭 작용과 2025-2050년의 예방 골든타임 분석함",
+   "points": [
+    "연구 배경·목적: 기후변화, 오염, 빈곤, 식량 및 수자원 안보, 생물다양성 손실 등의 위기들이 어떻게 상호 작용하며 복합적인 시스템 리스크를 유발하는지 분석함",
+    "방법: 글로벌 남반구와 고령화된 서구 사회의 노출도, 6가지 강화 고리(reinforcing loops), 8가지 맞물린 함정(interlocking traps), 그리고 수 세기에 걸친 장기적 지속성을 시스템 분석 프레임워크로 검토함",
+    "핵심 결과: 2025년부터 2050년까지가 위기 예방을 위한 결정적 시기임을 규명하고, H Heuristics의 폴리크라이시스 회복력(Polycrisis Resilience) 프레임워크를 통한 취약성 저감 방안을 제시함"
+   ],
+   "impact": "거시경제 정책 수립 및 글로벌 공급망 리스크 관리 시 장기적 시스템 위협에 대응하는 전략적 인사이트를 제공함",
+   "keywords": [
+    "폴리크라이시스",
+    "시스템리스크",
+    "회복력"
+   ],
+   "level": "기초연구",
+   "sector": "climate",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Figshare",
+   "core": false,
+   "authors": [
+    "Hunter Hughes"
+   ],
+   "url": "https://doi.org/10.6084/m9.figshare.35081074",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237089385",
+   "title": "Replication Data and Code for: Is there synergy between extreme heat and air pollution? A systematic review and meta-analysis of additive interaction in health studies",
+   "title_ko": "폭염과 대기 오염 사이에 시너지 효과가 있는가? 건강 연구에서의 상가적 상호작용에 관한 체계적 문헌 고찰 및 메타분석의 복제 데이터 및 코드",
+   "headline": "폭염과 대기 오염의 건강 영향 상가적 상호작용 분석을 위한 오픈소스 데이터 및 파이썬 코드 공개함",
+   "points": [
+    "연구 배경·목적: 폭염과 대기 오염의 동시 노출이 건강에 미치는 악영향 간의 시너지(상가적 상호작용)를 검증하기 위한 체계적 문헌 고찰 및 메타분석용 연구 패키지를 제공함",
+    "방법: 문헌 검색 문자열, 선별 로그, 추출된 상호작용에 따른 상대과잉위험(RERI) 추정치 데이터, 그리고 이를 분석하는 파이썬 스크립트와 시각화 코드를 포함함",
+    "핵심 결과: RERI 메타분석을 재현할 수 있는 구조화된 출력 결과 파일과 숲 그림(forest plot) PDF 등의 분석 산출물을 제공함"
+   ],
+   "impact": "기후변화 취약성 평가 및 환경 보건 정책 수립을 위한 투명한 오픈소스 연구 방법론과 재현성 검증 자료를 제공함",
+   "keywords": [
+    "폭염",
+    "대기오염",
+    "메타분석"
+   ],
+   "level": "기초연구",
+   "sector": "climate",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Simone Lolli"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24396028",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237274804",
+   "title": "Observations reveal limited mélange control on Greenland glacier termini",
+   "title_ko": "그린란드 빙하 종단에서 관측된 제한적인 멜랑주 제어 효과",
+   "headline": "그린란드 빙하 멜랑주의 지탱력은 미미하며, 해저 융해가 빙하 안정성을 좌우함",
+   "points": [
+    "연구 배경·목적: 빙하 말단을 지탱하는 얼음 멜랑주가 빙산 분출을 막는다고 가정되나 관측 데이터가 부족하여 그 역할을 규명하고자 함.",
+    "방법: 그린란드 14개 지역의 멜랑주 고도 관측치 267개와 속도 시계열 데이터를 결합하여 두께, 밀도, 지탱력을 추정함.",
+    "핵심 결과: 멜랑주는 대체로 얇고(30~50m) 느슨하며 1% 미만의 관측소에서만 지탱력이 10^7 N/m를 초과함."
+   ],
+   "impact": "극지방 빙하 붕괴 예측 모델에서 멜랑주 지탱력의 비중을 낮추고 해저 융해 요인을 재평가해야 함.",
+   "keywords": [
+    "그린란드 빙하",
+    "얼음 멜랑주",
+    "빙산 분출"
+   ],
+   "level": "기초연구",
+   "sector": "climate",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "EarthArXiv (California Digital Library)",
+   "core": false,
+   "authors": [
+    "Ellyn Mary Enderlin",
+    "Twila Moon",
+    "Aman K C",
+    "Jukes Liu",
+    "Michal Kopera",
+    "Dustin Carroll"
+   ],
+   "url": "https://doi.org/10.31223/x53c1h",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7160711535",
+   "title": "Earthworm functional traits drive greenhouse gas emissions from casts through their effects on microbial and physicochemical properties",
+   "title_ko": "지렁이 기능적 특성이 미생물 및 물리화학적 속성을 통해 배설물의 온실가스 배출에 미치는 영향",
+   "headline": "지렁이 종류별 특성에 따라 토양 배설물의 CO2, N2O, CH4 온실가스 배출량이 최대 22배까지 증가함",
+   "points": [
+    "연구 배경·목적: 지렁이 배설물이 토양 온실가스(GHG) 배출에 기여하나, 지렁이의 기능적 특성과 미생물 간의 연관성은 규명되지 않음.",
+    "방법: 2개 토양 유형에서 9종 지렁이의 21가지 형태·생리·행동 특성을 측정하고 배설물의 GHG 배출량과 미생물 군집을 정량화함.",
+    "핵심 결과: 지렁이 배설물은 대조군 대비 CO2 최대 8배, N2O 최대 7배, CH4 최대 4배 증가했으며 종별 편차가 큼."
+   ],
+   "impact": "농업 토양 관리 및 탄소 배출 저감 정책 수립 시 토양 생물 다양성과 지렁이 군집 특성을 고려해야 함.",
+   "keywords": [
+    "지렁이 배설물",
+    "온실가스 배출",
+    "토양 미생물"
+   ],
+   "level": "응용연구",
+   "sector": "climate",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "Applied Soil Ecology",
+   "core": true,
+   "authors": [
+    "Yacouba Zi",
+    "Nicolas Bottinelli",
+    "Marie‐France Dignac",
+    "Chao SONG",
+    "Yvan Capowiez",
+    "Malalatiana Razafindrakoto"
+   ],
+   "url": "https://doi.org/10.1016/j.apsoil.2026.107608",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237222321",
+   "title": "Decentralizing betting: leveraging blockchain technology for a transparent and inclusive future",
+   "title_ko": "베팅의 탈중앙화: 투명하고 포용적인 미래를 위한 블록체인 기술 활용",
+   "headline": "이더리움 스마트 계약 기반 탈중앙화 베팅은 투명성을 높이나 비용과 확장성 트레이드오프가 존재함",
+   "points": [
+    "연구 배경·목적: 기존 중앙화된 온라인 베팅 플랫폼의 불투명성과 공정성 문제를 해결하기 위해 피어투피어(P2P) 베팅 플랫폼을 제안함.",
+    "방법: 이더리움 스마트 계약을 이용해 복권, 스포츠 베팅, 오라클 에뮬레이션 등 3가지 프로토타입을 구현하고 성능과 비용을 평가함.",
+    "핵심 결과: 완전 온실화(on-chain) 정산은 투명성을 극대화하지만 비용과 상호작용 마찰이 증가하며 관리자 의존형은 복잡성을 낮추나 신뢰 문제가 발생함."
+   ],
+   "impact": "블록체인 기반 iGaming 및 예측 시장 서비스 설계 시 투명성과 가스 비용 간의 균형 최적화가 필수적임.",
+   "keywords": [
+    "블록체인",
+    "스마트 계약",
+    "탈중앙화 베팅"
+   ],
+   "level": "실증·임상",
+   "sector": "econ",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Journal of Banking and Financial Technology",
+   "core": true,
+   "authors": [
+    "Faryad Bigdeli",
+    "Saviz Changizi",
+    "Masoud Rayat Zadeh",
+    "Charlotte Aung",
+    "Ittipat Pojpring",
+    "Xiaojun Luo"
+   ],
+   "url": "https://doi.org/10.1007/s42786-026-00066-9",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237040851",
+   "title": "From Expected Demand To Actual Consumption: An Exploratory Study Of Food Surplus In Event Catering",
+   "title_ko": "예상 수요에서 실제 소비까지: 케이터링 서비스의 음식 잉여에 대한 탐색적 연구",
+   "headline": "케이터링 서비스의 예상 수요와 준비량은 일치했으나 평균 18.7%의 음식 잉여가 발생함",
+   "points": [
+    "연구 배경·목적: 이벤트 케이터링에서 수요 예측 오차로 인한 음식물 쓰레기 발생 실태를 운영 데이터를 통해 분석하고자 함.",
+    "방법: 2025~2026년 수집된 49건의 케이터링 서비스 운영 데이터(2,351인분)를 대상으로 비모수 통계 분석을 수행함.",
+    "핵심 결과: 예상 수요와 준비량은 모든 기록에서 동일했으나 39개 서비스에서 439인분의 잉여가 발생했으며 뷔페식은 25.2%의 잉여율을 기록함."
+   ],
+   "impact": "케이터링 업계는 단순 수요 예측을 넘어 서비스 형태(뷔페 대 개별 포장 등)별 맞춤형 재고 및 배식 관리 도입이 요구됨.",
+   "keywords": [
+    "이벤트 케이터링",
+    "음식 잉여",
+    "수요 예측"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "International Journal of Business & Management Studies",
+   "core": true,
+   "authors": [
+    "Li Meng Hsuan",
+    "Liu Po Yang",
+    "Yu-Chun Huang"
+   ],
+   "url": "https://doi.org/10.56734/ijbms.v7n11a2",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237134259",
+   "title": "Design Requirements And Conceptual Architecture Of A Digital Financial Learning Platform For University Women Entrepreneurs",
+   "title_ko": "여대생 창업가를 위한 디지털 금융 학습 플랫폼의 디자인 요구사항 및 개념 아키텍처",
+   "headline": "여대생 창업가의 디지털 금융 리터러시 측정 도구 타당성을 검증하고 학습 플랫폼 아키텍처를 제안함",
+   "points": [
+    "연구 배경·목적: 디지털 환경에서 창업가의 지속 가능성을 위한 금융 리터러시의 중요성을 분석하고 교육 플랫폼 아키텍처를 설계함.",
+    "방법: 멕시코 남부 여대생 창업가 57명을 대상으로 설문조사를 실시하고 신뢰도 분석 및 주성분 분석(PCA)을 수행함.",
+    "핵심 결과: 측정 도구는 4개 요인 구조(총 분산의 82% 설명)로 타당성이 입증되었으며 참가자 전원이 플랫폼의 유용성을 높게 평가함."
+   ],
+   "impact": "여성 창업가 대상 디지털 금융 교육 프로그램 및 핀테크 기반 마이크로러닝 플랫폼 개발의 기초 자료로 활용 가능함.",
+   "keywords": [
+    "디지털 금융 리터러시",
+    "여성 창업가",
+    "플랫폼 아키텍처"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "International Journal of Business & Management Studies",
+   "core": true,
+   "authors": [
+    "Daniela Sherlyn Peña Martínez",
+    "Conrado Aguilar Cruz",
+    "Mario Alberto Moreno Rocha"
+   ],
+   "url": "https://doi.org/10.56734/ijbms.v7n11a1",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237211582",
+   "title": "U.S.-Canada Trade Tensions And Their Influence On Canadian Perception, National Sentiment And Consumer Behaviour",
+   "title_ko": "미·캐나다 무역 갈등이 캐나다인의 인식, 국가 정서 및 소비자 행동에 미치는 영향",
+   "headline": "미국의 관세 부과 위협에 대한 캐나다인의 인식은 반미 감정, 민족주의 및 자국 브랜드 선호로 이어짐",
+   "points": [
+    "연구 배경·목적: 경제 보호주의가 거시 경제 지표 외에 개인의 사회심리적 및 행동적 측면에 미치는 영향을 조사함.",
+    "방법: 캐나다 거주자 123명을 대상으로 횡단면 설문조사를 실시하고 CETSCALE 등 검증된 도구를 활용해 통계 및 회귀 분석을 수행함.",
+    "핵심 결과: 관세 인식 수준이 높을수록 미국인에 대한 부정적 인식, 국가 자긍심, 캐나다 제품 선호도 및 미국 브랜드 불매 성향이 유의미하게 증가함."
+   ],
+   "impact": "글로벌 무역 분쟁 및 보호주의 강화 시 현지 소비자의 민족주의 성향과 불매 운동 리스크를 마케팅 전략에 반영해야 함.",
+   "keywords": [
+    "무역 갈등",
+    "소비자 행동",
+    "국가 정서"
+   ],
+   "level": "기초연구",
+   "sector": "econ",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "International Journal of Business & Management Studies",
+   "core": true,
+   "authors": [
+    "Rachel Hanford",
+    "Charles Fenner"
+   ],
+   "url": "https://doi.org/10.56734/ijbms.v7n11a3",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W4406073406",
+   "title": "Income, health, and spurious cointegration",
+   "title_ko": "소득, 건강, 그리고 허위 공적분",
+   "headline": "국민소득과 건강 지표 간 공적분 관계는 인과관계를 입증하는 유효한 방법이 아님을 밝힘",
+   "points": [
+    "연구 배경·목적: 1인당 GDP 등 소득과 기대수명 등 인구 건강 간의 장기적 관계를 공적분 분석으로 설명하려는 기존 연구의 타당성 검증",
+    "방법: 국가별 시계열 데이터 및 컴퓨터 생성 데이터 간 공적분 검정 결과 비교",
+    "핵심 결과: 추세가 존재하는 시계열 데이터 간에는 인과관계가 없더라도 표준 공적분 방법론에 의해 쉽게 허위 공적분이 도출됨"
+   ],
+   "impact": "거시경제 지표와 보건 지표 간 장기적 인과관계를 검증할 때 통계적 공적분 결과에만 의존하는 실무적 오류를 방지해야 함.",
+   "keywords": [
+    "공적분",
+    "인과관계",
+    "보건경제"
+   ],
+   "level": "기초연구",
+   "sector": "econ",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "The European Journal of Health Economics",
+   "core": true,
+   "authors": [
+    "José Antonio Tapia Granados",
+    "Edward L. Ionides"
+   ],
+   "url": "https://doi.org/10.1007/s10198-026-02012-4",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237079810",
+   "title": "Health economic evaluation of the 'DELIVER-CARE' study: a randomized controlled trial on delegation for chronic inflammatory diseases",
+   "title_ko": "'DELIVER-CARE' 연구의 보건경제학적 평가: 만성 염증성 질환 환자의 진료 위임에 관한 무작위 대조 시험",
+   "headline": "만성 염증성 질환 관리에서 간호사 주도 진료 모델의 비용효과성을 검증함",
+   "points": [
+    "연구 배경·목적: 독일 내 의료전문가 부족 상황에서 만성 염증성 질환(CID) 환자의 진료 질 유지 및 경제적 타당성 평가",
+    "방법: 602명의 CID 환자를 대상으로 간호사 주도 진료(IG)와 표준 전문의 진료(CG)를 비교하는 12개월 무작위 대조 시험 및 비용효과성 분석 수행",
+    "핵심 결과: 12개월 평균 총비용은 개입군(1만 2,061유로)과 대조군(1만 3,601유로) 간 통계적 유의차가 없었으나, 5만 유로/QALY 기준 비용효과성 달성 확률은 94%를 기록함"
+   ],
+   "impact": "전문의 부족 대응을 위한 만성질환 관리 영역에서 간호사 진료 위임 모델이 비용-중립적이면서 높은 비용효과성을 제공하는 대안임을 확인함.",
+   "keywords": [
+    "진료 위임",
+    "보건경제학",
+    "비용효과성"
+   ],
+   "level": "실증·임상",
+   "sector": "econ",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "The European Journal of Health Economics",
+   "core": true,
+   "authors": [
+    "Luisa Licker",
+    "Tim Schikowski",
+    "Juliane Schiller",
+    "Franziska Püschner",
+    "Volker Eric Amelung",
+    "Dirk Meyer-Olson"
+   ],
+   "url": "https://doi.org/10.1007/s10198-026-02015-1",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237103155",
+   "title": "From Account Management To Risk-Triggered Audit: A Continuous Monitoring Framework For Large Taxpayers In E-Invoicing Environments",
+   "title_ko": "계정 관리에서 위험 트리거 감사로: 전자세금계산서 환경 내 대형 납세자를 위한 지속적 모니터링 프레임워크",
+   "headline": "전자세금계산서 환경에서 실시간 데이터를 활용한 대형 납세자 위험 감사 프레임워크를 개발함",
+   "points": [
+    "연구 배경·목적: 의무적 전자세금계산서 도입으로 실시간 거래 데이터가 확보되었음에도 연간 계획에 의존하는 기존 감사 체계의 한계 극복",
+    "방법: 우크라이나 법률 및 사례 분석, 디자인 사이언스 접근법을 바탕으로 SIGNAL 프레임워크 구축 후 1,000개 합성 납세자 포트폴리오 대상 몬테카를로 시뮬레이션 수행",
+    "핵심 결과: 세금계산서 등록 단계에만 집중되던 데이터를 사후 감사가닌 사전 위험 트리거 및 선별에 체계적으로 연계하는 모니터링 체계 도출"
+   ],
+   "impact": "과세 당국이 실시간 전자세금계산서 데이터를 활용하여 감사 효율성을 높이고 탈세를 조기 차단하는 실무적 가이드라인을 제공함.",
+   "keywords": [
+    "전자세금계산서",
+    "세무 감사",
+    "지속적 모니터링"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "International Journal of Business & Management Studies",
+   "core": true,
+   "authors": [
+    "Yaroslav Yankovskyi"
+   ],
+   "url": "https://doi.org/10.56734/ijbms.v7n11a4",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237225860",
+   "title": "Uncertainty and Real Estate Return Predictability: Evidence from U.S. REITs",
+   "title_ko": "불확실성과 부동산 수익률 예측 가능성: 미국 REITs의 증거",
+   "headline": "금융 불확실성 변동이 미국 부동산(REITs) 수익률에 미치는 예측력을 규명함",
+   "points": [
+    "연구 배경·목적: 금융 시장의 불확실성 변동이 미국 부동산 수익률 변동성에 미치는 영향과 예측력 분석",
+    "방법: 6개 부동산 수익률 시리즈와 예측 변수 세트를 활용한 표본 내·외 예측 성능 검정 및 캠벨-실러 현재가치 분해법 적용",
+    "핵심 결과: 금융 불확실성이 1 표준편차 증가할 때 다음 달 REITs 수익률은 약 1.5% 하락하며, 샘플 외 R²는 8%를 상회함"
+   ],
+   "impact": "금융 불확실성 지표를 활용하여 부동산 자산 배분 및 투자 전략의 초과 수익 실현 가능성을 입증함.",
+   "keywords": [
+    "REITs",
+    "불확실성",
+    "수익률 예측"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "The Journal of Real Estate Finance and Economics",
+   "core": true,
+   "authors": [
+    "Damian S. Damianov",
+    "Sam Pybis",
+    "Yawen Zheng"
+   ],
+   "url": "https://doi.org/10.1007/s11146-026-10079-2",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7131271135",
+   "title": "Waste or tool? Combined use-wear analysis of Mesolithic knapped stone and shell tools in Asturias (northern Iberia)",
+   "title_ko": "폐기물인가 도구인가? 아스투리아스(이베리아반도 북부) 중석기시대 타제 석기와 조개 도구의 결합적 사용흔 분석",
+   "headline": "중석기시대 해안가 유적에서 석기와 조개 도구 간의 기술적 기능 보완 관계를 규명함",
+   "points": [
+    "연구 배경·목적: 유럽 대서양 연안 중석기시대 수렵채집인의 해양 자원 착취 과정에서 기술적 선택과 도구 사용 양상 파악",
+    "방법: 스페인 아스투리아스 엘 마조 및 엘 토랄 III 유적에서 출토된 석기 및 조개 도구 집합체에 대한 사용흔 분석 수행",
+    "핵심 결과: 조개 도구는 주로 식물 섬유 긁기에, 타제 석기는 뼈 및 광물 가공에 사용되어 두 원자재 간 명확한 기능적 상보성이 확인됨"
+   ],
+   "impact": "고고학적 도구 해석에서 폐기물로 간주되던 비정형 도구의 기능적 가치를 재조명하여 선사시대 기술 체계 연구에 기여함.",
+   "keywords": [
+    "사용흔 분석",
+    "중석기시대",
+    "기술적 상보성"
+   ],
+   "level": "기초연구",
+   "sector": "social",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "Journal of Archaeological Science",
+   "core": true,
+   "authors": [
+    "Jorge Calvo Gómez",
+    "David Cuenca-Solana",
+    "Diego Herrero-Alonso",
+    "Natividad Fuertes-Prieto",
+    "Igor Gutiérrez-Zugasti"
+   ],
+   "url": "https://doi.org/10.1016/j.jas.2026.106738",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237030795",
+   "title": "Automated nihility: Huey P. Newton, Raptor Alert, and the bureaucratic capitalism of surveillance in U.S. public schools",
+   "title_ko": "자동화된 허무주의: 휴 P. 뉴턴, 랩터 얼럿, 그리고 미국 공립학교 감시의 관료적 자본주의",
+   "headline": "미국 공립학교 내 AI 안면인식 감시 시스템 도입의 통제적 성격과 사회적 함의를 비판적으로 분석함",
+   "points": [
+    "연구 배경·목적: 미국 공립학교의 긴급 관리 플랫폼 내 AI 기반 안면인식 소프트웨어(랩터 얼럿 등) 통합 확산에 따른 감시 체계 심화 분석",
+    "방법: 휴 P. 뉴턴의 관료적 자본주의 이론, 흑인 남성학 패러다임, 빅터 리오스의 청소년 통제 복합체 이론을 결합한 비판적 문헌 및 이론 연구",
+    "핵심 결과: 알고리즘 기반 감시 기술이 학교 환경을 교도소화하며, 특히 흑인 남학생을 잠재적 갱 멤버로 규정하는 제도적 편향을 고착화함을 논증함"
+   ],
+   "impact": "에듀테크 및 학교 보안 솔루션 도입 시 내재된 알고리즘 편향과 인권 침해 리스크를 평가하는 규제적 시각을 제공함.",
+   "keywords": [
+    "AI 감시",
+    "안면인식",
+    "교육 행정"
+   ],
+   "level": "기초연구",
+   "sector": "social",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "Philosophical Studies",
+   "core": true,
+   "authors": [
+    "Tony Baugh",
+    "Darius Cret"
+   ],
+   "url": "https://doi.org/10.1007/s11098-026-02659-y",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237160670",
+   "title": "Monuments of dissent: memory and the making of a political habitus of violence in Bangladesh student politics",
+   "title_ko": "이의제기의 기념비들: 방글라데시 학생 정치에서의 기억과 폭력의 정치적 아비투스 형성",
+   "headline": "방글라데시 학생 정치에서 과거의 투쟁 기억과 폭력이 정권의 붕괴와 권력 이전에 미친 영향 규명함.",
+   "points": [
+    "방글라데시 정치사에서 학생들의 중대한 역할과 1971년 독립 투쟁의 희생 및 폭력이 학생들의 정치적 행동 양식에 미친 영향 분석",
+    "다카대학교와 라지샤히대학교를 대상으로 한 민족지학적 현장 조사 및 기념비적 포퓰리즘 개념 활용",
+    "학생 시위에 대한 국가 폭력이 정권의 정당성을 상실시키고 정권 붕괴 후 새로운 세력으로 폭력의 정치적 레퍼토리가 이전됨을 확인"
+   ],
+   "impact": "정치적 불안정과 사회적 기억이 특정 정권의 몰락 및 권력 지형 재편에 직접적인 동력으로 작용함을 시사함.",
+   "keywords": [
+    "학생 정치",
+    "기념비적 포퓰리즘",
+    "방글라데시"
+   ],
+   "level": "기초연구",
+   "sector": "social",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "Crime Law and Social Change",
+   "core": true,
+   "authors": [
+    "Julian Kuttig",
+    "Anirban Azad"
+   ],
+   "url": "https://doi.org/10.1007/s10611-026-10313-1",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237197425",
+   "title": "Leading an age-diverse workforce: evaluation of a leadership training intervention based on the Include, Individualize, and Integrate framework",
+   "title_ko": "연령 다양성 인력 리더십 코칭: Include, Individualize, Integrate 프레임워크 기반 리더십 훈련 개입 평가",
+   "headline": "연령 다양성 관리를 위한 3i 프레임워크 기반 리더십 교육 프로그램이 관리자의 인지 및 행동 학습에 미치는 효과 검증함.",
+   "points": [
+    "인구 고령화에 따른 연령 다양성 작업장 관리의 중요성과 체계적인 리더십 개발 중재의 부족 문제 제기",
+    "호주 지방 정부 조직의 관리자 35명(통제군 19명)을 대상으로 준실험적 사전·사후 테스트 설계를 적용한 Ascent 리더십 프로그램 시행",
+    "참여 리더들은 긍정적 반응과 인지적 학습을 보였으며, 연령 고정관념 감소 및 개별화·통합 관련 행동에서 부분적인 개선이 확인됨"
+   ],
+   "impact": "고령화 사회에 대응하는 조직 내 리더십 역량 강화를 위해 구조화된 교육 프로그램이 실질적인 행동 변화를 유도할 수 있음을 보여줌.",
+   "keywords": [
+    "연령 다양성",
+    "리더십 훈련",
+    "3i 프레임워크"
+   ],
+   "level": "실증·임상",
+   "sector": "social",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "Journal of Business and Psychology",
+   "core": true,
+   "authors": [
+    "Eva Zellman",
+    "Daniela Maria Andrei",
+    "Leah Zoszak",
+    "Franziska Jungmann",
+    "Sharon Kaye Parker"
+   ],
+   "url": "https://doi.org/10.1007/s10869-026-10166-4",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7236998131",
+   "title": "Escaping the understanding-assent links impasse",
+   "title_ko": "이해-동의 연결 교착 상태의 탈출",
+   "headline": "급진적 일탈에 대한 새로운 설명을 통해 의미론적 외부주의와 이해-동의 연결 논쟁의 교착 상태 해결함.",
+   "points": [
+    "화자의 급진적 일탈을 단일 문장 발화가 아닌 의미 부여 담론 전체에 대한 기여도로 분석할 필요성 제기",
+    "단어의 의미 부여 담론에 대한 참여나 존중을 거부하는 경우를 급진적 일탈로 정의하는 2단계 설명 모델 구축",
+    "의미론적 외부주의의 사회적 관행 탈퇴 조건 설명 및 이해-동의 연결 논쟁의 직관적 교착 상태를 해소하는 대안 제시"
+   ],
+   "impact": "언어철학 및 의미론 분야의 오랜 이론적 난제에 대해 새로운 분석적 틀을 제공함.",
+   "keywords": [
+    "급진적 일탈",
+    "의미론적 외부주의",
+    "이해-동의 연결"
+   ],
+   "level": "기초연구",
+   "sector": "social",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "Philosophical Studies",
+   "core": true,
+   "authors": [
+    "Jake Walerius"
+   ],
+   "url": "https://doi.org/10.1007/s11098-026-02666-z",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237133246",
+   "title": "An explanationist analysis of causation",
+   "title_ko": "인과성에 대한 설명론적 분석",
+   "headline": "원인추적 설명에 관한 원리를 활용하여 설명의 관점에서 인과관계를 새롭게 분석함.",
+   "points": [
+    "c가 e를 원인으로 한다는 사실이 c가 e를 설명한다는 사실을 설명한다는 원리를 기반으로 인과관계 분석 시도",
+    "설명에서 인과관계가 수행하는 역할을 바탕으로 인과성의 설명론적 분석 체계 구축",
+    "제안된 설명론적 분석이 단순성(parsimony) 기준을 충족하고, 기초(grounding)와 인과관계를 명확히 구분하며, 상충되는 설명적 관계의 관점을 통합함을 논증"
+   ],
+   "impact": "인과성과 설명 관계의 본질을 규명하여 형이상학 및 과학철학의 이론적 기초를 강화함.",
+   "keywords": [
+    "인과성",
+    "설명",
+    "형이상학"
+   ],
+   "level": "기초연구",
+   "sector": "social",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "Philosophical Studies",
+   "core": true,
+   "authors": [
+    "David Mark Kovacs"
+   ],
+   "url": "https://doi.org/10.1007/s11098-026-02663-2",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7164021233",
+   "title": "Instrumental convergence and power seeking",
+   "title_ko": "도구적 수렴과 권력 추구",
+   "headline": "인공지능의 권력 추구 위험성의 근거가 되는 도구적 수렴 테제의 타당성과 한계 검토함.",
+   "points": [
+    "인공지능이 인류에게 실존적 위협을 가할 수 있다는 우려 중 권력 추구 성향과 도구적 수렴 테제 간의 관계 분석",
+    "도구적 수렴 테제의 주요 방어 논거들을 검토하고, 이들이 권력 추구 논증을 뒷받침할 만큼 강력한 형태로 성립하는지 평가",
+    "기존 방어 논거들이 강력한 도구적 수렴 테제를 입증하기에 부족함을 보이고, 장기주의 및 AI 거버넌스 방법론에 시사점 도출"
+   ],
+   "impact": "AI 안전성 연구 및 리스크 거버넌스 수립 시 과도한 가정에 의존하기보다 엄밀한 방법론적 검토가 필요함을 시사함.",
+   "keywords": [
+    "인공지능 안전성",
+    "도구적 수렴",
+    "권력 추구"
+   ],
+   "level": "기초연구",
+   "sector": "social",
+   "score": 3,
+   "hf_upvotes": 0,
+   "venue": "Philosophical Studies",
+   "core": true,
+   "authors": [
+    "David Thorstad"
+   ],
+   "url": "https://doi.org/10.1007/s11098-026-02641-8",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7236991373",
+   "title": "The Future of Legal Competition: Open-Screen, Examinability, and Authoritative Adjudication in the Age of Artificial Intelligence",
+   "title_ko": "법적 경쟁의 미래: 인공지능 시대의 오픈스크린, 검증 가능성, 그리고 권위적 사법 심판",
+   "headline": "인공지능 시대에 인간과 기기의 협업 과정을 공개하고 검증 가능성을 높이는 새로운 법적 초안 작성 경쟁 형태 제안함.",
+   "points": [
+    "인간과 기기의 협업 화면을 대중에게 실시간으로 공개하여 검증 가능성을 심사 대상으로 삼는 오픈스크린(open-screen) 개념 제시",
+    "6개 영역에 대한 사전 등록된 검색을 통해 기존 법률 초안 작성 방식들이 화면 공개와 법적 전문성 측면에서 충족하지 못함을 확인",
+    "인도네시아 판사의 명백한 오류에 대한 재심 청구서 작성 과제를 통해 사법적 권위는 면책이 아니라 검증 가능성에서 성장함을 논증"
+   ],
+   "impact": "AI 활용 법률 실무에서 투명성과 검증 가능성을 높여 사법 절차의 신뢰성과 효율성을 동시에 제고할 수 있는 새로운 모델을 제시함.",
+   "keywords": [
+    "법률 초안 작성",
+    "인공지능 협업",
+    "사법 검증 가능성"
+   ],
+   "level": "응용연구",
+   "sector": "social",
+   "score": 4,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Tandry Laksana"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24406093",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237183017",
+   "title": "Twenty Consequences of the Riemann Hypothesis in Hilbert Vector Resolvent Theory",
+   "title_ko": "힐베르트 벡터 레졸벤트 이론에서 리만 가설의 20가지 귀결",
+   "headline": "리만 가설을 힐베르트 벡터 레졸벤트 이론에 적용하여 20가지 분석적·대수적 귀결을 도출함",
+   "points": [
+    "연구 배경·목적: 리만 가설(RH)이 성립할 때 콤팩트 연산자의 레졸벤트를 통해 제타 함수 관련 함수 Θ의 성질을 분석함",
+    "방법: 외부 리만 가설 정리를 활용하여 Θ의 대수적·분석적 표현을 유도하고 관련 귀결들을 체계적으로 분류함",
+    "핵심 결과: 각도 단조성, 볼록성, 스펙트럼 결함 등 20가지 수학적 귀결을 도출했으며 16개는 추가 가정 없이 성립함"
+   ],
+   "impact": "순수 수학 이론 연구로서, 향후 양자역학 및 복소해석학 분야의 이론적 분석에 기여할 가능성이 있음",
+   "keywords": [
+    "리만 가설",
+    "레졸벤트 이론",
+    "스펙트럼 분석"
+   ],
+   "level": "기초연구",
+   "sector": "math",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Richard Golkowski"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408833",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237089317",
+   "title": "On finite-time blow-up of the 2D inviscid Boussinesq equations",
+   "title_ko": "2차원 비점성 부시네스크 방정식의 유한 시간 내 발산에 대하여",
+   "headline": "2차원 비점성 부시네스크 방정식에서 온도 그라디언트가 유한 시간에 무한대가 됨을 증명함",
+   "points": [
+    "연구 배경·목적: 유체역학 방정식인 2차원 비점성 부시네스크 시스템에서 해의 특이성 및 유한 시간 내 발산 여부를 규명함",
+    "방법: 가속 전단면 상에서파동의 온도 그라디언트 증폭 현상을 분석하고, 압력 hessian을 통한 주기파 보정 기법을 적용함",
+    "핵심 결과: 온도 그라디언트가 최소 exp(c/√δ) 만큼 증폭되며, 원점에서 유한 시간 내에 발산하는 부드러운 홀수 주기 데이터를 구성함"
+   ],
+   "impact": "유체역학의 난류 및 비선형 방정식 안정성 분석에 중요한 수학적 기초 자료를 제공함",
+   "keywords": [
+    "부시네스크 방정식",
+    "유한 시간 발산",
+    "유체역학"
+   ],
+   "level": "기초연구",
+   "sector": "math",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Figshare",
+   "core": false,
+   "authors": [
+    "Xi Chen",
+    "Hedong Hou",
+    "Haoling Xiang"
+   ],
+   "url": "https://doi.org/10.6084/m9.figshare.35081110",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237125177",
+   "title": "The Square Maximizes the First Nonzero Steklov Eigenvalue Among Convex Quadrilaterals",
+   "title_ko": "볼록 사각형 중 정사각형이 최초의 0이 아닌 스테클로프 고유값을 최대화함",
+   "headline": "주어진 둘레를 가진 볼록 사각형 중 정사각형이 최초의 스테클로프 고유값을 유일하게 극대화함을 증명함",
+   "points": [
+    "연구 배경·목적: 평면 볼록 다각형 클래스에서 스테클로프 고유값의 최댓값과 그에 해당하는 최적 도형을 규명함",
+    "방법: 모듈리 공간을 정사각형 근방과 여집합으로 분할하고, 테일러 전개 및 구간 연산 기반의 수치 검증을 수행함",
+    "핵심 결과: 정규화된 고유값 상한을 도출하고, 정사각형일 때만 등호가 성립함을 구체적인 수치 연산을 통해 증명함"
+   ],
+   "impact": "기하학적 최적화 및 스펙트럼 이론 분야에서 도형의 고유값 한계 산정에 기여함",
+   "keywords": [
+    "스테클로프 고유값",
+    "볼록 사각형",
+    "최적화"
+   ],
+   "level": "기초연구",
+   "sector": "math",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Luwei Dong",
+    "Sirui Yang",
+    "Jintao Pan"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24409122",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237063588",
+   "title": "Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)",
+   "title_ko": "바커의 차 타일링 추측 증명: OEIS A299285–A299286",
+   "headline": "OEIS에 수록된 차 타일링 관련 바커의 생성함수 및 점화식 추측들을 증명함",
+   "points": [
+    "연구 배경·목적: 차 균일 타일링(tea uniform tiling) 구조에서 그래프 구면의 개수와 관련된 미해결 점화식 추측을 해결함",
+    "방법: 정확한 거리 공식을 유도하여 그래프 구면을 삼각 층의 정수 육각형으로 환원하고 점화식의 최소 위수를 분석함",
+    "핵심 결과: 주기 4의 이차 준다항식을 도출하고 바커의 추측 및 관련 가설들을 증명하여 상하한 경계를 제시함"
+   ],
+   "impact": "조합론 및 격자 타일링 이론의 구조적 특성을 밝히는 데 기여함",
+   "keywords": [
+    "타일링",
+    "생성함수",
+    "조합론"
+   ],
+   "level": "기초연구",
+   "sector": "math",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Haobo Ma",
+    "Wenlin Zhang"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24409049",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237088223",
+   "title": "NS and Euler blow-up claims audit - wave 1 evidence volume (statement faces, release-state alert, Clay (A)-(D) clarification)",
+   "title_ko": "나비에-스토크스 및 오일러 방정식 발산 주장에 대한 독립적 감사 - 1차 증거",
+   "headline": "최근 발표된 나비에-스토크스 및 오일러 방정식의 발산 주장에 대한 1차 독립적 감사 결과를 공개함",
+   "points": [
+    "연구 배경·목적: 3차원 나비에-스토크스 및 오일러 방정식의 비선형 발산 주장에 대해 코드 및 증명 상태를 독립적으로 검증함",
+    "방법: 공개된 발표 내용, 도구 체인 노출 분석, 논문 커버리지 원장을 바탕으로 한 독립적 샘플링 및 감사 프로토콜을 수행함",
+    "핵심 결과: 나비에-스토크스 릴리스에서 후속 커널 빌드 누락 및 외부 검증기 의존성 등의 경고 사항을 발견함"
+   ],
+   "impact": "수학적 난제 해결 주장에 대한 투명하고 체계적인 검증 프로세스의 중요성을 시사함",
+   "keywords": [
+    "나비에-스토크스",
+    "오일러 방정식",
+    "수학적 감사"
+   ],
+   "level": "응용연구",
+   "sector": "math",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "宝军 王",
+    "夏 挽岚",
+    "光照 祖",
+    "Zeng",
+    "Zhou",
+    "雪峰 高"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408169",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237112723",
+   "title": "A No-Tradeoff Law for Full Matrix-Valued Measures: Sharp Tomography from Balanced Compressions, Marked Ports, and Boundary Limits",
+   "title_ko": "전체 행렬 값 측도에 대한 무트레이드오프 법칙: 균형 압축, 마크된 포트, 경계 극한을 통한 정밀 토모그래피",
+   "headline": "전체 행렬 값 측도를 국소 압축으로부터 정확하게 재구성하는 균형 압축 및 최적 복원법을 증명함",
+   "points": [
+    "연구 배경·목적: 행렬 값 측도 이론에서 최소 네이마르 포트와 모멘트를 국소적 정보로부터 손실 없이 복원하는 방법을 연구함",
+    "방법: 등거리 압축의 유한 가족에 대해 완성도와 최적 상·하한 상수를 특성화하고 최소 제곱법 및 준정부 프로그램을 적용함",
+    "핵심 결과: 2n/k - 1의 최소 상수 경계를 규명하고, Fano 평면 등의 이진 기하 구조를 통해 최적의 최소 판독 재구성을 달성함"
+   ],
+   "impact": "신호 처리, 양자 정보 이론, 연산자 이론에서 효율적인 상태 재구성 및 측정 최적화에 기여함",
+   "keywords": [
+    "행렬 값 측도",
+    "토모그래피",
+    "연산자 이론"
+   ],
+   "level": "응용연구",
+   "sector": "math",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Paweł Nowak",
+    "Maciej Stachowiak"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24276861",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237120659",
+   "title": "Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)",
+   "title_ko": "Xausa의 끝점 최솟값에 대한 완전 섬유 확장(2026): OEIS A401248, 공식, 추측 1 및 2",
+   "headline": "OEIS A401248의 끝점 최솟값 정리를 완전 조밀 인자 섬유로 확장함",
+   "points": [
+    "연구 배경·목적: Omar E. Pol의 OEIS A401248에 대해 Xausa와 Claude AI의 끝점 최솟값 정리를 완전 조밀 인자 섬유로 확장하고 Hriday Rungta의 약수 블록 항등식을 강화하고자 함.",
+    "방법: 고전적 조밀/거친 약수 분해와 조밀한 복사가 블록 경계를 넘을 수 없음을 보이는 기초적 논증을 활용함.",
+    "핵심 결과: 모든 블록 길이는 tau(u)의 양의 배수이며 첫 번째와 마지막 길이는 tau(u)와 같음을 증명함."
+   ],
+   "impact": "수론 분야의 순수 수학적 연구로 산업 및 투자 관점에서의 직접적인 시사점은 확인되지 않음.",
+   "keywords": [
+    "정수론",
+    "OEIS",
+    "약수 분해"
+   ],
+   "level": "기초연구",
+   "sector": "math",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Haobo Ma",
+    "Wenlin Zhang"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24409070",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "W7237121111",
+   "title": "Complete coverings for which a coprime-triple density bound tends to minus infinity",
+   "title_ko": "소수 삼중항 밀도 상한이 마이너스 무한대로 수렴하는 완전 피복",
+   "headline": "완료된 피복 패밀리에서 밀도 상한 식이 마이너스 무한대로 수렴함을 규명함",
+   "points": [
+    "연구 배경·목적: 임의의 서로 다른 모듈러리에 대해 밀도 상한이 확장되는지 여부를 다룬 기존의 미해결 문제를 검토함.",
+    "방법: 10개 클래스 블록과 두 번째 블록을 인접시킨 210개 클래스 예제를 구성하고 파이썬 검증기를 활용함.",
+    "핵심 결과: 제안된 상한이 0.992 미만인 210개 클래스 예제를 도출하고 완전 피복 패밀리를 따라 해당 식이 마이너스 무한대로 수렴함을 확인관찰함."
+   ],
+   "impact": "수학적 피복계 이론의 기초 연구로 단기적인 산업 적용이나 투자 관련 시사점은 제한적임.",
+   "keywords": [
+    "정수론",
+    "완전 피복",
+    "밀도 상한"
+   ],
+   "level": "기초연구",
+   "sector": "math",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "core": false,
+   "authors": [
+    "Filip Majchrzak"
+   ],
+   "url": "https://doi.org/10.5281/zenodo.24408595",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-21"
+  }
+ ]
+}
