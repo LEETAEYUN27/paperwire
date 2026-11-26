@@ -1,0 +1,3479 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T18:40+09:00",
+ "stats": {
+  "collected": 1778,
+  "screened": 1590,
+  "published": 104,
+  "by_source": {
+   "OpenAlex": 750,
+   "arXiv": 995,
+   "biorxiv": 11,
+   "medrxiv": 22
+  }
+ },
+ "sectors": {
+  "ai": "AI·컴퓨팅",
+  "robotics": "로보틱스·자율주행",
+  "semi": "반도체·전자",
+  "energy": "에너지·배터리",
+  "materials": "소재·화학",
+  "mobility": "모빌리티·기계·제조",
+  "bio": "바이오·제약",
+  "medical": "의학·헬스케어",
+  "physics": "물리·우주·양자",
+  "climate": "기후·환경·농식품",
+  "econ": "경제·금융",
+  "social": "사회과학·정책",
+  "math": "수학·통계"
+ },
+ "papers": [
+  {
+   "id": "arxiv:2611.34237",
+   "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+   "title_ko": "VibeVideoAgent: 코드 기반 비디오 생성을 위한 지각 루프 폐쇄",
+   "headline": "코드 기반 비디오 생성에서 멀티모달 지각 루프를 도입해 시청각 품질을 향상시킴",
+   "points": [
+    "연구 배경·목적: 기존 코딩 기반 비디오 생성 에이전트는 런타임 오류는 없으나 시각·청각적 결함이 있는 결과물을 렌더링하는 한계가 있어, 제작 과정 전반에서 초안을 검사하는 프레임워크 개발을 목적으로 함.",
+    "방법: 코더와 분리된 단기 컨텍스트에서 멀티모달 지각을 실행하고, 7가지 프리미티브와 단계별 최소 미리보기 프로토콜을 활용하는 훈련 불필요 프레임워크 VibeVideoAgent를 도입함.",
+    "핵심 결과: 239개의 VibeVideoBench 태스크에서 Claude Opus 5.5의 전체 시청각 품질(L3)이 4.03에서 4.43으로 상승했으며, 오디오-비주얼 동기화 성능이 최대 0.56 향상됨."
+   ],
+   "impact": "콘텐츠 제작 자동화 솔루션에서 생성물의 품질 오류를 사전 검출하여 재작업 비용을 절감하는 실무적 효용을 제공함.",
+   "keywords": [
+    "비디오 생성",
+    "멀티모달 에이전트",
+    "시청각 동기화"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 8,
+   "hf_upvotes": 49,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Xuanyu Zheng",
+    "Luoyuan Zhang",
+    "Yancheng Long",
+    "Haoyang Xu",
+    "Muxi Diao",
+    "Yuzhe Chen"
+   ],
+   "url": "https://arxiv.org/abs/2611.34237",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34923",
+   "title": "Mixture-of-Loops Transformer",
+   "title_ko": "Mixture-of-Loops Transformer",
+   "headline": "루프 전반의 선택적 키-값 재사용을 통해 Transformer의 효율성과 표현력을 동시에 극대화함",
+   "points": [
+    "연구 배경·목적: 루프형 Transformer는 공유 층 재사용으로 표현력을 높이지만 효율성이 저하되는 문제를 해결하고자 함.",
+    "방법: 키와 값을 메모리로 사용하여 깊이와 루프 전반에서 선택적으로 재사용하는 MoLT(Mixture-of-Loops Transformer) 및 U-MoLT 구조를 제안함.",
+    "핵심 결과: 400B 토큰 사전 학습에서 700M 덴스 모델 기준 1.7배의 검증 크로스 엔트로피 토큰 효율성을 달성하고, 3B MoE 모델의 10개 도메인 퍼플렉시티를 0.75 개선함."
+   ],
+   "impact": "초대형 언어 모델의 학습 효율과 추론 성능을 동시에 개선하여 LLM 서빙 및 학습 비용 절감에 기여함.",
+   "keywords": [
+    "Transformer",
+    "효율성",
+    "메모리 재사용"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 8,
+   "hf_upvotes": 44,
+   "venue": "arXiv (cs.LG)",
+   "core": false,
+   "authors": [
+    "Lianghui Zhu",
+    "Shijie Wang",
+    "Xinggang Wang",
+    "Jinze Bai",
+    "Bo Wang",
+    "Xiang Bai"
+   ],
+   "url": "https://arxiv.org/abs/2611.34923",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34575",
+   "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+   "title_ko": "Sage-Med: 의료 멀티모달 지능의 확장",
+   "headline": "대규모 선별 데이터와 단계별 훈련 커리큘럼을 통해 의료 멀티모달 모델의 성능을 크게 향상시킴",
+   "points": [
+    "연구 배경·목적: 기존 의료 MLLM은 일반 목적 모델에 비해 성능이 부족하며 모델 크기 확장이 시각적 지각 개선으로 이어지지 않는 한계를 극복하고자 함.",
+    "방법: 3억 2,270만 개의 후보 레코드를 정제하고 의료 사전 학습, 단계별 지도 미세조정, 적응형 강화 학습을 포함하는 점진적 훈련 커리큘럼을 적용한 35B 파라미터 모델 Sage-Med-Preview를 개발함.",
+    "핵심 결과: 31개의 공개 멀티모달 벤치마크 평균 점수 58.26%를 기록하여 기존 오픈소스 의료 모델 및 일반 과학 모델을 상회함."
+   ],
+   "impact": "고성능 의료 AI 진단 보조 및 리포트 자동 생성 시스템 도입을 위한 실증적 기반과 학습 레시피를 제공함.",
+   "keywords": [
+    "의료 AI",
+    "멀티모달",
+    "스케일링 법칙"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 8,
+   "hf_upvotes": 43,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Med Team",
+    "Ming Hu",
+    "Cheng Tang",
+    "Wei Li",
+    "Rongbin Li",
+    "Feilong Tang"
+   ],
+   "url": "https://arxiv.org/abs/2611.34575",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34941",
+   "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+   "title_ko": "비디오 없이 비디오 편집 능력 개선 및 확장",
+   "headline": "이미지 편집 모델을 활용해 추가적인 비디오 학습 데이터 없이 기존 비디오 편집 모델의 성능을 확장함",
+   "points": [
+    "연구 배경·목적: 비디오 편집 모델은 한정된 쌍으로 이루어진 학습 비디오 수집의 어려움으로 인해 이미지 편집 모델에 비해 발전이 지연되는 문제를 해결하고자 함.",
+    "방법: 비디오 편집기가 이미지 편집기를 1프레임 비디오처럼 역할극하며 디노이징 단계에서 가이드를 받는 이미지-투-비디오 전이(I2VT) 기법을 도입함.",
+    "핵심 결과: OpenVE-Bench 및 신규 편집 태스크가 추가된 OpenVE++에서 기존 편집 능력을 개선하고 SOTA 성능을 달성함."
+   ],
+   "impact": "비디오 학습 데이터 수집 비용 없이 기존 비디오 편집 파이프라인의 기능을 고도화할 수 있는 효율적인 파인튜닝 대안을 제시함.",
+   "keywords": [
+    "비디오 편집",
+    "이미지-투-비디오 전이",
+    "오픈소스"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 8,
+   "hf_upvotes": 29,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Ji Xie",
+    "Yanhao Jia",
+    "Xiangpeng Yang",
+    "Martin Q. Ma",
+    "Sihan Xu",
+    "Erik Cambria"
+   ],
+   "url": "https://arxiv.org/abs/2611.34941",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34811",
+   "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+   "title_ko": "HOG-WAM: 미래 그래디언트 예측을 통한 시각적 강건성 향상",
+   "headline": "미래 HOG 구조 감독을 통해 시각적 손상 환경에서도 로봇 제어 정책의 성공률을 향상시킴",
+   "points": [
+    "연구 배경·목적: 월드-액션 모델이 시각적 부패로 인해 제어 정책 수행에 방해를 받는 문제를 해결하기 위함.",
+    "방법: 시연 이미지에서 직접 유도된 미래 지향성 경사 히스토그램(HOG)을 구조적 감독으로 추가하고, 학습 중에만 사용되는 보조 HOG 확산 트랜스포머 모듈을 적용한 HOG-WAM을 도입함.",
+    "핵심 결과: RoboTwin-Plus의 4가지 관측 부패 조건에서 모두 가장 높은 성공률을 기록했으며, 혼합 노이즈 성공률이 FastWAM 대비 78.86%에서 82.86%로 상승함."
+   ],
+   "impact": "현실 세계의 센서 노이즈나 시각적 교란에 대응해야 하는 자율주행 및 로봇 조작 제어 시스템의 안정성을 높임.",
+   "keywords": [
+    "로봇 제어",
+    "시각적 강건성",
+    "월드 모델"
+   ],
+   "level": "실증·임상",
+   "sector": "ai",
+   "score": 8,
+   "hf_upvotes": 20,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Boxuan Dong",
+    "Yupeng Qian",
+    "Ying Wu",
+    "Heshuai Li",
+    "Junhao Tan",
+    "Zhenxiong Tan"
+   ],
+   "url": "https://arxiv.org/abs/2611.34811",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34347",
+   "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+   "title_ko": "AIRIS: 자기중심 스트리밍 비디오 속 사회적 체화 지능 벤치마킹",
+   "headline": "자기중심 스트리밍 비디오 환경에서 체화된 에이전트의 사회적 의사결정 능력을 진단하는 벤치마크 제안",
+   "points": [
+    "연구 배경·목적: 사람 주변에서 작동하는 체화된 에이전트가 사회적 단계를 인식하고 적절히 개입하는 능력을 개별적으로 평가하는 기존 방식의 한계를 극복하고자 함.",
+    "방법: 주의, 의도, 반응, 상호작용(A-I-R-I)을 시간 앵커 체인으로 공식화하고, 357개의 자기중심 클립과 8,000개의 문항으로 구성된 인과적 스트리밍 벤치마크 AIRIS를 구축함.",
+    "핵심 결과: 45개의 모델을 평가한 결과, 범용 VLM과 체화된 전문가 모델 모두 충분한 증거가 확보되기 전에 의도를 추측하거나 개입 타이밍을 일치시키지 못하는 일시적 부조화 현상이 관찰됨."
+   ],
+   "impact": "소셜 로봇 및 웨어러블 AI 기기의 실시간 상황 판단 및 사회적 규범 준수 능력을 객관적으로 평가할 수 있는 진단 표준을 제공함.",
+   "keywords": [
+    "체화 지능",
+    "스트리밍 비디오",
+    "벤치마크"
+   ],
+   "level": "기초연구",
+   "sector": "ai",
+   "score": 8,
+   "hf_upvotes": 16,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Yuchen Zhou",
+    "Hongsheng Wu",
+    "Jiayu Tang",
+    "Yunxuan Mao",
+    "Hanjing Ye",
+    "Shenghao Zhang"
+   ],
+   "url": "https://arxiv.org/abs/2611.34347",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34128",
+   "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+   "title_ko": "FoundSurface: 포즈가 없는 이미지로부터의 피드포워드 광선 기반 3D 장면 표면 복원",
+   "headline": "카메라 포즈가 없는 이미지로부터 연속적인 고해상도 3D 표면을 직접 복원하는 파이프라인 개발함",
+   "points": [
+    "연구 배경·목적: 기존 포인트맵 기반 방법은 카메라 포즈 불필요성이 장점이나 이산적이고 희소한 표현을 생성하는 한계가 있어, 연속적이고 고해상도의 3D 표면을 직접 복원하는 범용 파이프라인 개발을 목적으로 함.",
+    "방법: 사전 훈련된 포인트맵 모델의 기하학적 사전 정보를 활용하고, 광선 및 포인트맵 표현을 통합하여 쿼리 뷰 선택, 교차 어텐션 회귀, 레이렛 기반 지역 3D 특징 집약을 수행하는 단일 파운데이션 모델을 구축함.",
+    "핵심 결과: 9개의 다양한 데이터셋으로 훈련되어 6개의 미지의 데이터셋에서 뛰어난 제로샷 일반화 성능을 입증했으며, 기하학적 정확도와 디테일 보존 측면에서 최신 베이스라인을 능가함."
+   ],
+   "impact": "카메라 캘리브레이션 제약 없이 다양한 시각 자료로부터 고품질 3D 모델링을 자동화하여 AR/VR 및 디지털 뷰 생성 산업의 효율성을 크게 향상시킬 것임.",
+   "keywords": [
+    "3D 표면 복원",
+    "포인트맵",
+    "제로샷 일반화"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 8,
+   "hf_upvotes": 14,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Shenxing Wei",
+    "Jinxi Li",
+    "Zihui Zhang",
+    "Ajay Kumar",
+    "Wei Wang",
+    "Bo Yang"
+   ],
+   "url": "https://arxiv.org/abs/2611.34128",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34907",
+   "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+   "title_ko": "Agentic LongLive: 장편 비디오 생성을 위한 비동기 에이전트 메모리",
+   "headline": "비동기 에이전트 메모리를 도입하여 실시간 스트리밍 환경에서 일관성 있는 장편 비디오 생성 성공함",
+   "points": [
+    "연구 배경·목적: 실시간 자귀적 비디오 생성기는 장시간 인터랙티브 스토리에서 인물과 객체의 일관성을 유지하기 어렵고, 기존 에이전트 메모리는 사전 전체 대본 분석이 필요하여 실시간 스트리밍에 부적합한 문제를 해결하고자 함.",
+    "방법: 별도의 GPU에서 프롬프트를 비동기적으로 읽고 텍스트 상태 및 이미지 메모리를 관리하는 메모리 에이전트를 구축하여, 생성기의 어텐션 신크에 사전 주입함으로써 비디오 지연 없이 일관성을 유지함.",
+    "핵심 결과: LongStory-Online 벤치마크에서 지속 상태 정확도가 26.3포인트, 주인공 정체성이 44.9포인트, 재방문 장소 일관성이 40.4포인트 향상되었으며, H100에서 약 1%의 추가 생성 시간만 소요됨."
+   ],
+   "impact": "실시간 인터랙티브 미디어 및 장시간 콘텐츠 생성에서 인물 및 배경의 일관성 문제를 해결하여 AI 영상 제작의 상용화를 가속화할 것임.",
+   "keywords": [
+    "비디오 생성",
+    "에이전트 메모리",
+    "실시간 스트리밍"
+   ],
+   "level": "응용연구",
+   "sector": "ai",
+   "score": 8,
+   "hf_upvotes": 14,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Shaoteng Liu",
+    "Shuai Yang",
+    "Wei Huang",
+    "Luozhou Wang",
+    "Song Han",
+    "Yukang Chen"
+   ],
+   "url": "https://arxiv.org/abs/2611.34907",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34849",
+   "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+   "title_ko": "Real2SimLab: 현실-시뮬레이션 전송을 위한 통합 플랫폼",
+   "headline": "현실-시뮬레이션 전송 방법론을 평가하고 훈련 데이터를 생성하는 통합 플랫폼을 구축함",
+   "points": [
+    "연구 배경·목적: 현실 세계 관측으로부터 시뮬레이션을 구축하는 연구가 활발하나, 각 벤치마크마다 입력과 평가 방식이 달라 N×M 통합 문제가 발생하는 것을 해결하기 위함.",
+    "방법: 작성된 프로그램을 실행하고 각 벤치마크의 원래 스코어러로 출력 시뮬레이션을 평가하며, 데이터 오염을 방지하는 훈련 데이터 및 보상 어노테이션 생성 파이프라인을 제공함.",
+    "핵심 결과: 현재 47개의 코딩 에이전트와 5개의 비에이전트 방법을 6개의 벤치마크에서 지원하며, 오픈소스 플랫폼과 약 300개의 논문 연구 맵을 공개함."
+   ],
+   "impact": "로봇 공학 및 시뮬레이션 연구에서 알고리즘 평가 및 훈련 데이터 구축의 표준을 제공하여 개발 비용을 절감함.",
+   "keywords": [
+    "현실-시뮬레이션",
+    "통합 플랫폼",
+    "코딩 에이전트"
+   ],
+   "level": "응용연구",
+   "sector": "robotics",
+   "score": 8,
+   "hf_upvotes": 20,
+   "venue": "arXiv (cs.RO)",
+   "core": false,
+   "authors": [
+    "Yongchang Zhang",
+    "Jie Huang",
+    "Yunhe Ni",
+    "Ningyu Zhou",
+    "Guangyu Zhao",
+    "Ruixun Liu"
+   ],
+   "url": "https://arxiv.org/abs/2611.34849",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33579",
+   "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+   "title_ko": "DexEngine: 인간 시연을 물리적으로 실행 가능한 전신 로봇 데이터로 확장",
+   "headline": "인간의 조작 시연 데이터를 물리적으로 실행 가능한 로봇 arm-hand 궤어로 변환하는 시뮬레이션 파이프라인 개발함",
+   "points": [
+    "연구 배경·목적: 로봇 정책 훈련을 위해 인간의 손-객체 시연을 로봇 손으로 리타겟팅할 때, 운동학적으로 실현 가능하고 물리적으로 실행 가능한 데이터를 효율적으로 대규모 생성하기 위함.",
+    "방법: 인간의 손-객체 모션을 로봇 팔이 도달할 수 있는 위치에 배치하고, 잔차 강화학습을 통해 물리 시뮬레이션에서 모션을 보정하는 DexEngine 시뮬레이션 파이프라인을 구현함.",
+    "핵심 결과: 9개의 인간 데이터셋으로부터 4개의 숙련된 손을 위해 약 5,200개의 클립을 생성하고 65,000개의 궤어로 증대하였으며, 기존 플로팅 핸드 방식보다 정확하게 객체를 추적하고 10배 이상 빠르게 실행됨."
+   ],
+   "impact": "고도화된 로봇 조작 학습을 위한 대규모 고품질 물리 정합 데이터셋 확보의 병목을 해소하여 로봇 학습 효율을 극대화함.",
+   "keywords": [
+    "로봇 조작",
+    "시뮬레이션 파이프라인",
+    "강화학습"
+   ],
+   "level": "응용연구",
+   "sector": "robotics",
+   "score": 8,
+   "hf_upvotes": 16,
+   "venue": "arXiv (cs.RO)",
+   "core": false,
+   "authors": [
+    "Wongyun Yu",
+    "Honggeun Kim",
+    "Donguk Lee",
+    "Minchan Kim",
+    "Kyoung Whan Choe",
+    "Minsu Cho"
+   ],
+   "url": "https://arxiv.org/abs/2611.33579",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33915",
+   "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
+   "title_ko": "SEEK: 에이전트 로봇 조작을 위한 실행 지식을 통한 자기 진화",
+   "headline": "로봇이 시도 간에 실행 지식을 유지하고 학습하여 작업 성공률을 크게 향상시키는 프레임워크 개발함",
+   "points": [
+    "연구 배경·목적: 범용 멀티모달 파운데이션 모델을 사용하는 로봇이 작업 종료 후 실행 지식을 잃어버리고 동일한 실수를 반복하는 문제를 해결하기 위해, 시도 간 실행 지식을 유지하는 에이전트 프레임워크 개발을 목적으로 함.",
+    "방법: 조작을 실행 가능한 절차로 인코딩하는 자기 진화형 프로그래밍 정책(SEPP)과 실패를 포함한 행동의 측정된 효과를 기록하는 지속적 행동-효과 은행(PAEB)을 결합함.",
+    "핵심 결과: RoboDojo의 42개 작업에서 10번의 시도를 거치는 동안 평균 작업 점수가 27.0에서 54.4로, 성공률이 19.7%에서 48.0%로 향상됨."
+   ],
+   "impact": "배포 후에도 로봇이 스스로 시행착오를 학습하고 기억하여 현장 적응력과 자율성을 획기적으로 개선함.",
+   "keywords": [
+    "로봇 조작",
+    "에이전트 프레임워크",
+    "자기 진화"
+   ],
+   "level": "실증·임상",
+   "sector": "robotics",
+   "score": 8,
+   "hf_upvotes": 10,
+   "venue": "arXiv (cs.RO)",
+   "core": false,
+   "authors": [
+    "Zeyang Guan",
+    "Qihao Zhao",
+    "Rui Gong",
+    "Zhang Haitian",
+    "Yalun Dai",
+    "Yangyu Huang"
+   ],
+   "url": "https://arxiv.org/abs/2611.33915",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33925",
+   "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
+   "title_ko": "해피 패스를 넘어: 시뮬레이션된 실패로부터 로봇 세계 모델 일반화",
+   "headline": "조작 실패 상황의 시뮬레이션 데이터를 학습하여 로봇 세계 모델의 예측 오차를 대폭 감소시킴",
+   "points": [
+    "연구 배경·목적: 기존 로봇 세계 모델은 성공적인 시연 데이터 위주로 학습되어 그립 정렬 불량이나 미끄러짐 등 실패 상황에서의 예측이 파괴되는 한계를 극복하고자 함.",
+    "방법: 기준 파지의 위치, 방향, 타이밍을 교란하여 실패한 궤적(밀림, 미끄러짐 등)을 기록한 Reforge 데이터셋을 구축하고, 상호작용 정렬 및 표면 대응을 통해 세계 모델을 재학습하는 WorldReforge를 개발함.",
+    "핵심 결과: Cosmos3 Nano 모델에 적용한 결과, 전체 객체 궤적 오차가 28.2%, 미지의 객체에 대해 35.0% 감소했으며, 행동 결과 발산 예측 오차가 43.3% 낮아짐."
+   ],
+   "impact": "현실 세계의 다양한 예외 상황과 실패 케이스에 대응할 수 있는 강건한 로봇 제어 및 계획 시스템 구축에 기여함.",
+   "keywords": [
+    "로봇 세계 모델",
+    "시뮬레이션 실패",
+    "일반화 성능"
+   ],
+   "level": "응용연구",
+   "sector": "robotics",
+   "score": 8,
+   "hf_upvotes": 10,
+   "venue": "arXiv (cs.RO)",
+   "core": false,
+   "authors": [
+    "Zhiyue Zhao",
+    "Mingyu Liu",
+    "Bolin Zhang",
+    "Liyang Li",
+    "Guangyu Huang",
+    "Canyu Zhao"
+   ],
+   "url": "https://arxiv.org/abs/2611.33925",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34614",
+   "title": "Commit2Drive: Perception-Grounded Language Decisions as Commitments for Trajectory Planning in Vision-Language-Action Driving Models",
+   "title_ko": "Commit2Drive: 자율주행 VLA 모델의 궤적 계획을 위한 일관성 제약 조건으로서의 지각 기반 언어 결정",
+   "headline": "VLA 자율주행 모델에서 언어 결정과 궤적의 불일치 문제를 해결하는 Commit2Drive 프레임워크 개발함.",
+   "points": [
+    "연구 배경·목적: 기존 Vision-Language-Action(VLA) 자율주행 모델은 언어 결정과 궤적 간 불일치 문제가 발생하므로, 이를 해결하기 위해 언어 결정을 일관성 제약 조건으로 강제하는 프레임워크를 제안함.",
+    "방법: 매뉴버 클래스와 연속적 파라미터로 구성된 커밋먼트(Commitment) 개념을 도입하고, 매뉴버 뱅크와 일관성 손실 함수를 통해 자율주행 궤적이 언어 결정을 따르도록 지도 학습함.",
+    "핵심 결과: 0.5B 언어 모델 기반으로 단일 소비자용 그래픽 카드에서 온라인 구동되며, Bench2Drive에서 주행 점수(DS) 78.50과 성공률(SR) 55.91%를 달성함."
+   ],
+   "impact": "경량화된 VLA 모델의 자율주행 안전성과 해석 가능성을 동시에 높여 상용화 가능성을 입증함.",
+   "keywords": [
+    "자율주행",
+    "Vision-Language-Action",
+    "궤적 계획"
+   ],
+   "level": "응용연구",
+   "sector": "robotics",
+   "score": 9,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Zikai Zhang",
+    "Hubert P. Shum",
+    "Toby Breckon"
+   ],
+   "url": "https://arxiv.org/abs/2611.34614",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33721",
+   "title": "A general-purpose safe manipulator planning framework for diverse environments without retraining",
+   "title_ko": "재학습 없이 다양한 환경을 지원하는 범용 안전 매니퓰레이터 계획 프레임워크",
+   "headline": "로봇의 제어기 재학습 없이 다양한 환경에서 안전한 조작 작업을 수행하는 범용 계획 프레임워크 제안함.",
+   "points": [
+    "연구 배경·목적: 로봇은 작업 환경이 바뀔 때마다 재학습이 필요하여 상용화에 한계가 있으므로, 과도한 학습 없이 다양한 환경에서 안전한 객체 조작이 가능한 범용 프레임워크를 개발함.",
+    "방법: 시스템 동역학을 모사하는 유한 상태 추상화 모델과, 작업 환경을 상태 접근성에 대한 명세로 변환하는 블록 보수적 명세 생성 방법을 결합함.",
+    "핵심 결과: Unitree G1 U1 휴머노이드를 이용한 실제 환경 실험에서, 단 한 번의 추상화 모델 구축만으로 물체 집기, 엘리베이터 버튼 누르기 등의 일상 조작 작업을 성공적으로 수행함."
+   ],
+   "impact": "로봇 배포 시마다 요구되는 재학습 비용을 절감하여 로봇의 일상적 현장 도입을 가속화함.",
+   "keywords": [
+    "매니퓰레이터",
+    "작업 계획",
+    "휴머노이드 로봇"
+   ],
+   "level": "응용연구",
+   "sector": "robotics",
+   "score": 9,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.RO)",
+   "core": false,
+   "authors": [
+    "Mingkang Long",
+    "Rong Su",
+    "Luhang Hong",
+    "Qingqing Wang",
+    "Ruochen Tai"
+   ],
+   "url": "https://arxiv.org/abs/2611.33721",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34403",
+   "title": "Recoverability policy editing for closed-loop safety in autonomous driving",
+   "title_ko": "자율주행의 폐루프 안전성을 위한 복구 가능성 정책 편집",
+   "headline": "자율주행 신경망 모델에서 기존 주행 성능을 유지하면서 폐루프 안전성을 보장하는 정책 편집 기법 개발함.",
+   "points": [
+    "연구 배경·목적: 신경망 기반 자율주행 모델은 안전 보장이 부족하므로, 복구 가능한 외란 속에서 폐루프 안전성을 보장하면서 기존 주행 능력을 재활용하는 기술을 제안함.",
+    "방법: 차량이 원래 정책의 허용 영역으로 안전하게 복귀할 수 있는지 특성화하는 '정책 복구 가능성' 개념을 도입하고, 장기적으로 안전하지 않지만 복구 가능한 상태에서 정책 출력을 선택적으로 편집함.",
+    "핵심 결과: nuPlan 도시 주행 시뮬레이션 결과, 기존 정책 대비 안전 사고 발생 건수가 48% 감소하면서도 주행 성능은 대부분 유지됨."
+   ],
+   "impact": "딥러닝 기반 자율주행 시스템의 예기치 않은 위험 상황에서 실시간 안전 마진을 확보하는 데 기여함.",
+   "keywords": [
+    "자율주행",
+    "정책 편집",
+    "폐루프 안전성"
+   ],
+   "level": "응용연구",
+   "sector": "robotics",
+   "score": 9,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.RO)",
+   "core": false,
+   "authors": [
+    "Yang Guan",
+    "Shengbo Eben Li"
+   ],
+   "url": "https://arxiv.org/abs/2611.34403",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33922",
+   "title": "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control",
+   "title_ko": "체화 제어를 위한 드리프트 인지 속도 정렬 기반 평균 흐름 정책 최적화 개선",
+   "headline": "체화 제어에서 반복적인 흐름 적분 없이 1스텝으로 고속 동작 생성이 가능한 iMFPO 프레임워크 개발함.",
+   "points": [
+    "연구 배경·목적: 흐름 기반 생성 정책은 표현력이 뛰어나나 보상 기반 최적화 시 1스텝 생성이 어려우며, 온라인 강화학습 중 순간 속도 학습과 구간 평균 생성 간 불일치가 발생하므로 이를 해결함.",
+    "방법: 속도 학습과 드리프트 인지 속도 정렬을 분리한 1스텝 생성 정책 최적화 프레임워크 iMFPO를 제안하고, 얀코비안-벡터 곱(JVP) 교정 속도 회귀를 보상 기반 목적 함수와 함께 최적화함.",
+    "핵심 결과: Go2, G1, H1, Spot 로봇 평가에서 평균 보수 35.69, 34.44, 416.23, 29.86을 기록했으며, Go2 기준 액션 생성 지연 시간이 64스텝 RFPO 대비 15.57ms에서 0.41ms로 단축됨."
+   ],
+   "impact": "로보틱스 제어에서 고속의 실시간 의사결정을 가능하게 하여 임베디드 제어 성능을 대폭 향상함.",
+   "keywords": [
+    "체화 제어",
+    "강화학습",
+    "생성 정책"
+   ],
+   "level": "응용연구",
+   "sector": "robotics",
+   "score": 8,
+   "hf_upvotes": 9,
+   "venue": "arXiv (cs.RO)",
+   "core": false,
+   "authors": [
+    "Lisiyu Pan",
+    "Ting Huang",
+    "Zeyu Zhang",
+    "Hao Tang"
+   ],
+   "url": "https://arxiv.org/abs/2611.33922",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34684",
+   "title": "BridgeHammer: DNN Backdoor Attack via CPU-iGPU Shared-memory Rowhammer",
+   "title_ko": "BridgeHammer: CPU-iGPU 공유 메모리 로우해머를 통한 DNN 백도어 공격",
+   "headline": "이종 SoC 환경에서 CPU와 iGPU 간 공유 메모리의 로우해머 취약점을 악용하여 딥러닝 모델 무결성을 훼손하는 백도어 공격 실증함.",
+   "points": [
+    "연구 배경·목적: 이종 시스템온칩(SoC)의 CPU-iGPU 물리 메모리 공유 구조로 인한 메모리 손상 취약점이 딥러닝 추론 무결성에 미치는 영향을 분석함.",
+    "방법: iGPU 제로카피 바인딩 전 타겟 가중치를 배치하고 추론 전 결함을 주입하는 Rowhammer 기반 백도어 공격인 BridgeHammer를 설계함.",
+    "핵심 결과: 인텔 CPU-iGPU 플랫폼에서 OpenVINO를 사용하여 ResNet-20, VGG-16, ResNet-50을 테스트한 결과, 평균 88.9%의 공격 성공률(ASR)과 86.3%의 정상 정확도를 기록함."
+   ],
+   "impact": "하드웨어 수준의 메모리 취약점이 인공지능 모델의 보안을 심각하게 위협할 수 있음을 경고하며 크로스 도메인 보안 대책의 필요성 제기함.",
+   "keywords": [
+    "딥러닝 보안",
+    "로우해머",
+    "이종 SoC"
+   ],
+   "level": "응용연구",
+   "sector": "semi",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.CR)",
+   "core": false,
+   "authors": [
+    "Yufei Wang",
+    "Saion K. Roy",
+    "Yunsi Fei"
+   ],
+   "url": "https://arxiv.org/abs/2611.34684",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33346",
+   "title": "NEVA: Natural-Language Co-Evolution and Validation of Microarchitectures",
+   "title_ko": "NEVA: 마이크로아키텍처의 자연어 공동 진화 및 검증",
+   "headline": "대형 언어 모델을 활용해 C++ 코드 대신 자연어 아키텍처 사양을 진화시켜 고성능 마이크로아키텍처를 탐색하는 NEVA 방법론 제안함.",
+   "points": [
+    "연구 배경·목적: 기존 LLM 기반 마이크로아키텍처 설계 탐색은 C++ 시뮬레이터 코드를 직접 진화시켜 구현 세부사항에 매몰되므로, 아키텍처 개념을 직접 다루는 방법론을 개발함.",
+    "방법: 선행 연구의 핵심 개념을 구조화된 지식 라이브러리로 추출하고, 이를 바탕으로 자연어 아키텍처 사양을 공동 진화시키는 NEVA 방법론을 제안함.",
+    "핵심 결과: Claude Opus 5.5 기반 평가에서 SPEC CPU 워크로드 등을 대상으로 기존 베이스라인 대비 최대 4.8% 향상된 싱글코어 성능을 달성하는 설계를 발견함."
+   ],
+   "impact": "하드웨어 설계 자동화 과정에서 LLM의 추론 효율성을 극대화하여 차세대 프로세서 설계 생산성을 높임.",
+   "keywords": [
+    "마이크로아키텍처",
+    "대형 언어 모델",
+    "설계 자동화"
+   ],
+   "level": "응용연구",
+   "sector": "semi",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.AR)",
+   "core": false,
+   "authors": [
+    "Khoi Le",
+    "Sayanti Jana",
+    "Matthew DeLorenzo",
+    "Jeyavijayan Rajendran",
+    "Paul Gratz"
+   ],
+   "url": "https://arxiv.org/abs/2611.33346",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33406",
+   "title": "WADJET: Whole-Job Authorization and Dispatch for Job Execution Trust on FPGA System-on-Chip Accelerators",
+   "title_ko": "WADJET: FPGA 시스템 온 칩 가속기에서의 작업 실행 신뢰를 위한 전체 작업 인증 및 디스패치",
+   "headline": "FPGA 가속기에서 변조된 작업을 완벽히 차단하는 하드웨어 기반 전체 작업 인증 게이트 개발함.",
+   "points": [
+    "연구 배경·목적: 기존 소프트웨어 기반 FPGA 가속기 접근 제어는 결함이나 해킹에 취약하여 작업 변조를 막지 못하는 한계가 있어 하드웨어 수준의 통합 인증 장치 개발이 필요함.",
+    "방법: FPGA 로직 내부에 단일 게이트를 구축하고, Ascon-AEAD128 암호화 알고리즘을 활용해 전체 작업을 승인·검증하며, 순서 번호를 확인한 뒤 수정되지 않은 가속기 레지스터에 직접 기록함.",
+    "핵심 결과: Zynq-7020 기반 언어 모델 실험에서 승인된 21,000개의 작업은 모두 통과시키고 변조·반복된 14,700개의 작업은 모두 차단함. 기존 ShEF 레지스터 보호 기술 대비 3분의 1 수준의 룩업 테이블(LUT)을 사용하며 작업 시작에 약 10마이크로초의 지연을 추가함."
+   ],
+   "impact": "FPGA 기반 AI 가속기의 보안성을 하드웨어 수준에서 강화하여 금융 및 임베디드 시스템의 신뢰성 향상에 기여함.",
+   "keywords": [
+    "FPGA",
+    "하드웨어 보안",
+    "가속기"
+   ],
+   "level": "응용연구",
+   "sector": "semi",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.AR)",
+   "core": false,
+   "authors": [
+    "Mohamed El-Hadedy"
+   ],
+   "url": "https://arxiv.org/abs/2611.33406",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33691",
+   "title": "L2C2: Enhancing Large-scale Chiplets for Agent Long-Context LLM Inference with Sparse and Distributed Attention",
+   "title_ko": "L2C2: 희소 분산 어텐션을 활용한 에이전트 장문맥 LLM 추론용 대규모 칩렛 강화",
+   "headline": "대규모 칩렛 환경에서 희소 분산 어텐션을 최적화하여 장문맥 LLM 추론 속도를 대폭 향상시킴.",
+   "points": [
+    "연구 배경·목적: LLM 에이전트 구동을 위한 장문맥 추론 수요가 급증하는 가운데, 칩렛 기반 하드웨어에서 희소 어텐션(SpAt) 도입 시 발생하는 복잡한 분산 어텐션과 통신 병목을 해결하고자 함.",
+    "방법: 프리필 단계에서는 고대역폭 상호연결을 활용하는 Split-Comm 어텐션과 링 어텐션을 결합한 Bi-Mode 방식을 제안하고, 디코딩 단계에서는 정적 인터리브 토큰 할당과 동적 캐시 균등화를 적용함.",
+    "핵심 결과: 대규모 칩렛에서 희소 어텐션을 적용한 최적화 결과, 부분 프리필(partial-prefill) 단계와 디코딩 단계에서 각각 1.45배, 1.53배의 속도 향상을 달성함."
+   ],
+   "impact": "차세대 대형 칩렛 아키텍처에서 LLM 에이전트의 장문맥 처리 효율을 높여 데이터센터 추론 비용 절감에 기여함.",
+   "keywords": [
+    "칩렛",
+    "장문맥 LLM",
+    "분산 어텐션"
+   ],
+   "level": "응용연구",
+   "sector": "semi",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.AR)",
+   "core": false,
+   "authors": [
+    "Kangbo Bai",
+    "Zhonghua Mu",
+    "Hongze Zhou",
+    "Tianyu Jia"
+   ],
+   "url": "https://arxiv.org/abs/2611.33691",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33981",
+   "title": "MixMoMo: Accelerating Extra--Large MoE Inference with Mixed--Precision GPU--NPU Execution on Mobile Devices",
+   "title_ko": "MixMoMo: 모바일 기기에서 혼합 정밀도 GPU-NPU 실행을 통한 초대형 MoE 추론 가속",
+   "headline": "모바일 이기종 SoC에서 혼합 정밀도와 하드웨어 최적화를 통해 MoE 모델 추론 성능을 극대화함.",
+   "points": [
+    "연구 배경·목적: 모바일 기기에서 고성능 Mixture-of-Experts(MoE) 모델을 구동하기 위해 정밀도와 효율을 동시에 만족하는 혼합 정밀도 양자화 및 이기종 연산 가속 런타임이 필요함.",
+    "방법: 오프라인 양자화 영향 프로파일과 런타임 위험도를 결합해 전문가별 비트 폭을 할당하고, GPU-NPU 간 균형 있는 전문가 할당과 HVX 병렬 역양자화를 수행하는 런타임(MixMoMo)을 개발함.",
+    "핵심 결과: 2개 모바일 플랫폼의 5개 벤치마크 테스트에서 균일 Q4_0 방식 대비 평균 3.72배, 기존 혼합 정밀도 MoE 베이스라인 대비 평균 1.53배의 디코딩 속도 향상을 기록함."
+   ],
+   "impact": "온디바이스 AI 시장에서 스마트폰 등 모바일 기기의 고성능 대형 모델 구동 가능성을 높이고 하드웨어 활용률을 극대화함.",
+   "keywords": [
+    "온디바이스 AI",
+    "MoE",
+    "혼합 정밀도"
+   ],
+   "level": "실증·임상",
+   "sector": "semi",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.AR)",
+   "core": false,
+   "authors": [
+    "Hailong Zou",
+    "Maoliang Li",
+    "Taohong Han",
+    "Haoze Chi",
+    "Zihao Zheng",
+    "Jiayu Chen"
+   ],
+   "url": "https://arxiv.org/abs/2611.33981",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34630",
+   "title": "A Differential Computing Accelerator for LLM Inference Leveraging Bit-Slice Transition Sparsity",
+   "title_ko": "비트 슬라이스 전이 희소성을 활용한 LLM 추론용 차등 컴퓨팅 가속기",
+   "headline": "비트 슬라이스 구조와 Steiner 포인트 재사용 기법을 통해 LLM GEMM 연산 속도를 크게 높임.",
+   "points": [
+    "연구 배경·목적: LLM의 핵심 연산인 일반 행렬 곱셈(GEMM)의 계산 및 메모리 병목을 해결하기 위해, 비트 슬라이스의 미개척된 저차 슬라이스 재사용 기회를 활용하는 가속기를 설계함.",
+    "방법: 비트 슬라이스 벡터(BSV)가 해밍 공간에서 군집화되어 있다는 점에 착안하여, 대표 패턴을 Steiner 포인트로 공유해 부분합을 재사용하는 알고리즘(SATC, FlipPrune)과 경량 하드웨어를 공동 설계함.",
+    "핵심 결과: 최신 가속기(ANT, BBS, LUT Tensor Core 등) 대비 평균 3.09배, 2.41배, 2.18배, 1.27배, 1.41배의 속도 향상을 각각 달성함."
+   ],
+   "impact": "AI 가속기 하드웨어 설계 시 전력 대 성능비를 개선하여 고성능 LLM 서버 구축 비용을 절감하는 데 기여함.",
+   "keywords": [
+    "LLM 가속기",
+    "비트 슬라이스",
+    "행렬 곱셈"
+   ],
+   "level": "응용연구",
+   "sector": "semi",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.AR)",
+   "core": false,
+   "authors": [
+    "Yifan Wang",
+    "Zetao Guo",
+    "You Xiao",
+    "Wendi Sun",
+    "Song Chen"
+   ],
+   "url": "https://arxiv.org/abs/2611.34630",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34273",
+   "title": "Libtt: A Compiler and Runtime for Tenstorrent Processors",
+   "title_ko": "Libtt: 텐스토렌트 프로세서용 컴파일러 및 런타임",
+   "headline": "Tenstorrent 하드웨어에서 PyTorch와 JAX 생태계를 구동할 수 있는 통합 컴파일러와 런타임 개발함.",
+   "points": [
+    "연구 배경·목적: Google TPU 중심의 XLA 기반 프레임워크 인터페이스(PJRT)를 Tenstorrent 하드웨어에 이식하여, 추가 코드 수정 없이 기존 PyTorch 및 JAX 코드를 실행할 수 있는 통합 소프트웨어 스택을 구축함.",
+    "방법: Tenstorrent의 오픈소스 컴파일러와 런타임을 기반으로 단일 공유 라이브러리로 패키징하고, 업스트림 코드 수정 및 다중 칩 런타임 최적화를 수행함.",
+    "핵심 결과: JAX 및 TorchTPU 테스트 스위트의 대부분을 통과하였으며, 서빙·미세조정·강화학습을 아우르는 SGLang, TorchTitan, Miles 등의 프레임워크를 원활히 구동함."
+   ],
+   "impact": "AI 반도체 시장에서 특정 하드웨어 독점을 완화하고, Tenstorrent 칩 기반의 AI 모델 학습 및 서빙 생태계 진입 장벽을 낮춤.",
+   "keywords": [
+    "Tenstorrent",
+    "컴파일러",
+    "PyTorch"
+   ],
+   "level": "실증·임상",
+   "sector": "semi",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.DC)",
+   "core": false,
+   "authors": [
+    "Philipp Moritz",
+    "Sarah Dong"
+   ],
+   "url": "https://arxiv.org/abs/2611.34273",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34507",
+   "title": "AFM metrology for 3D high aspect ratio semiconductor structures",
+   "title_ko": "3차원 고종횡비 반도체 구조를 위한 AFM 계측",
+   "headline": "원자간력显미경(AFM)을 이용해 3차원 GAAFET 고종횡비 구조의 나노시트 단면을 정밀하게 측정함.",
+   "points": [
+    "연구 배경·목적: 반도체 공정 미세화와 구조 복잡화에 따라 3차원 고종횡비(HAR) 구조에 대한 엄격한 공정 제어가 요구되므로, 고해상도 측정이 가능한 원자간력显미경(AFM) 계측 기술을 검증함.",
+    "방법: 게이트 올 어라운드 FET(GAAFET) 구조의 나노시트(NS) 영역과 나노시트 간 격리 영역에서 라인 및 스페이스의 개별 프로파일을 AFM으로 측정하고 임계 치수(CD)에 대한 통계적 평가를 수행함.",
+    "핵심 결과: 고종횡비 구조 내 개별 프로파일을 명확하게 해상하고, 임계 치수에 대한 포괄적인 통계적 평가 데이터를 확보함."
+   ],
+   "impact": "차세대 GAAFET 공정에서 핵심 파라미터의 정밀한 품질 관리와 수율 향상을 위한 신뢰성 있는 계측 솔루션을 제공함.",
+   "keywords": [
+    "반도체 계측",
+    "AFM",
+    "GAAFET"
+   ],
+   "level": "실증·임상",
+   "sector": "semi",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cond-mat.mtrl-sci)",
+   "core": false,
+   "authors": [
+    "Hokyun Chin",
+    "Shihwei Yu",
+    "Lucas Rencker",
+    "Omid Tajalizadehkhoob",
+    "Khalid El Maghawry Elsayed",
+    "Po-Cheng Wu"
+   ],
+   "url": "https://arxiv.org/abs/2611.34507",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7239419657",
+   "title": "Energy-efficient power allocation in OFDM-based 5G wireless systems for sustainable smart grid applications",
+   "title_ko": "지속 가능한 스마트 그리드 애플리케이션을 위한 OFDM 기반 5G 무선 시스템의 에너지 효율적인 전력 할당",
+   "headline": "5G 스마트 그리드, 전력 할당 최적화로 에너지 효율 높임",
+   "points": [
+    "스마트 그리드 IoT 기기 서비스 시 기지국 송신 에너지 절감을 위한 채널 인지 기반 OFDM 다운링크 서브캐리어 전력 할당 방식 평가",
+    "MATLAB 기반 시뮬레이션 환경에서 등가 전력 할당, 임계값 기반 On/Off 서브캐리어 할당, 워터필링 방식 비교 분석",
+    "On/Off 할당 방식이 등가 전력 할당 대비 18.2dB의 송신 전력 감소 효과를 보였으며, 저전력 구간에서 에너지 효율 개선 확인"
+   ],
+   "impact": "5G 통신 기술을 활용한 스마트 그리드 에너지 효율 개선 가능성을 제시하며, 관련 기술 개발 및 투자 기회 모색에 기여함.",
+   "keywords": [
+    "OFDM",
+    "스마트 그리드",
+    "에너지 효율"
+   ],
+   "level": "응용연구",
+   "sector": "energy",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "World Journal of Engineering",
+   "core": true,
+   "authors": [
+    "Gagan Singh",
+    "Sonika Singh",
+    "Bhanu Prakash Saripalli",
+    "Saurabh Mishra",
+    "Dhruva Chaudhary",
+    "Bharati Gamgula"
+   ],
+   "url": "https://doi.org/10.1108/wje-03-2026-0179",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.33661",
+   "title": "DynaSeek: Large Language Model-Driven Hybrid Dynamic Model Discovery for Grid-Tied Inverters from Limited Measurements",
+   "title_ko": "DynaSeek: 제한된 측정값으로부터 그리드 연계 인버터의 LLM 기반 하이브리드 동적 모델 발견",
+   "headline": "LLM 활용, 인버터 모델링 정확도 획기적 향상",
+   "points": [
+    "그리드 연계 인버터의 내부 제어 메모리 및 포화 모드 전환을 고려한 모델 식별의 어려움 해결",
+    "물리 법칙 제약 기반 기호 골격 합성, 공유 모델 파라미터 및 잠재 초기 상태 공동 추정 통합 프레임워크 제안",
+    "기존 방식 대비 과도 궤적 재구성 오차 1~2배 감소, 중요 소호 시간 보존으로 대규모 안정성 평가 가능"
+   ],
+   "impact": "인버터 기반 전력 시스템의 안정성 분석 정확도를 높여, 신재생 에너지 연계 및 전력망 안정화 기술 투자에 긍정적 영향을 미침.",
+   "keywords": [
+    "인버터",
+    "모델링",
+    "LLM"
+   ],
+   "level": "응용연구",
+   "sector": "energy",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (eess.SY)",
+   "core": false,
+   "authors": [
+    "Hongwei Zhen",
+    "Chao Shen",
+    "Jianfeng Niu",
+    "Xin Xiang",
+    "Wuhua Li",
+    "Mingyang Sun"
+   ],
+   "url": "https://arxiv.org/abs/2611.33661",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34699",
+   "title": "Diagnosing internal leakage currents through magnetometry of lithium-ion cells",
+   "title_ko": "리튬이온 전지의 내부 누설 전류 진단을 위한 자기 계측법",
+   "headline": "자기 계측으로 리튬이온 전지 내부 누설 감지",
+   "points": [
+    "리튬이온 전지 단자 측정의 한계를 극복하고 내부 누설 전류를 비침습적으로 감지하는 방법 연구",
+    "마그네토미터 센서를 이용해 전지 외부 자기장 측정, 2차원 이동으로 자기장 지도 생성",
+    "내부 누설 전류 감지 시 1~3mA 수준의 민감도를 보이며, 충방전 시 자기장 비대칭성 분석으로 누설 탐지"
+   ],
+   "impact": "리튬이온 전지의 안전성 및 진단 기술 향상에 기여하며, 배터리 안전 관리 솔루션 및 관련 부품 시장 성장에 기여할 수 있음.",
+   "keywords": [
+    "리튬이온 전지",
+    "누설 전류",
+    "자기 계측"
+   ],
+   "level": "응용연구",
+   "sector": "energy",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (physics.app-ph)",
+   "core": false,
+   "authors": [
+    "Shaurya Shukla",
+    "Chengtong Zhang",
+    "Yinan Hu",
+    "Stefan Benders",
+    "Mykhailo Flaks",
+    "Dmitry Budker"
+   ],
+   "url": "https://arxiv.org/abs/2611.34699",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7239363780",
+   "title": "Distribution System State Estimation with Kalman Filter Based Methods for Low-Density Measurement Infrastructured Grids",
+   "title_ko": "저밀도 측정 인프라 그리드를 위한 칼만 필터 기반 배전 시스템 상태 추정",
+   "headline": "칼만 필터 개선, 저밀도 계측망에서도 전력망 상태 정확히 추정",
+   "points": [
+    "고밀도 계측망에서 효과적인 IEKF 방식이 저밀도 계측망에서는 성능 저하를 보이는 문제점 해결",
+    "EM 알고리즘 기반 근사 최대 우도 추정치를 시그마 포인트 기반 IEKF 프레임워크에 적용한 새로운 방법론 제안",
+    "고밀도 및 저밀도 계측망 모두에서 전압 추정 및 예측 성능 향상 확인"
+   ],
+   "impact": "분산된 전력망의 상태 감시 및 제어 정확도를 높여, 전력망 운영 효율성 증대 및 안정성 강화에 기여함.",
+   "keywords": [
+    "배전 시스템",
+    "상태 추정",
+    "칼만 필터"
+   ],
+   "level": "응용연구",
+   "sector": "energy",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Jahrbücher für Nationalökonomie und Statistik",
+   "core": true,
+   "authors": [
+    "Marvin Napps",
+    "Johannes Bao",
+    "Christian Rehtanz",
+    "Christine H. Müller"
+   ],
+   "url": "https://doi.org/10.1515/jbnst-2026-0004",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.34154",
+   "title": "When High Capacity Becomes Undeployable: Pore-Filling Constraints for Multi-Objective Optimization of Direct Air Capture Sorbents",
+   "title_ko": "고용량의 배포 불가능성: 직접 공기 포집 흡착제의 다중 목표 최적화를 위한 기공 충진 제약",
+   "headline": "직접 공기 포집 기술, 흡착제 최적화 제약 조건 도입",
+   "points": [
+    "높은 CO2 흡착 용량을 가진 아민 함침 흡착제가 기공 용적 한계를 넘어 활성점을 막는 문제점 분석",
+    "기공 충진 경계를 명시적 결과 제약 조건으로 인코딩하고, 618개 고체 아민 제형 데이터셋에 적용",
+    "제약 조건 적용 시, 비제약 조건 대비 파레토 최적 후보의 기공 충진 경계 위반 비율 63.2%에서 39.3%로 감소"
+   ],
+   "impact": "직접 공기 포집 기술의 실질적인 성능 향상 및 상용화 가능성을 높이며, 탄소 포집 관련 소재 개발 및 투자에 영향을 미침.",
+   "keywords": [
+    "직접 공기 포집",
+    "흡착제",
+    "최적화"
+   ],
+   "level": "응용연구",
+   "sector": "energy",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.LG)",
+   "core": false,
+   "authors": [
+    "Yujie Liu",
+    "Xuehua Shen",
+    "Zuotai Zhang"
+   ],
+   "url": "https://arxiv.org/abs/2611.34154",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33300",
+   "title": "Voltage-Feedback Backoff and Restoration for Priority-Based EV Charging Control",
+   "title_ko": "전압 피드백 백오프 및 복구를 통한 우선순위 기반 EV 충전 제어",
+   "headline": "전압 피드백으로 전기차 충전 제어, 전력망 안정성 확보",
+   "points": [
+    "비협조적 전기차(EV) 충전으로 인한 배전망 저전압 문제 해결을 위한 중앙 집중식 제어 프레임워크 제안",
+    "부하 예측, 온라인 전력 흐름 계산, 최적화 없이 모니터링된 버스 전압으로 허용 충전량 조절",
+    "시뮬레이션 결과, 저전압 발생 비율 15%에서 1% 미만으로 감소, 에너지 공급량 25% 증가"
+   ],
+   "impact": "전기차 충전으로 인한 전력망 부하 문제를 완화하고 안정적인 전력 공급을 가능하게 하여, 전기차 보급 확대 및 스마트 그리드 구축에 기여함.",
+   "keywords": [
+    "전기차 충전",
+    "전압 제어",
+    "스마트 그리드"
+   ],
+   "level": "응용연구",
+   "sector": "energy",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (eess.SY)",
+   "core": false,
+   "authors": [
+    "Eyad Alsulayhim",
+    "Ning Lu"
+   ],
+   "url": "https://arxiv.org/abs/2611.33300",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33593",
+   "title": "Optimization of a Hybrid Solar-Biogas-Battery Energy Storage Microgrid: A Case Study",
+   "title_ko": "하이브리드 태양광-바이오가스-배터리 에너지 저장 마이크로그리드 최적화: 사례 연구",
+   "headline": "우간다 마이크로그리드, 태양광·바이오가스·배터리 융합으로 전력망 확대 성공",
+   "points": [
+    "동부 우간다 저소득 지역의 안정적인 전력 공급을 위해 태양광, 바이오가스, 배터리 저장 장치를 통합한 하이브리드 재생 에너지 마이크로그리드(SIREM)의 기술 경제적 최적화 수행",
+    "Xendee 최적화 소프트웨어와 NASA POWER 데이터를 활용하여 37MW CSP, 70MWh 열 저장, 5MW CSP 터빈, 6MW 바이오가스 CCGT, 10MWh 배터리 시스템 구성 최적화",
+    "연간 61.3GWh 전력 생산, 42.91% 내부수익률(IRR), 2년 투자 회수 기간, kWh당 0.1991 USD의 균등화 발전 비용 달성"
+   ],
+   "impact": "하이브리드 재생 에너지 마이크로그리드는 사하라 이남 아프리카 지역의 전력망 확대에 대한 기술적, 경제적 타당성을 입증함.",
+   "keywords": [
+    "마이크로그리드",
+    "재생 에너지",
+    "전력망 확대"
+   ],
+   "level": "응용연구",
+   "sector": "energy",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (eess.SY)",
+   "core": false,
+   "authors": [
+    "John Elomunait",
+    "Jesse Thornburg"
+   ],
+   "url": "https://arxiv.org/abs/2611.33593",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34445",
+   "title": "Travelling-Wave-Based Protection of DC Hubs in Bipolar HVDC Grids",
+   "title_ko": "양극성 고전압 직류(HVDC) 그리드의 DC 허브에 대한 진행파 기반 보호",
+   "headline": "양극성 HVDC 그리드, 웨이블릿 변환으로 고장 감지 및 분류 정확도 향상",
+   "points": [
+    "금속 귀환선(DMR)을 갖춘 3단자 양극성 모듈형 다단계 컨버터(MMC) 기반 HVDC 시스템에서 DC 고장 감지 및 분류를 위한 정지 웨이블릿 변환(SWT) 기반 방법론 제시",
+    "선로 모드 전압 웨이블릿 상세 에너지로 고장 감지, 극 전압 및 DMR 전류에서 파생된 웨이블릿 상세 에너지로 고장 분류 (극간, 극-지락, 극-DMR 고장 구분)",
+    "실시간 HIL 플랫폼에서 다양한 고장 유형, 저항, 위치에 대한 성능 평가 및 실시간 구현 가능성 입증"
+   ],
+   "impact": "개발된 보호 방식은 HVDC 그리드의 안정성과 신뢰성을 높여 전력 시스템 운영 효율성을 증대시킬 것으로 기대됨.",
+   "keywords": [
+    "HVDC",
+    "보호 계전",
+    "웨이블릿 변환"
+   ],
+   "level": "응용연구",
+   "sector": "energy",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (eess.SY)",
+   "core": false,
+   "authors": [
+    "Rahul Rane",
+    "Victor Daniel Reyes Dreke",
+    "Wilhelm Winter",
+    "Aleksandra Leki\\'c"
+   ],
+   "url": "https://arxiv.org/abs/2611.34445",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33538",
+   "title": "ILMlip: fast and universal machine-learning interatomic potentials",
+   "title_ko": "ILMlip: 빠르고 범용적인 머신러닝 기반 원자간 포텐셜",
+   "headline": "ILMlip, 기존 대비 최대 1000배 빠른 ML 원자간 포텐셜 개발",
+   "points": [
+    "빠른 속도와 제로샷 정확도를 위해 최적화된 새로운 머신러닝 기반 원자간 포텐셜(ILMlip) 개발",
+    "각 원자당 작업량을 최소화하고 쌍 원자당 필요한 작업량을 조절하는 보존적 메시지 전달 방식 적용",
+    "기존 최신 모델 대비 최대 1000배 빠른 분자 동역학 시뮬레이션 속도 달성 및 Matbench Discovery에서 높은 F1 점수 기록"
+   ],
+   "impact": "ILMlip은 대규모 시뮬레이션 및 고속 연산 요구사항을 충족하여 신소재 개발 및 물성 예측 분야의 효율성을 크게 향상시킬 잠재력을 가짐.",
+   "keywords": [
+    "머신러닝",
+    "원자간 포텐셜",
+    "분자 동역학"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 9,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cond-mat.mtrl-sci)",
+   "core": false,
+   "authors": [
+    "Jonas H\\\"anseroth",
+    "Christian Dre{\\ss}ler"
+   ],
+   "url": "https://arxiv.org/abs/2611.33538",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33913",
+   "title": "PerovAgent: Autonomous Ligand Design for Halide Perovskite Nanocrystals",
+   "title_ko": "페로브스카이트 나노결정용 할라이드 리간드 자율 설계: PerovAgent",
+   "headline": "AI 에이전트, 페로브스카이트 나노결정 리간드 설계 원리 자동 발견",
+   "points": [
+    "대규모 언어 모델(LLM) 기반 과학적 추론과 계산 도구를 결합한 자율 다중 에이전트 프레임워크 'PerovAgent' 개발",
+    "CsPbBr3 표면에서 다양한 리간드 화학 구조를 탐색하고 결합 에너지 목표를 점진적으로 개선",
+    "35개의 설계 원리 중 19개는 전향적으로 지지되었으며, 7개는 검증을 통과하여 LLM 생성 가설의 체계적 검증 필요성 강조"
+   ],
+   "impact": "PerovAgent는 분자 공간 탐색 및 최적화를 넘어, 체계적으로 검증 가능한 설계 원리를 생성하여 신소재 개발 프로세스를 가속화함.",
+   "keywords": [
+    "머신러닝",
+    "리간드 설계",
+    "페로브스카이트"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 9,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cond-mat.mtrl-sci)",
+   "core": false,
+   "authors": [
+    "Seungjun Cha",
+    "Yoo Jae Jeong",
+    "Amanda Conde Del Moral",
+    "Juan-Pablo Correa-Baena",
+    "Seth R. Marder",
+    "David S. Ginger"
+   ],
+   "url": "https://arxiv.org/abs/2611.33913",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34156",
+   "title": "Foundation interatomic potentials capture structural disorder in metallic glasses",
+   "title_ko": "기초 원자간 포텐셜, 금속 유리 구조적 무질서 포착",
+   "headline": "기초 ML 포텐셜, 금속 유리 구조 무질서 예측 정확도 입증",
+   "points": [
+    "기초 머신러닝 기반 원자간 포텐셜(Foundation potentials)이 금속 유리와 같은 고도로 무질서한 상태에서도 구조적 무질서를 잘 포착함을 입증",
+    "Cu-Zr-Al 금속 유리 모델을 사용하여 기초 포텐셜이 구조, 동역학, 기계적 특성을 제1원리 정확도 수준으로 재현함을 보임",
+    "OMAT와 같이 비평형 액체 및 비정질 구성을 포함하는 데이터셋으로 사전 훈련된 모델이 별도 미세 조정 없이도 우수한 성능을 보임"
+   ],
+   "impact": "기초 원자간 포텐셜은 금속 유리와 같은 복잡한 재료의 물성 예측 정확도를 높여 신소재 개발 및 공정 최적화에 기여할 수 있음.",
+   "keywords": [
+    "금속 유리",
+    "원자간 포텐셜",
+    "구조 무질서"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 9,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cond-mat.mtrl-sci)",
+   "core": false,
+   "authors": [
+    "Dario Massa",
+    "Luca Leoni",
+    "Antoni Wadowski",
+    "Kacper Cybinski",
+    "Anshul D. S. Parmar",
+    "Carmine Autieri"
+   ],
+   "url": "https://arxiv.org/abs/2611.34156",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7239404467",
+   "title": "Bioinspired cell arrangement design for enhancing the mechanical and antibacterial performance of additively manufactured Ti-6Al-4V scaffolds",
+   "title_ko": "첨가제 제조된 Ti-6Al-4V 스캐폴드의 기계적 및 항균 성능 향상을 위한 생체 모방 셀 배열 설계",
+   "headline": "3D 프린팅 티타늄 스캐폴드, 생체 모방 설계로 기계적·항균 성능 동시 강화",
+   "points": [
+    "정형외과 임플란트로 사용되는 Ti-6Al-4V 합금 스캐폴드의 기계적 및 항균 성능 동시 향상을 위한 연구",
+    "생체 모방 원통형 셀 배열과 삼중 주기 최소 표면(TPMS) 기반 스캐폴드 통합 및 Ag+ 표면 개질 효과 체계적 조사",
+    "원통형 배열이 더 효율적인 하중 전달 및 기계적 성능 향상을 보였으며, Ag+ 표면 개질은 대장균 생존율을 감소시킴 (42.76% ~ 50.66%)"
+   ],
+   "impact": "생체 모방 셀 배열 설계와 표면 개질 기술은 3D 프린팅 임플란트의 성능을 향상시켜 골 재생 및 감염 예방에 기여할 수 있음.",
+   "keywords": [
+    "3D 프린팅",
+    "티타늄 합금",
+    "정형외과 임플란트"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Rapid Prototyping Journal",
+   "core": true,
+   "authors": [
+    "Kishore Babu Dudla",
+    "Ravi Kumar Yennam",
+    "Sreenivasa Rao Parcha"
+   ],
+   "url": "https://doi.org/10.1108/rpj-05-2026-0282",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.34254",
+   "title": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+   "title_ko": "Crucible: 실행 가능한 화학 연구 환경에서의 LLM 에이전트 평가",
+   "headline": "Crucible Bench 도입을 통해 14개 LLM 에이전트의 화학 연구 수행 능력을 평가하고 합성 계획의 난제 확인",
+   "points": [
+    "연구 배경·목적: 기존 벤치마크는 질문 답변과 고립된 작업 위주로 평가하므로, 실제 화학 연구 환경에서 전문 도구를 활용하고 결과를 해석하는 능력을 평가하기 위해 Crucible Bench를 도입함.",
+    "방법: DMTA(설계-제조-테스트-분석) 사이클의 4단계에 걸쳐 1,078개의 작업과 75개의 도메인 특화 도구를 포함하는 7개의 격리된 환경을 구축하고 14개 LLM을 평가함.",
+    "핵심 결과: 최고 성능 모델의 전체 점수는 0.545였으며, 합성 계획 및 폐쇄 루프 최적화가 가장 어려운 영역으로 나타났고, 에이전트가 도구 실행 성공에도 화학적으로 유효하지 않은 결과를 제출하는 오류가 확인됨."
+   ],
+   "impact": "AI 기반 자율 화학 연구 및 신약 개발 솔루션 도입 시, 모델의 전반적 성능과 도메인별(합성·최적화) 실제 수행 능력 간의 괴리를 검증하는 평가 체계의 중요성을 시사함.",
+   "keywords": [
+    "LLM 에이전트",
+    "화학 연구 벤치마크",
+    "DMTA 사이클"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.AI)",
+   "core": false,
+   "authors": [
+    "Yinjun Liu",
+    "Xinye Li",
+    "Ruisen Peng",
+    "Lang Gao",
+    "Zixiang Xu",
+    "Zirui Song"
+   ],
+   "url": "https://arxiv.org/abs/2611.34254",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33417",
+   "title": "Temporal Selective Exploration for Reinforcement Learning-Guided Continuous-Discrete Flow Matching in 3D Molecular Design",
+   "title_ko": "3D 분자 설계를 위한 강화학습 유도 연속-이산 플로우 매칭에서의 시간적 선택적 탐색",
+   "headline": "시간적 선택적 탐색과 강화학습을 결합한 플로우 매칭 프레임워크로 신규 3D 분자 후보물질 발굴 성공",
+   "points": [
+    "연구 배경·목적: 플로우 매칭의 강화학습 최적화 과정에서 발생하는 불필요한 탐색 노이즈와 다목적 최적화의 목적 불균형 문제를 해결하여 3D 분자 설계를 개선함.",
+    "방법: 원자 좌표와 분자 정체성을 위한 연속 및 이산 플로우 매칭을 공동 최적화하고, 타겟 물성에 기여하는 타임스텝으로 탐색을 제한하는 시간적 선택적 탐색과 보상 기반 우위 보정 메커니즘을 도입함.",
+    "핵심 결과: EGFR 및 Pin1 단백질의 억제제 디자인에 적용하여 실리코(in silico) 검증을 통해 신규 후보 억제제를 성공적으로 발굴함."
+   ],
+   "impact": "신약 개발 분야에서 표적 단백질 억제제 발굴을 위한 생성형 AI 모델의 탐색 효율성과 다목적 최적화 성능을 높이는 기술적 기반을 제공함.",
+   "keywords": [
+    "플로우 매칭",
+    "강화학습",
+    "3D 분자 디자인"
+   ],
+   "level": "기초연구",
+   "sector": "materials",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.LG)",
+   "core": false,
+   "authors": [
+    "Lianghong Chen",
+    "Yan Yi Li",
+    "Gen Zhou",
+    "Yuxi Long",
+    "Ganlin Feng",
+    "Mike Domaratzki"
+   ],
+   "url": "https://arxiv.org/abs/2611.33417",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33557",
+   "title": "DiffER$^2$: Diffusion Ensembles for Retrosynthesis Prediction with SMILES Adapted Particle Guidance",
+   "title_ko": "DiffER²: SMILES 적응형 입자 가이던스를 결합한 역합성 예측용 확산 앙상블",
+   "headline": "SMILES 생성에 입자 가이던스를 적응시켜 확산 모델의 역합성 예측 다양성과 정확도 향상",
+   "points": [
+    "연구 배경·목적: 약물 개발 기간 단축을 위한 컴퓨터 기반 역합성 예측에서, 데이터 기반 확산 모델의 출력 다양성과 top-k 정확도를 개선함.",
+    "방법: 분자 생성을 위한 이산형 및 연속형 시간 확산 모델의 앙상블을 구축하고, SMILES 시퀀스 생성에 적합한 입자 가이던스(particle guidance) 메커니즘을 도입함.",
+    "핵심 결과: 입자 가이던스 적응을 통해 확산 앙상블이 생성하는 고유 분자 수가 크게 증가하고 top-k 정확도가 향상됨을 확인함."
+   ],
+   "impact": "화학 합성 경로 예측 및 신약 후보 물질 발굴 공정에서 데이터 기반 생성 모델의 예측 신뢰도와 탐색 범위를 확장함.",
+   "keywords": [
+    "역합성 예측",
+    "확산 모델",
+    "SMILES 생성"
+   ],
+   "level": "응용연구",
+   "sector": "materials",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.LG)",
+   "core": false,
+   "authors": [
+    "Sean Current",
+    "Daniel Adu-Ampratwum",
+    "Xia Ning",
+    "Srinivasan Parthasarathy"
+   ],
+   "url": "https://arxiv.org/abs/2611.33557",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33381",
+   "title": "Magnetically Guided Sequential Multi-Filler Alignment Enables Anisotropic Heat Pathways in Stretchable Composites for Soft Electronics",
+   "title_ko": "자기장 유도 순차적 다중 필러 정렬을 통한 신축성 소프트 일렉트로닉스용 이방성 열전달 경로 구현",
+   "headline": "자기장 기반 2단계 공정으로 열전달률을 높이고 전기 절연성을 확보한 신축성 복합재료 개발",
+   "points": [
+    "연구 배경·목적: 신축성 웨어러블 전자기기에 요구되는 높은 열전달 성능, 기계적 유연성, 측면 전기 절연성을 동시에 만족시키는 열 인터페이스 재료를 개발함.",
+    "방법: 고분자 매트릭스 투입 전 공기 중에서 니켈 미립자를 자기장으로 정렬해 수직 열전도 경로를 형성하고, 액체금속/니켈 혼합물을 침투시켜 입자 간 열저항을 최소화하는 2단계 공정을 적용함.",
+    "핵심 결과: 수직 방향 열전도도가 7.5 W/(m·K)에 달하고 측면 전기전도도는 10^-12 S/m 이하이며, 약 160 kPa의 초연성 기계적 컴플라이언스를 달성함."
+   ],
+   "impact": "고성능 웨어러블 디바이스 및 열전 발전기의 열 관리 부품 제조에 적용 가능한 고효율 방열 소재 설계 가이드라인을 제시함.",
+   "keywords": [
+    "열 인터페이스 재료",
+    "자기장 정렬",
+    "신축성 복합재료"
+   ],
+   "level": "실증·임상",
+   "sector": "materials",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cond-mat.mtrl-sci)",
+   "core": false,
+   "authors": [
+    "Altynay Kaidarova",
+    "Viktor Naenen",
+    "Isidro Florenciano",
+    "Ruben Windey",
+    "Xiaoyan Qing",
+    "Laurens Snels"
+   ],
+   "url": "https://arxiv.org/abs/2611.33381",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7238749641",
+   "title": "The digital edge: how supply chain competency converts Industry 4.0 technologies into performance in Indian automotive firms",
+   "title_ko": "디지털 엣지: 인도 자동차 기업에서 공급망 역량이 인더스트리 4.0 기술을 성과로 전환하는 방식",
+   "headline": "인더스트리 4.0 기술이 공급망 역량을 매개로 인도 자동차 기업의 성과에 전적으로 긍정적 영향 미침",
+   "points": [
+    "연구 배경·목적: 신흥 경제국인 인도 자동차 산업을 대상으로 인더스트리 4.0 기술 투자가 기업 성과에 미치는 직접적 영향과 공급망 역량의 매개 효과를 실증적으로 규명함.",
+    "방법: 2018년 인도 자동차 제조 기업 125개사의 공급망 실무자 580명을 대상으로 설문조사를 실시하고 구조방정식 모형(SEM)을 활용해 가설을 검증함.",
+    "핵심 결과: 인더스트리 4.0 기술은 공급망 역량과 기업 성과에 유의미한 긍정적 영향을 미치며, 공급망 역량의 완전 매개를 통해 기업 성과로 이어지는 것으로 확인됨."
+   ],
+   "impact": "제조업의 디지털 전환(DX) 투자 시 단순 기술 도입을 넘어 공급망 역량 강화를 병행해야만 실질적인 재무 및 운영 성과를 창출할 수 있음을 입증함.",
+   "keywords": [
+    "인더스트리 4.0",
+    "공급망 역량",
+    "기업 성과"
+   ],
+   "level": "실증·임상",
+   "sector": "mobility",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Benchmarking An International Journal",
+   "core": true,
+   "authors": [
+    "Shraddha Gawankar"
+   ],
+   "url": "https://doi.org/10.1108/bij-11-2025-1097",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.33410",
+   "title": "MVDC Power Cables for Future Wide-Body All-Electric Aircraft: A Research Journey from System-Level Requirements to Modeling, Design, Fabrication, and Testing",
+   "title_ko": "미래의 광동체 전 전기 항공기를 위한 MVDC 전력 케이블: 시스템 요구사항부터 모델링, 설계, 제작 및 테스트까지의 연구 여정",
+   "headline": "메가와트급 추진력을 위한 ±5 kV 중압 직류 전력 케이블의 설계부터 저압 전기 테스트까지의 개발 프레임워크 구축",
+   "points": [
+    "연구 배경·목적: 미래 전 전기 항공기(All-Electric Aircraft)에 필요한 메가와트급 전력을 안정적으로 공급할 수 있는 경량 중압 직류(MVDC) 전력 배전 시스템을 연구함.",
+    "방법: 항공기 전력 흐름 분석을 통해 ±5 kV 배전 아키텍처와 1 kA 설계 목표를 설정하고, 전기·열·공기역학 결합 모델링을 거쳐 대기압부터 18.8 kPa 저압 환경까지의 케이블 시제품 제작 및 부분 방전 테스트를 수행함.",
+    "핵심 결과: 절연 인터페이스, 래핑 방식, 케이블 기하 구조 등이 콤팩트한 디자인과 향상된 전기적 성능에 미치는 영향을 규명하고 항공기 인증을 위한 평가 항목을 도출함."
+   ],
+   "impact": "친환경 항공기 전력 배전 시스템 구축을 위한 핵심 부품인 MVDC 케이블의 설계 및 검증 프로세스 표준을 제시함.",
+   "keywords": [
+    "MVDC 전력 케이블",
+    "전 전기 항공기",
+    "배전 시스템"
+   ],
+   "level": "응용연구",
+   "sector": "mobility",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (eess.SY)",
+   "core": false,
+   "authors": [
+    "Babak Porkar",
+    "Mona Ghassemi"
+   ],
+   "url": "https://arxiv.org/abs/2611.33410",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7239346129",
+   "title": "A BIM-based framework for reliability-constrained cost minimization of electromechanical systems under seismic uncertainty in early design",
+   "title_ko": "지진 불확실성 하 초기 설계 단계의 전기기계 시스템 신뢰성 제약 비용 최소화를 위한 BIM 기반 프레임워크",
+   "headline": "BIM 기반 확률론적 지진 평가를 통해 초기 설계 단계에서 비용 효율적인 전기기계 시스템 구성을 도출함",
+   "points": [
+    "연구 배경·목적: BIM을 초기 설계 단계의 부품별 신뢰성 기반 지진 평가에 통합하여 비용을 최소화하는 프레임워크 개발",
+    "방법: 취약성 곡선과 지진 위험도를 결합한 의사결정 모델을 구축하고, Dynamo 내 Python 스크립트를 통해 하수 펌프장의 비상 발전기 사례에 적용 및 민감도 분석 수행",
+    "핵심 결과: 저위험 지역에서는 비고정형 발전기로 신뢰성 요구사항이 충족된 반면, 고위험 지역에서는 고정형 구성이 요구되며, 시각화 기반의 비용 최적화된 부품 선택이 가능함을 확인"
+   ],
+   "impact": "건설 및 엔지니어링 분야에서 지진 위험도를 고려한 스마트 설계 및 비용 최적화 솔루션 도입을 촉진함.",
+   "keywords": [
+    "건축정보모델(BIM)",
+    "지진 신뢰성",
+    "비용 최소화"
+   ],
+   "level": "응용연구",
+   "sector": "mobility",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Smart and Sustainable Built Environment",
+   "core": true,
+   "authors": [
+    "Roee Levy",
+    "Shabtai Isaac",
+    "Alon Urlainis"
+   ],
+   "url": "https://doi.org/10.1108/sasbe-02-2026-0100",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239356733",
+   "title": "Drivers of electric vehicle adoption in Brazil",
+   "title_ko": "브라질의 전기차 수용 동인",
+   "headline": "UTAUT2 모델을 확장하여 브라질 성인의 전기차 수용 의도에 미치는 정부 인센티브와 가격 민감도의 영향을 규명함",
+   "points": [
+    "연구 배경·목적: 신흥 경제국인 브라질에서 지속 가능한 소비에 영향을 미치는 요인을 분석하기 위해 UTAUT2 모델의 맥락적 확장 적용",
+    "방법: 브라질 성인 660명을 대상으로 설문조사를 실시하고 공분산 기반 구조방정식 모형(CB-SEM)과 다집단 분석을 수행",
+    "핵심 결과: 제안된 모델은 수용 의도 분산의 79.3%를 설명하였으며, 정부 인센티브는 긍정적 신호로 작용한 반면 가격 민감도는 지속적인 저해 요인으로 작용하고 세대 및 성별에 따라 영향이 상이함"
+   ],
+   "impact": "신흥 시장에서 인구통계학적 특성을 반영한 맞춤형 친환경차 보급 정책 및 마케팅 전략 수립에 기여함.",
+   "keywords": [
+    "전기자동차",
+    "UTAUT2",
+    "수용 의도"
+   ],
+   "level": "응용연구",
+   "sector": "mobility",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "RAUSP Management Journal",
+   "core": true,
+   "authors": [
+    "Fabini Hoelz Bargas Alvarez",
+    "Jorge Brantes Ferreira",
+    "Patricia Nogueira Gaia",
+    "FERNANDA LEAO RAMOS",
+    "JULIANA TURANO FIGUEIREDO",
+    "Cristiane Junqueira Giovannini"
+   ],
+   "url": "https://doi.org/10.1108/rausp-01-2026-0023",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.33305",
+   "title": "Fuel-Efficient Formation Flying via Constrained Extremum Seeking",
+   "title_ko": "제약된 극값 탐색을 통한 연료 효율적 편대 비행",
+   "headline": "모델 프리 자율 유도 아키텍처를 적용하여 후속 항공기의 항력을 최소화하고 연료 효율적인 편대 비행을 달성함",
+   "points": [
+    "연구 배경·목적: 편대 비행 시 후속 항공기의 연료 절감을 위해 시간 변화에 따른 와류를 학습하고 추적하는 자율 유도 아키텍처(APOGEE) 개발",
+    "방법: 여기 진폭 조절, 적응형 학습률, 안전 필터를 결합한 모델 프리 기반의 APOGEE 알고리즘을 설계하고 F-16 제트기 고충실도 모델로 검증",
+    "핵심 결과: 모델을 명시적으로 구축하지 않고도 와류 환경에서 제어 상실을 방지하며 수렴 속도를 높이고 연료 소비를 효과적으로 감소시킴"
+   ],
+   "impact": "항공 물류 및 군사 분야에서 연료비 절감과 탄소 배출 감축을 위한 자율주행 편대 비행 기술 상용화를 앞당김.",
+   "keywords": [
+    "편대 비행",
+    "연료 효율",
+    "자율 유도"
+   ],
+   "level": "기초연구",
+   "sector": "mobility",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (eess.SY)",
+   "core": false,
+   "authors": [
+    "Kwang Hak Kim",
+    "Luis G. Crespo",
+    "Michael J. Acheson"
+   ],
+   "url": "https://arxiv.org/abs/2611.33305",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33629",
+   "title": "Impact of the Performance of Autonomy and Communication Subsystems on the Level-of-Safety of Partially Autonomous Machine Systems",
+   "title_ko": "부분 자율 머신 시스템의 안전 수준에 미치는 자율성 및 통신 하위 시스템 성능의 영향",
+   "headline": "자율성과 통신 하위 시스템의 결합 성능을 분석하여 부분 자율 시스템의 안전 수준을 결정하는 수식 모델을 제안함",
+   "points": [
+    "연구 배경·목적: 독립적으로 평가되던 자율성 하위 시스템과 통신 하위 시스템의 결합 성능이 부분 자율 시스템의 안전 수준에 미치는 영향 모델링",
+    "방법: 개입 평균 간격(MTBI), 긴급성, 복잡성 및 통신 가용성과 지연 시간을 매개변수로 사용하여 안전 수준을 파레토 상충 관계로 분석",
+    "핵심 결과: 무선 링크가 완벽할 경우 $\rho=0.01$ 조건에서 요구되는 MTBI를 두 자리 수 줄일 수 있음을 수학적으로 입증"
+   ],
+   "impact": "자율주행 및 원격 조종 시스템 설계 시 안전 예산 충족을 위한 하위 시스템 성능 기준 수립에 활용됨.",
+   "keywords": [
+    "자율 시스템",
+    "통신 성능",
+    "안전 수준"
+   ],
+   "level": "기초연구",
+   "sector": "mobility",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (eess.SY)",
+   "core": false,
+   "authors": [
+    "Yutian Pang",
+    "John-Paul Clarke"
+   ],
+   "url": "https://arxiv.org/abs/2611.33629",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7239386823",
+   "title": "A multiscale spatial modeling framework for concrete bridge deck condition assessment",
+   "title_ko": "콘크리트 교량 상판 상태 평가를 위한 다중 규모 공간 모델링 프레임워크",
+   "headline": "공간 비정상성을 반영한 다중 규모 공간 모델링을 적용하여 콘크리트 교량 상판 상태 예측 정확도를 대폭 향상시킴",
+   "points": [
+    "연구 배경·목적: 기존 교량 관리 시스템 모델에서 간과된 다중 규모 공간 효과를 통합한 확장 가능한 교량 상판 상태 평가 프레임워크 개발",
+    "방법: 국가 교량 인벤토리의 지오레퍼런스 교량 46,074개를 대상으로 OLS, GLR, 다중 규모 지리적 가중 회귀(MGWR) 모델을 구축 및 비교",
+    "핵심 결과: 국가 수준 OLS의 설명력은 낮았으나(R²≈0.18), 기후 지역별 GLR(R² 최대 0.86)과 MGWR(R²≈0.97), 주(State) 수준 MGWR(R² 최대 0.98)로 공간 적응 모델링을 거치며 예측력이 급상승함"
+   ],
+   "impact": "노후 인프라 관리 예산 배분 및 지역별 맞춤형 교량 유지보수 의사결정의 효율성을 제고함.",
+   "keywords": [
+    "교량 상판",
+    "공간 모델링",
+    "지리적 가중 회귀"
+   ],
+   "level": "응용연구",
+   "sector": "mobility",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Construction Innovation",
+   "core": true,
+   "authors": [
+    "Saleh Abu Dabous",
+    "Fatma Hosny"
+   ],
+   "url": "https://doi.org/10.1108/ci-04-2026-0171",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.34049",
+   "title": "Decentralized Clustered Federated Learning for Cellular Traffic Forecasting over LEO Constellations",
+   "title_ko": "LEO 군집 위성을 활용한 셀룰러 트래픽 예측을 위한 탈중앙화 군집 연합 학습",
+   "headline": "저궤도 위성 군집에 탈중앙화 연합 학습을 적용하여 지상 셀룰러 트래픽 예측 오차를 대폭 저감함",
+   "points": [
+    "연구 배경·목적: 6G 비지상 네트워크에서 저궤도(LEO) 위성을 궤도 에지 컴퓨팅 노드로 활용하여 지상 셀룰러 트래픽을 예측하기 위한 학습 방법론 확장",
+    "방법: Telecom Italia 데이터셋을 활용해 중앙 집계기 없이 $k$nearest 위성 간 가십 통신과 제로샷 헤드 선택을 적용한 탈중앙화 군집 연합 학습(DFCA) 구현",
+    "핵심 결과: 20개의 사후 훈련 궤도 스냅샷 기준, 동급의 탈중앙화 FedAvg 베이스라인 대비 예측 RMSE를 15.3% 줄였으며 군집 복구 정확도 85.3%를 달성함"
+   ],
+   "impact": "차세대 6G 비지상 네트워크 환경에서 위성 기반 통신 트래픽 관리 및 자율 최적화 기술 상용화를 뒷받침함.",
+   "keywords": [
+    "저궤도 위성",
+    "연합 학습",
+    "트래픽 예측"
+   ],
+   "level": "응용연구",
+   "sector": "mobility",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.LG)",
+   "core": false,
+   "authors": [
+    "Jonas Kirch",
+    "Tiago Koketsu Rodrigues",
+    "Yuichi Kawamoto"
+   ],
+   "url": "https://arxiv.org/abs/2611.34049",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7239372993",
+   "title": "A Proline-Functionalized Carboxymethyl Chitosan/Calcined Bone Composite Achieves Craniofacial Bone Regeneration via Dual Osteogenic–Angiogenic Bioactivity",
+   "title_ko": "프롤린이 기능화된 카르복시메틸 키토산/소성골 복합체를 통한 이중 골유도-혈관신생 생체활성을 갖는 안면두개골 재생",
+   "headline": "프롤린과 마그네슘이 도입된 생체 모방 복합체가 안면두개골 결손 부위의 뼈 재생과 혈관신생을 동시에 촉진함.",
+   "points": [
+    "연구 배경·목적: 안면두개골 결손 치료는 자가 재생 능력이 제한적이고 뼈 형성과 혈관신생이 동시에 요구되어 어려움이 있음. 이에 유기-무기 천연 뼈 구조를 모방한 프롤린·마그네슘·소성골 기반 생체 모방 복합체를 개발하여 생체 활성을 극대화하고자 함.",
+    "방법: 프롤린을 카르복시메틸 키토산(CMCS)에 접목하고 마그네슘 이온과 소성골(CB)을 결합한 복합체를 제조함. 랫트 두개골 및 토끼 치조골 결손 모델을 활용하여 생체 적합성, 세포 분화, 혈관신생 관여 유전자 발현(RUNX2, OPN, VEGF 등), 골밀도 및 골체적비 변화를 평가함.",
+    "핵심 결과: 체외 실험에서 골모세포 분화와 혈관신생 튜브 형성을 촉진하고 관련 유전자를 상향 조절함. 동물 모델에서 대조군(Bio-Oss) 대비 골밀도와 골체적비가 유의하게 향상되었으며, CD31 및 OCN 발현이 증가함."
+   ],
+   "impact": "임상 표준 소재 대비 우수한 골 재생 및 혈관화 성능을 입증하여 차세대 안면두개골 결손 치료용 의료기기 개발의 유력한 후보 물질을 제공함.",
+   "keywords": [
+    "안면두개골 재생",
+    "생체모방 복합체",
+    "혈관신생"
+   ],
+   "level": "응용연구",
+   "sector": "bio",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "ACS Applied Materials & Interfaces",
+   "core": true,
+   "authors": [
+    "Zhen Jiang",
+    "Siheng Niu",
+    "Zi Han",
+    "Zhiwen Jiang",
+    "Shuo Wang",
+    "Wei Ni"
+   ],
+   "url": "https://doi.org/10.1021/acsami.6c18906",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239387238",
+   "title": "Cell–Cell Interactions of Bacillus subtilis in a Shallow Circular Pool",
+   "title_ko": "얕은 원형 풀에서의 고초균 세포 간 상호작용",
+   "headline": "고초균 세포 간의 국소적 상호작용이 집단 운동성과 속도를 향상시킨다는 사실을 규명함.",
+   "points": [
+    "연구 배경·목적: 선행 연구에서 고초균의 집단 운동을 6가지 동역학적 상위 단계로 분류했으나, 세포 간 상호작용이 운동성 전이 과정에 미치는 필수적인 역할을 명확히 규명하기 위해 단일 세포 및 이원 세포 시스템을 분석하고자 함.",
+    "방법: 세포 길이(λ)와 세포 밀도(ρ) 변수를 제어하여 단일 세포 시스템과 이원(2개) 세포 시스템을 구성하고, 세포들이 서로 접근할 때 나타나는 거리별 움직임, 쌍 형성 여부, 방향 정렬 및 속도를 관찰함.",
+    "핵심 결과: 두 세포가 세포 길이 정도의 거리로 접근하면 쌍을 이루어 이동 방향을 정렬하며, 이 쌍의 이동 속도는 고립된 단일 세포의 속도를 초과하는 것으로 확인됨."
+   ],
+   "impact": "박테리아 집단 운동의 미시적 기초 원리를 제공하며 미생물 동역학 제어 기술의 기초 자료로 활용 가능함.",
+   "keywords": [
+    "고초균",
+    "세포 간 상호작용",
+    "집단 운동"
+   ],
+   "level": "기초연구",
+   "sector": "bio",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Journal of the Physical Society of Japan",
+   "core": true,
+   "authors": [
+    "Jun-ichi Wakita",
+    "Yoshinaga KASE",
+    "Keito Hasuko",
+    "遼 阿久津"
+   ],
+   "url": "https://doi.org/10.7566/jpsj.95.124801",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.34247",
+   "title": "Did the Model Forecast It, or Already Know It? Evaluating Large Language Models for Novel Drug-Target Prioritisation with a Temporal Knowledge-Graph Oracle",
+   "title_ko": "모델이 예측한 것인가, 이미 알고 있던 것인가? 시간적 지식그래프 오라클을 활용한 신약 표적 우선순위 지정을 위한 거대 언어 모델 평가",
+   "headline": "LLM의 신약 타겟 예측 성능 평가 시 사전 학습 컷오프 이후의 실제 시간순 데이터 분리가 필수적임을 밝힘.",
+   "points": [
+    "연구 배경·목적: AI가 고비용의 임상 시험 대상 신약 타겟 선정에 활용됨에 따라, 언어 모델이 단순히 과거 데이터를 암기한 것인지 학습 컷오프 이후의 신규 이벤트를 실제 예측하는 것인지 평가하고자 함.",
+    "방법: 2020년부터 최신 버전까지 연도별 생물학적 지식그래프를 재구축하고, 6개의 오픈 언어 모델을 활용하여 다음 해에 임상 시험에 진입할 타겟을 예측함. 지식그래프 활용 여부에 따른 성능을 비교함.",
+    "핵심 결과: 검색(Retrieval) 기능이 없는 모델은 단순 과거 임상 이력 카운트 수준의 성능을 보임. 최신 지식그래프는 모델 성능을 향상시키나 그래프 경로에 이미 정답(결정일 이후의 임상 시험 정보)이 포함되어 있는 한계를 확인하여, 향후 평가 시 시점을 엄격히 분리해야 함을 제시함."
+   ],
+   "impact": "AI 기반 신약 개발 툴의 실제 예측력을 검증하는 엄격한 평가 방법론을 제시하여 제약사의 신뢰성 있는 AI 도입 전략 수립에 기여함.",
+   "keywords": [
+    "거대 언어 모델",
+    "신약 타겟",
+    "지식그래프"
+   ],
+   "level": "응용연구",
+   "sector": "bio",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.AI)",
+   "core": false,
+   "authors": [
+    "Pui Chung Siu",
+    "Yuan Liang",
+    "Claudia Cabrera",
+    "Mani Mudaliar",
+    "Arkaitz Zubiaga"
+   ],
+   "url": "https://arxiv.org/abs/2611.34247",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33792",
+   "title": "Spatial Transcriptomics Prediction from Histology via Topology-Informed Graph Attention and Gene-Semantics Conditioning",
+   "title_ko": "위상정보 기반 그래프 어텐션과 유전자 시맨틱 컨디셔닝을 통한 조직학 기반 공간 전사체 예측",
+   "headline": "조직학 이미지로부터 공간 전사체 발현을 정밀 예측하고 미학습 유전자까지 제로샷 예측하는 TIGEM 모델을 개발함.",
+   "points": [
+    "연구 배경·목적: 공간 전사체(ST) 프로파일링은 비용이 높아 H&E 이미지로부터 유전자 발현을 추론하는 모델이 요구됨. 기존 방식의 형태학적 경계 과소끄름, 독립적인 유전자 출력 헤드의 한계, 공간 패턴 충실도 측정 부족을 해결하고자 함.",
+    "방법: 조직 수준의 위상 및 형태학적 단서로 그래프 어텐션을 규제하여 위상 인지 스팟 표현을 학습하고, 유전자 시맨틱 변조를 통해 미학습 유전자의 제로샷 예측을 지원하는 TIGEM 프레임워크를 제안함. 또한 공간 패턴 평가를 위해 그래프 스펙트럴 상관관계(GSC) 지표를 도입함.",
+    "핵심 결과: 3개의 대규모 ST 데이터셋에서 전반적인 최고 성능(SOTA)을 달성했으며, 경계 예측 해상도가 크게 향상되고 훈련 시 보지 못한 유전자의 발현 패턴까지 성공적으로 예측함."
+   ],
+   "impact": "고비용의 공간 전사체 분석 비용을 절감하고 병리 이미지 기반 정밀 진단 및 바이오마커 탐색의 실용성을 높임.",
+   "keywords": [
+    "공간 전사체",
+    "그래프 어텐션",
+    "제로샷 예측"
+   ],
+   "level": "응용연구",
+   "sector": "bio",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Yuqi Cheng",
+    "Boshuai Zhang",
+    "Ziqi Zhang",
+    "Xiuwei Zhang"
+   ],
+   "url": "https://arxiv.org/abs/2611.33792",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33870",
+   "title": "Concept Generalization in Visual Brain Decoding via Encoder-Generated fMRI",
+   "title_ko": "인코더 생성 fMRI를 활용한 시각적 뇌 디코딩의 개념 일반화",
+   "headline": "인코더로 생성한 합성 fMRI 데이터를 활용해 디코더의 미지 개념에 대한 일반화 성능을 대폭 향상시킴.",
+   "points": [
+    "연구 배경·목적: 기존 시각 뇌 디코더는 학습 데이터에 포함된 유사한 의미론적 분포만 학습하여 미지의 개념에 대한 재구성 능력이 부족함. 이에 인코더 생성 합성 데이터를 활용한 개념 일반화 문제 해결 방안을 연구함.",
+    "방법: 사전 학습된 시각 표현을 복셀에 매핑하는 브레인 인코더를 활용하여 새로운 이미지에 대한 합성 fMRI 응답을 생성하고, 이를 디코더 학습 데이터에 추가함. 3개의 디코더, 4명의 피험자, 12개의 의미론적 개념을 대상으로 실험함.",
+    "핵심 결과: 추가적인 장시간 fMRI 데이터 수집 없이도 합성 데이터를 통해 미지의 개념에서 손실된 성능의 상당 부분을 복구함. 또한 다양한 데이터 예산 범위에서 일반 디코딩 성능이 개선됨을 확인함."
+   ],
+   "impact": "fMRI 데이터 수집의 한계를 극복하고 뇌-컴퓨터 인터페이스(BCI) 및 시각 디코딩 모델의 데이터 효율성과 범용성을 높이는 핵심 기술을 제공함.",
+   "keywords": [
+    "뇌 디코딩",
+    "fMRI",
+    "개념 일반화"
+   ],
+   "level": "기초연구",
+   "sector": "bio",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Peter Yongho Kim",
+    "Juhyeon Park",
+    "Dongsheng Li",
+    "Yansen Wang",
+    "Dongqi Han",
+    "Mingqing Xiao"
+   ],
+   "url": "https://arxiv.org/abs/2611.33870",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34462",
+   "title": "Same Seed, Different Top Prediction: Cross-Platform Reproducibility of AlphaFold 3 Inference on TPUs, GPUs, and CPUs",
+   "title_ko": "동일한 시드, 다른 상위 예측: TPU, GPU, CPU 간 AlphaFold 3 추론의 교차 플랫폼 재현성",
+   "headline": "하드웨어 연산 장치 차이에 따라 AlphaFold 3의 단백질 구조 예측 결과가 달라질 수 있음을 밝힘.",
+   "points": [
+    "연구 배경·목적: 연산 센터마다 서로 다른 GPU나 CPU 노드를 사용하며 부동소수점 결과가 달라져 동일 입력과 시드에서도 다른 구조가 반환될 수 있음. AlphaFold 3의 문서에 경고가 없는 상황에서 하드웨어 변경이 예측 결과에 미치는 영향을 측정하고자 함.",
+    "방법: 구글 TPU, 엔비디아 GPU, 인텔 CPU 등 다양한 하드웨어 액셀러레이터에서 동일한 입력, 가중치, 시드를 사용하여 60개의 단백질-리간드 복합체를 예측하고 상위 순위 샘플의 변화를 분석함.",
+    "핵심 결과: TPU 세대 교체 시 300개 예측 중 18.0%에서 최상위 샘플이 변경되었고, GPU 간에서도 차이가 발생함. 이러한 변화는 주로 2옹스트롬 이내의 리간드 유효성 검사에서 기인하며, float32 트렁크와 고정밀 매트릭스 곱셈을 사용하면 모든 가속기가 일치함을 확인함."
+   ],
+   "impact": "AI 기반 구조 생물학 연구 및 신약 설계 시 하드웨어 인프라에 따른 결과 불일치 위험을 방지하기 위한 표준 보고 지침과 해결책을 제시함.",
+   "keywords": [
+    "AlphaFold 3",
+    "구조 생물학",
+    "교차 플랫폼 재현성"
+   ],
+   "level": "실증·임상",
+   "sector": "bio",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.DC)",
+   "core": false,
+   "authors": [
+    "Lorenzo Pazienza"
+   ],
+   "url": "https://arxiv.org/abs/2611.34462",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33602",
+   "title": "Differential coupling drives Turing pattern formation in neural fields: a mechanism for Parkinson's disease and deep brain stimulation",
+   "title_ko": "신경 필드에서의 차등 결합을 통한 튜링 패턴 형성 유도: 파킨슨병 및 뇌심부자극술의 메커니즘",
+   "headline": "이층 신경 필드 모델을 통해 파킨슨병의 베타파 동기화와 공간적 패턴 형성 간의 동역학적 연관성 규명함.",
+   "points": [
+    "연구 배경·목적: 파킨슨병 운동 증상 치료에 뇌심부자극술이 쓰이나 기전 규명이 불완전하여, 네트워크 동기화와 공간 패턴 형성을 연결하는 이론적 틀을 마련하고자 함.",
+    "방법: 차등 층간 결합을 가진 이층 신경 필드 모델을 활용하여 튜링 불안정성 분석 및 임계 조건과 파장을 도출함.",
+    "핵심 결과: 모델은 줄무늬, 점, 고리 등 다양한 공간 패턴을 자발적으로 생성했으며, 층간 차이가 동기화 수준에 따라 정권 의존적 동역학을 보임."
+   ],
+   "impact": "파킨슨병의 병리적 베타파 동기화에 대한 이론적 메커니즘을 제공하여 향후 뇌심부자극술 파라미터 최적화의 수학적 기반으로 활용될 전망임.",
+   "keywords": [
+    "파킨슨병",
+    "뇌심부자극술",
+    "튜링 패턴"
+   ],
+   "level": "기초연구",
+   "sector": "bio",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "arXiv (q-bio)",
+   "core": false,
+   "authors": [
+    "Ju Kang",
+    "Anmin Zheng"
+   ],
+   "url": "https://arxiv.org/abs/2611.33602",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7239411244",
+   "title": "Identification of a novel EYA1 frameshift variant (c.449delG) and update of EYA1 variants in branchio-otorenal spectrum disorder",
+   "title_ko": "새로운 EYA1 프레임시프트 변이(c.449delG) 규명 및 새싹-귀-신장 스펙트럼 장애의 EYA1 변이 최신 동향",
+   "headline": "4세대 가계의 전엑솜 sequencing을 통해 BORSD의 새로운 EYA1 유전자 변이와 표현형 이질성을 확인함.",
+   "points": [
+    "연구 배경·목적: 변이 발현이 다양해 진단과 유전 상담이 까다로운 새싹-귀-신장 스펙트럼 장애(BORSD)의 유전적 원인과 임상적 특징을 조사함.",
+    "방법: 25명으로 구성된 4세대 중국인 가계를 대상으로 전엑솜 sequencing(WES), 생어 시퀀싱 검증, 3차원 단백질 구조 모델링을 수행하고 문헌 조사를 병행함.",
+    "핵심 결과: 발달 장애를 유발하는 신규 이형접합 프레임시프트 변이(EYA1 c.449delG)를 규명하였으며, 문헌 검토를 통해 총 58개의 고유 변이를 확인하고 프레임시프트(36.2%)와 넌센스 변이(24.1%)가 우세함을 파악함."
+   ],
+   "impact": "BORSD 진단의 유전적 마커 발굴 및 임상적 이질성 이해를 높여 관련 유전 질환 진단법 개선에 기여함.",
+   "keywords": [
+    "EYA1 유전자",
+    "유전체 분석",
+    "희귀질환"
+   ],
+   "level": "응용연구",
+   "sector": "bio",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Frontiers in Genetics",
+   "core": true,
+   "authors": [
+    "Xiaoqian Ren",
+    "Cedra Ayoub",
+    "Pablo Cruz‐Granados",
+    "Yanmiao Qi",
+    "Yu Chen",
+    "张雪青"
+   ],
+   "url": "https://doi.org/10.3389/fgene.2026.1984760",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239431454",
+   "title": "A novel microbeam radiosurgery treatment for intractable seizures utilizing tissue-sparing 25- to 50-μm synchrotron-derived x-rays",
+   "title_ko": "조직 보호형 25~50μm 싱크로트론 X선을 활용한 난치성 발작의 새로운 마이크로빔 방사선수술 치료",
+   "headline": "마이크로빔 방사선수술이 정상 조직을 보호하면서 난치성 뇌전증 발작을 효과적으로 억제함을 확인함.",
+   "points": [
+    "연구 배경·목적: 기존 최소침습 치료의 지연 효과와 정상 조직 손상 문제를 극복하기 위해 미크론 규모의 싱크로트론 X선을 활용하는 마이크로빔 방사선수술(MBRS)의 지난 3십 년간 전임상 연구를 종합함.",
+    "방법: 1992년부터 2025년까지의 전임상 설치류 모델 연구, 기술 개발 문헌, 기전 연구를 포함한 내러티브 리뷰를 수행함.",
+    "핵심 결과: MBRS는 125~250 Gy의 선량을 전달하여 정상 조직을 보호하면서, GAERS 쥐 모델에서 기능적 결손 없이 4개월 이상 스파이크-웨이브 방전을 거의 완전히 억제함."
+   ],
+   "impact": "난치성 뇌전증 환자를 위한 정상 조직 손상 최소화 및 장기적 발작 억제가 가능한 신개념 방사선수술 치료 옵션 제시함.",
+   "keywords": [
+    "뇌전증",
+    "마이크로빔 방사선수술",
+    "싱크로트론"
+   ],
+   "level": "실증·임상",
+   "sector": "medical",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "Neurosurgical FOCUS",
+   "core": true,
+   "authors": [
+    "Jithin Madhusudanan Sreekala",
+    "Sunil V. Manjila",
+    "Fred Harden Geisler"
+   ],
+   "url": "https://doi.org/10.3171/2026.9.focus26576",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W4409706287",
+   "title": "Fourier-inspired automatic Cobb angles measurement for adolescent idiopathic scoliosis",
+   "title_ko": "청소년 특발성 척추측만증을 위한 푸리에 기반 자동 콥 각도 측정",
+   "headline": "푸리에 변환 기반 주파수 영역 분석을 적용하여 척추측만증의 콥 각도를 정확하게 자동 측정함.",
+   "points": [
+    "연구 배경·목적: 기존 X선 영상 기반 콥 각도 측정의 주관성과 시간 소모 문제를 해결하기 위해 주파수 영역 분석을 활용한 자동 모델을 제안함.",
+    "방법: VGG-16 전이 학습 모델을 사용하여 척추 스펙트럼의 실수 및 허수 성분을 회귀하고, 역푸리에 변환을 통해 곡률을 재구성하며 콥 각도를 예측함.",
+    "핵심 결과: MICCAI 2019 데이터셋 평가 결과 곡률 추정에서 0.9382의 피어슨 상관계수를 보였고 콥 각도 측정의 SMAPE는 12.25%를 기록하여 우수한 성능을 입증함."
+   ],
+   "impact": "척추측만증 진단에서 주관적 오차를 줄이고 진단 소요 시간을 단축하는 인공지능 기반 의료기기 상용화 촉진함.",
+   "keywords": [
+    "척추측만증",
+    "콥 각도",
+    "딥러닝"
+   ],
+   "level": "응용연구",
+   "sector": "medical",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Scientific Reports",
+   "core": true,
+   "authors": [
+    "Yishan Zhong",
+    "Felipe Giuste",
+    "Wenqi Shi",
+    "Ben J. Tamo",
+    "Micky C. Nnamdi",
+    "Siyi Tan"
+   ],
+   "url": "https://doi.org/10.1038/s41598-026-57718-5",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7225313638",
+   "title": "Cardiac comorbidity role in the diagnosis of diabetes mellitus using single lead electrocardiogram utilizing machine learning model",
+   "title_ko": "머신러닝 모델을 활용한 단일 유도 심전도 기반 당뇨병 진단에서 심장 동반질환의 역할",
+   "headline": "심장 동반질환이 단일 유도 심전도 기반 머신러닝 모델의 당뇨병 감지에 미치는 영향 평가함.",
+   "points": [
+    "연구 배경·목적: 심혈관 질환이 심전도 형태를 변화시켜 당뇨병 관련 전기적 신호를 가릴 수 있는지 조사하기 위해 수행됨.",
+    "방법: 정제된 2591개의 관측치를 바탕으로 7가지 심장 상태 기준에 따른 제1형 및 제2형 당뇨병용 26개의 XGBoost 모델을 평가하고 교차 검증을 실시함.",
+    "핵심 결과: 제1형 당뇨병의 중앙값 AUC는 0.693, 제2형 당뇨병은 0.661을 기록하였으며, 벤자미니-호치베르크 보정 후 심장 병리 간 통계적으로 유의미한 차이는 발견되지 않음."
+   ],
+   "impact": "심전도 기반 당뇨병 스크리닝 알고리즘 개발 시 심장 동반질환 유무에 따른 성능 변동성을 사전 검증하여 진단 신뢰도 제고에 기여함.",
+   "keywords": [
+    "당뇨병 진단",
+    "심전도",
+    "머신러닝"
+   ],
+   "level": "응용연구",
+   "sector": "medical",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "World Journal of Cardiology",
+   "core": true,
+   "authors": [
+    "Anna Dmitrievna Karbovskaya",
+    "Basheer Abdullah Marzoog",
+    "Snezhana Nikolaevna Demchuk",
+    "Anastasia Stroeva",
+    "Daniil Andreevich Zelenov",
+    "Peter Chomakhidze"
+   ],
+   "url": "https://doi.org/10.4330/wjc.126754",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "W7239346040",
+   "title": "In-tandem electrode implantation for hippocampal deep brain stimulation in refractory temporal lobe epilepsy: technical note",
+   "title_ko": "난치성 측두엽 뇌전증 환자의 해마 뇌심부자극술을 위한 탠덤형 전극 삽입 기술 노트",
+   "headline": "단일 두개골 천공을 통한 탠덤형 이중 전극 해마 뇌심부자극술의 기술적 타당성과 우수한 임상 결과를 입증함.",
+   "points": [
+    "연구 배경·목적: 절제술이 불가한 약물 난치성 측두엽 뇌전증(TLE) 환자에게 해마 전체를 포괄적으로 자극하기 위한 탠덤형 듀얼 리드 자극술의 타당성을 평가함.",
+    "방법: 3-T MRI를 기반으로 해마 머리와 몸체 두 지점을 표적으로 삼아 8접점 전극 2개를 단일 천공을 통해 순차적으로 삽입하고 임상 결과를 추적함.",
+    "핵심 결과: 8명의 환자 모두에서 14개 이상의 활성 접점이 해마 내에 안착하여 충분한 자극 범위를 확보했으며, 1년 이상 추적 관찰된 6명 전원 발작 빈도가 50% 이상 감소함."
+   ],
+   "impact": "수술적 절제가 어려운 난치성 뇌전증 환자에게 해마 자극 효과를 극대화할 수 있는 안전하고 효율적인 외과적 수술 기법 가이드라인 제공함.",
+   "keywords": [
+    "뇌심부자극술",
+    "측두엽 뇌전증",
+    "해마"
+   ],
+   "level": "실증·임상",
+   "sector": "medical",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Neurosurgical FOCUS",
+   "core": true,
+   "authors": [
+    "Pamela Spina Capitao",
+    "Hugo Romero Vinet",
+    "Stênio Abrantes Sarmento",
+    "Rafael Basilio Guimarães",
+    "José Augusto Burattini",
+    "Cristine Mella Cukiert"
+   ],
+   "url": "https://doi.org/10.3171/2026.9.focus26460",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239352185",
+   "title": "Early feasibility technique analysis: sampling the insula from an orthogonal perspective",
+   "title_ko": "초기 타당성 기법 분석: 직교 관점에서 도파(insula) 샘플링",
+   "headline": "약물 난치성 간질 환자를 위한 직교 SEEG 삽입술의 안전성과 기술적 타당성을 규명함.",
+   "points": [
+    "연구 배경·목적: 약물 난치성 간질 환자의 도파-주실비우스 네트워크 평가를 위한 직교 입체뇌전도(SEEG) 삽입의 안전성과 기술적 타당성 평가",
+    "방법: 2020년 12월부터 2026년 2월까지 단일 3차 간질 센터에서 최소 1개의 직교 도파-주실비우스 경로를 포함한 SEEG 삽입술을 받은 연속 환자 80명(남성 41명, 평균 연령 39.8세) 대상 후향적 관찰 연구 수행",
+    "핵심 결과: 80명의 환자에게 약 320개의 직교 경로와 886개의 도파 접점을 적용한 결과, 시술 관련 부작용은 경미한 출혈 3건과 주요 경막하 혈종 1건을 포함해 총 4건 발생하였으며, 영구적인 신경학적 결손이나 시술 관련 사망은 없음(주요 합병증 발생률은 기존 SEEG 기준과 유사함, p=0.55)"
+   ],
+   "impact": "직교 SEEG 삽입술이 뇌전증 수술 환자에게 안전하고 재현 가능한 탐색 전략임을 입증하여 최소침습적 뇌 수술의 임상적 신뢰성을 높임.",
+   "keywords": [
+    "입체뇌전도",
+    "약물 난치성 간질",
+    "도파 샘플링"
+   ],
+   "level": "실증·임상",
+   "sector": "medical",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Neurosurgical FOCUS",
+   "core": true,
+   "authors": [
+    "Judah Huberman-Shlaes",
+    "Jiahao J. Chen",
+    "Sirisha Nouduri",
+    "Adway Gopakumar",
+    "Jorge Alvaro Gonzalez-Martinez"
+   ],
+   "url": "https://doi.org/10.3171/2026.8.focus26574",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239363906",
+   "title": "Focal high-density SEEG and lesion ablation with SEEG electrodes: a technical and philosophical evolution of SEEG-guided radiofrequency thermocoagulation",
+   "title_ko": "초고밀도 SEEG 및 SEEG 전극을 이용한 병소 절제: SEEG 유도 고주파 열응고술의 기술적 및 철학적 진화",
+   "headline": "SEEG 전극을 활용한 병소 절제술의 개념적 진화와 임상적 적용 가능성을 확인함.",
+   "points": [
+    "연구 배경·목적: 진단 목적이었던 입체뇌전도(SEEG)의 치료적 잠재력을 확장하여, 병소 절제를 주 목적으로 하는 초고밀도 SEEG(FHD-SEEG) 및 SEEG 전극 이용 병소 절제(LA-SEEG) 접근법의 초기 임상 경험 분석",
+    "방법: 2009년부터 2025년까지 2개 센터의 전향적 데이터베이스를 바탕으로 FHD-SEEG 또는 LA-SEEG를 받은 환자 25명을 대상으로 한 후향적 분석 수행",
+    "핵심 결과: 대상 환자 25명(결절성 이형성증 9명, 국소 피질 이형성증 15명, 교신경글리오종 의심 1명)을 치료한 결과, '느린 조리(slow-cooking)' 기법 등을 활용하여 광범위한 뇌 병소 절제 유도 가능성을 확인"
+   ],
+   "impact": "진단용 뇌전도 전극을 치료적 절제에 적극 활용하는 새로운 수술 패러다임을 제시하여 최소침습 뇌전증 치료 시장의 기술 다변화에 기여함.",
+   "keywords": [
+    "입체뇌전도",
+    "고주파 열응고술",
+    "병소 절제술"
+   ],
+   "level": "응용연구",
+   "sector": "medical",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Neurosurgical FOCUS",
+   "core": true,
+   "authors": [
+    "Francesco Cardinale",
+    "Matteo Martinoni",
+    "Riccardo Mai",
+    "Piergiorgio d’Orio",
+    "Martina Revay",
+    "Cedric Barillot"
+   ],
+   "url": "https://doi.org/10.3171/2026.8.focus26566",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239378995",
+   "title": "Emerging and transformative epilepsy surgical therapies",
+   "title_ko": "신흥 및 혁신적 간질 수술 치료법",
+   "headline": "전통적 개두술에서 최소침습적 간질 수술로의 패러다임 전환과 최신 기술 동향을 분석함.",
+   "points": [
+    "연구 배경·목적: 전통적인 대형 개두술에서 최소침습적 중재술로 전환되고 있는 간질 수술 분야의 최신 기술 발전과 임상적 장점 고찰",
+    "방법: 다중모달 신경영상 기술(VBM, fMRI, PET-MRI 등), 전기원 영상화, 뇌자기장전도(MEG), 로봇 보조 입체뇌전도(ROSA 등) 등 최신 진단 및 수술 보조 시스템의 문헌 종합",
+    "핵심 결과: 최소침습 절차는 더 작은 절개, 적은 합병증, 짧은 입원 기간, 빠른 회복 시간을 제공하며, 로봇 및 컴퓨터 보조 시스템 도입으로 전극 삽입의 정확도, 효율성, 안전성이 향상됨을 확인"
+   ],
+   "impact": "첨단 의료 로봇 및 영상융합 기술이 결합된 최소침습 뇌전증 수술 장비의 시장 채택 가속화 근거를 제공함.",
+   "keywords": [
+    "간질 수술",
+    "최소침습",
+    "입체뇌전도"
+   ],
+   "level": "기초연구",
+   "sector": "medical",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Neurosurgical FOCUS",
+   "core": true,
+   "authors": [
+    "Anuradha Singh",
+    "Priyanka Sabharwal",
+    "Shubhi Agrawal"
+   ],
+   "url": "https://doi.org/10.3171/2026.9.focus26597",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239382275",
+   "title": "Stereo-EEG–guided radiofrequency ablation as a minimally invasive treatment for drug-resistant epilepsy",
+   "title_ko": "약물 난치성 간질의 최소침습적 치료로서의 스테레오-EEG 유도 고주파 절제술",
+   "headline": "SEEG 유도 고주파 열응고술의 난치성 간질 치료 효과와 임상적 장단점을 종합 분석함.",
+   "points": [
+    "연구 배경·목적: 약물 저항성 간질 환자를 위한 최소침습적 대안인 입체뇌전도(SEEG) 유도 고주파 열응고술(RF-TC)의 효능, 안전성, 예후 가치 분석",
+    "방법: 기존에 발표된 메타분석 데이터, 무작위 대조 임상시험, 환자 코호트 연구 결과를 종합하여 RF-TC의 치료 성과와 한계 검토",
+    "핵심 결과: 콤팩트한 병소 기질에서는 레이저 간질 열치료에 준하는 발작 소실 효과를 보였으나, 미만성 병리에서는 효과가 저조하며, 우반구 측두엽 표적 시 기억력 저하 등의 인지적 부작용 위험이 존재함을 확인함"
+   ],
+   "impact": "환자의 병리 특성에 따른 맞춤형 최소침습 수술 선택의 중요성을 시사하며, 의료기기 제조사의 정밀 열치료 장비 개발 방향성에 영향을 미침.",
+   "keywords": [
+    "고주파 열응고술",
+    "약물 난치성 간질",
+    "최소침습 치료"
+   ],
+   "level": "실증·임상",
+   "sector": "medical",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Neurosurgical FOCUS",
+   "core": true,
+   "authors": [
+    "Jonathan Bao",
+    "Anas J. Reda",
+    "Dario J. Englot"
+   ],
+   "url": "https://doi.org/10.3171/2026.8.focus26594",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W4416337859",
+   "title": "Intertwined charge density wave order in vanadium based kagome superconductors",
+   "title_ko": "바나듐 기반 가고메 초전도체에서의 얽힌 전하 밀도파 질서",
+   "headline": "가고메 초전도체 내 전하 밀도파와 전자적 자유도의 상호작용 및 얽힘 현상을 규명함.",
+   "points": [
+    "연구 배경·목적: 가고메 초전도체(AV3Sb5) 계열에서 발견된 초전도성과 전하 밀도파(CDW)의 상관관계 및 양자 현상 탐구",
+    "방법: 홀 도핑된 CsV3-xTixSb5 및 CsV3Sb5-ySny 계열 시료를 대상으로 탄성저항(elastoresistance) 체계적 측정 및 Ginzburg-Landau 프레임워크 적용",
+    "핵심 결과: 모든 시료의 탄성저항 계수는 CDW 전이 온도(T_CDW)에서 불연속적 점프를 보였으며, 더 낮은 온도(T*)에서 이상 현상이 관찰됨. T*는 초전도 전이 온도(T_c)와 역관계(얽힘 현상)를 나타냄"
+   ],
+   "impact": "차세대 양자 물질 설계 및 도핑을 통한 초전도 상(phase) 제어 기술 개발에 기초 과학적 통찰을 제공함.",
+   "keywords": [
+    "가고메 초전도체",
+    "전하 밀도파",
+    "탄성저항"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "npj Quantum Materials",
+   "core": true,
+   "authors": [
+    "Kuanglv Sun",
+    "Linpeng Nie",
+    "Hongyu Li",
+    "Jiyin Zhao",
+    "Huachen Rao",
+    "Fanghang Yu"
+   ],
+   "url": "https://doi.org/10.1038/s41535-026-00955-8",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.33299",
+   "title": "Quditology: harnessing many levels for quantum information processing",
+   "title_ko": "쿠디톨로지: 양자 정보 처리를 위한 다중 레벨 활용",
+   "headline": "큐디트(qudit) 기반 양자 정보 처리의 실험적 발전과 확장 가능성 및 과제를 검토함.",
+   "points": [
+    "연구 배경·목적: 이진법(binary)을 넘어선 고차원 큐디트(qudit)를 활용해 양자 컴퓨터의 정보 처리 용량을 극대화하는 방안 검토",
+    "방법: 포획 이온, 초전도 회로, 고체 핵스핀, 광자 시스템, 중성 원자 등 다양한 플랫폼에서의 고 fidelity 큐디트 준비, 제어, 측정에 관한 최근 실험적 진보 리뷰",
+    "핵심 결과: 양자 시뮬레이션, 계산, 오류 억제 등에서 큐디트 기반 초기 시연들이 성공함에 따라, 큐디트가 개념적 단계를 넘어 실현 가능한 양자 기술 빌딩 블록으로 전환되고 있음을 확인"
+   ],
+   "impact": "양자 컴퓨팅 하드웨어의 물리적 큐비트 한계를 극복하기 위한 다중 레벨 큐디트 기술 개발 및 상용화 투자 전략 수립에 기여함.",
+   "keywords": [
+    "큐디트",
+    "양자 정보 처리",
+    "양자 시뮬레이션"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 9,
+   "hf_upvotes": 0,
+   "venue": "arXiv (quant-ph)",
+   "core": false,
+   "authors": [
+    "Abhijit Chakraborty",
+    "Zheng Shi",
+    "Noah Goss",
+    "Irfan Siddiqi",
+    "Barry C. Sanders",
+    "Christine A. Muschik"
+   ],
+   "url": "https://arxiv.org/abs/2611.33299",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7163317850",
+   "title": "Beyond self-similarity: Reconciling X-ray scaling relations in galaxy clusters and groups",
+   "title_ko": "자기 유사성을 넘어: 은하단 및 은하군의 X선 스케일링 관계 조정",
+   "headline": "은하단 X선 스케일링 관계의 편차를 가스 질량 분율과 온도 변동으로 규명함",
+   "points": [
+    "연구 배경·목적: 저질소 시스템에서 관측된 X선 스케일링 관계가 기존 자기 유사 모델 예측과 체계적으로 어긋나는 원인을 규명하고자 함.",
+    "방법: 가스 질량 분율과 온도 변동을 거듭제곱 법칙으로 모델링하고, 마르코프 체인 몬테카를로 기반 메타 분석을 수행함.",
+    "핵심 결과: 가스 질량 분율이 후광 질 감소에 따라 유의미하게 감소(f_1 = 0.50 ± 0.01)함을 확인하고, 모델 예측 정확도를 대폭 개선함."
+   ],
+   "impact": "천체물리학적 우주론 모델의 정밀도 향상에 기여하나 직접적인 산업 투자 연관성은 낮음.",
+   "keywords": [
+    "은하단",
+    "X선 스케일링",
+    "메타 분석"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Astronomy and Astrophysics",
+   "core": true,
+   "authors": [
+    "S. Ettori"
+   ],
+   "url": "https://doi.org/10.1051/0004-6361/202661098",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7170180611",
+   "title": "Cosmic CORALS: Timing the Universe with high-z star clusters",
+   "title_ko": "우주 CORALS: 고적색편이 성단으로 우주 연대 측정",
+   "headline": "고적색편이 렌즈 성단 분석을 통해 허블 상수와 우주론적 매개변수 제약 방안을 제시함",
+   "points": [
+    "연구 배경·목적: 우주 망원경으로 관측된 고적색편이 구상성단을 활용해 나이-적색편이 관계를 정립하고 우주론적 앵커로 활용하고자 함.",
+    "방법: 제임스 웹 우주망원경(JWST) 다중 대역 이미지 역합성 및 독립적 분광 에너지 분포 피팅을 수행하고 베이지안 피트를 결합함.",
+    "핵심 결과: 향후 약 300개의 렌즈 프로토 구상성단 확보 시 허블 상수 오차 4%, Ω_m 오차 11% 이내로 통계적 정밀도 향상이 가능함을 예측함."
+   ],
+   "impact": "차세대 우주 망원경 데이터 활용 관측 장비 및 우주론 연구 분야의 장기적 분석 지표를 제공함.",
+   "keywords": [
+    "성단",
+    "우주론",
+    "제임스웹우주망원경"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Astronomy and Astrophysics",
+   "core": true,
+   "authors": [
+    "Elena Tomasetti",
+    "Martin Millon",
+    "Licia Verde",
+    "F. Courbin",
+    "Jiménez Rf",
+    "M. Moresco"
+   ],
+   "url": "https://doi.org/10.1051/0004-6361/202662129",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7172010302",
+   "title": "The X-ray catalogue of FGK stars within 10 pc: The coronal temperature-brightness relation explained with the RTV scaling law",
+   "title_ko": "10 pc 이내 FGK 별의 X선 카탈로그: RTV 스케일링 법칙으로 설명되는 코로나 온도-밝기 관계",
+   "headline": "태양계 10 pc 이내 FGK 주계열성의 X선 카탈로그 구축 및 코로나 자기 구조 규명함",
+   "points": [
+    "연구 배경·목적: 항성 다이나모 및 외행성 대기 손실 이해를 위해 태양 주변 10 pc 이내 FGK 별의 X선 방출을 체계적으로 측정하고자 함.",
+    "방법: 가이아(Gaia) 기반 카탈로그에서 FGK 별을 추출하고 SRG/eROSITA, XMM-Newton, ROSAT 관측 데이터를 교차 매칭하여 열 플라즈마 모델을 피팅함.",
+    "핵심 결과: 총 60개 별을 포함하는 95% 완성도의 X선 카탈로그를 구축하고, 온도-밝기 관계가 태양의 코로나 자기 구조 범위와 일치함을 확인함."
+   ],
+   "impact": "항성 대기 및 외행성계 환경 분석을 위한 기초 데이터베이스 구축에 기여함.",
+   "keywords": [
+    "FGK 별",
+    "X선 카탈로그",
+    "코로나 온도"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Astronomy and Astrophysics",
+   "core": true,
+   "authors": [
+    "M. M. Bennedik",
+    "B. Stelzer",
+    "M. Caramazza",
+    "S. Orlando",
+    "A. S. Binks",
+    "J. Robrade"
+   ],
+   "url": "https://doi.org/10.1051/0004-6361/202662270",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7225698924",
+   "title": "ALMA detection of continuum emission from GQ Lup B",
+   "title_ko": "GQ Lup B의 ALMA 연속 방출선 검출",
+   "headline": "ALMA 관측을 통해 저질소 동반성 GQ Lup B 주변의 먼지 원시행성계를 탐지함",
+   "points": [
+    "연구 배경·목적: 갈색왜성 및 행성 질량 영역의 동반성 주변에 형성된 밀리미터파 원시행성계 원반을 탐지하고자 함.",
+    "방법: 아타카마 대형 밀리미터/서브밀리미터 배열(ALMA)을 이용해 0.89 mm 대역의 5.8σ 연속 방출선 검출 및 위치 분석을 수행함.",
+    "핵심 결과: GQ Lup B 위치에서 피크 강도 54.5 Jy beam^-1의 점광원을 검출하고, 반경 2.3 au 이하의 먼지 원반 존재를 확인 및 질량을 산출함."
+   ],
+   "impact": "행성계 형성 및 원반 진화 과정 규명을 위한 관측 실증 데이터를 제공함.",
+   "keywords": [
+    "ALMA",
+    "원시행성계 원반",
+    "GQ Lup B"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Astronomy and Astrophysics",
+   "core": true,
+   "authors": [
+    "Pietro Pirola",
+    "Stefano Facchini",
+    "Gabriele Cugno",
+    "M. Benisty",
+    "Tomas Stolker",
+    "Jaehan Bae"
+   ],
+   "url": "https://doi.org/10.1051/0004-6361/202663565",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7236312249",
+   "title": "Properties of chromium and manganese in Tycho's supernova remnant with XRISM/Resolve",
+   "title_ko": "XRISM/Resolve로 관측한 티코 초신성 잔해 내 크롬과 망간의 특성",
+   "headline": "XRISM 고해상도 X선 분광으로 티코 초신성 잔해 내 Cr과 Mn의 공간 분포를 규명함",
+   "points": [
+    "연구 배경·목적: Ia형 초신성 폭발 메커니즘과 내부 원소 구성 및 공간 분포를 파악하기 위해 잔해 내 크롬(Cr)과 망간(Mn)의 특성을 제약하고자 함.",
+    "방법: XRISM/Resolve의 고해상도 X선 분광 관측 데이터를 가우스선 모델링 및 비평형 이온화 충격파 모델로 분석함.",
+    "핵심 결과: Fe 밝은 영역에서 유의미한 Cr 및 Mn 방출선을 검출하고 질량비가 1D 지연 폭발 모델과 일치함을 확인함."
+   ],
+   "impact": "고정밀 X선 분광 장비의 우주 관측 성능 검증 및 초신성 폭발 이론 검증에 활용됨.",
+   "keywords": [
+    "초신성 잔해",
+    "X선 분광",
+    "XRISM"
+   ],
+   "level": "기초연구",
+   "sector": "physics",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Astronomy and Astrophysics",
+   "core": true,
+   "authors": [
+    "R. Giuffrida",
+    "A. Decourchelle",
+    "L. Godinaud",
+    "T. Tanaka",
+    "G. Ferrand",
+    "J. Ballet"
+   ],
+   "url": "https://doi.org/10.1051/0004-6361/202662205",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7238815849",
+   "title": "The GAPS programme at TNG. LXXXIII. Orbital refinement and atmospheric investigation of TOI-1518 b (BD+66 1610 b)",
+   "title_ko": "TNG GAPS 프로그램. LXXXIII. TOI-1518 b의 궤도 정밀화 및 대기 조사",
+   "headline": "초고온 목성 TOI-1518 b의 궤도 재확인 및 대기 내 금속 성분 상호작용을 최초 검출함",
+   "points": [
+    "연구 배경·목적: 극단적인 복사를 받는 초고온 목성계의 물리적 매개변수를 정밀화하고 대기 화학 조성을 조사하고자 함.",
+    "방법: TESS 측광, HARPS-N 고해상도 분광 데이터를 결합한 베이지안 프레임워크와 교차 상호관련 함수(CCF) 투과 분광법을 적용함.",
+    "핵심 결과: 거의 극궤도 궤도를 확인하고 대기 로시터-맥러플린 효과와 대기 청색편이(~-7.0 km/s)를 검출하며 특정 원소의 대기 존재를 확인함."
+   ],
+   "impact": "외행성 대기 분석 및 고정밀 분광 데이터 해석 방법론의 실증적 진전을 이룸.",
+   "keywords": [
+    "초고온 목성",
+    "외행성 대기",
+    "투과 분광법"
+   ],
+   "level": "응용연구",
+   "sector": "physics",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Astronomy and Astrophysics",
+   "core": true,
+   "authors": [
+    "M. C. D'Arpa",
+    "F. Biassoni",
+    "F. Borsa",
+    "V. Singh",
+    "G. Micela",
+    "S. Benatti"
+   ],
+   "url": "https://doi.org/10.1051/0004-6361/202662309",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239415895",
+   "title": "How green finance reduces agricultural carbon emissions: incentivizing green technology innovation and constraining traditional technology inputs",
+   "title_ko": "녹색 금융은 어떻게 농업 탄소 배출을 줄이는가: 녹색 기술 혁신 촉진 및 전통 기술 투입 억제",
+   "headline": "녹색 금융은 기술 혁신 촉진과 전통 기술 억제를 통해 농업 탄소 배출을 유의하게 저감함.",
+   "points": [
+    "연구 배경·목적: 탄소 중립 전환 과정에서 농업 탈탄소화의 중요성이 커짐에 따라, 2007~2022년 중국 30개 성의 패널 데이터를 활용해 녹색 금융이 농업 탄소 배출에 미치는 영향과 메커니즘을 분석함.",
+    "방법: 녹색 금융 지수를 구축하고 이원 고정 효과 모델을 적용하여 배출 저감 효과를 실증함.",
+    "핵심 결과: 녹색 금융 수준이 높을수록 농업 탄소 배출이 감소하며, 녹색 기술 혁신 촉진과 전통 기술 투입 억제라는 이중 경로를 통해 배출량 감축에 기여함."
+   ],
+   "impact": "농업 부문 탄소 저감을 위해 녹색 금융 정책의 정밀도를 높이고 농촌 디지털화와 연계하는 투자 전략이 필요함.",
+   "keywords": [
+    "녹색금융",
+    "농업탄소배출",
+    "녹색기술혁신"
+   ],
+   "level": "응용연구",
+   "sector": "climate",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Frontiers in Sustainable Food Systems",
+   "core": true,
+   "authors": [
+    "Dongmei Wei",
+    "Junaidah Hasan"
+   ],
+   "url": "https://doi.org/10.3389/fsufs.2026.1907650",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239415921",
+   "title": "Can a green agricultural policy reconcile grain production and ecological protection? Evidence from China's National Agricultural Green Development Pilot Zone",
+   "title_ko": "녹색 농업 정책은 식량 생산과 생태계 보호를 조화시킬 수 있는가: 중국 국가농업녹색발전시범구의 증거",
+   "headline": "중국의 녹색 농업 시범구 정책은 생태 성과를 높인 반면 식량 생산 성저는 감소시킴.",
+   "points": [
+    "연구 배경·목적: 포괄적인 녹색 농업 정책이 식량 공급과 생태계 보전을 동시에 달성할 수 있는지 검증하기 위해 중국의 국가농업녹색발전시범구(NAGDPZ) 정책 효과를 평가함.",
+    "방법: 2000~2025년 중국 1,626개 카운티의 패널 데이터를 활용하고, 이중차분법(DiD) 및 결합 조화도 모델을 적용함.",
+    "핵심 결과: 시범구 정책으로 식량-생태 결합 조화도(GECCD)가 0.0090포인트 증가했으나, 이는 생태 성능이 0.0360포인트 향상된 반면 식량 생산 성능은 0.0216포인트 감소한 결과임."
+   ],
+   "impact": "녹색 농업 정책 시행 시 생태계 개선과 식량 생산성 저하 간의 상충 관계를 고려한 정교한 보완책 마련이 요구됨.",
+   "keywords": [
+    "녹색농업정책",
+    "식량생산",
+    "생태계보호"
+   ],
+   "level": "실증·임상",
+   "sector": "climate",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Frontiers in Sustainable Food Systems",
+   "core": true,
+   "authors": [
+    "Yunwei Liu",
+    "Chuan Li",
+    "Ling He"
+   ],
+   "url": "https://doi.org/10.3389/fsufs.2026.2012475",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.33237",
+   "title": "Resource-Efficient Multimodal Fusion for Early Rice Blast Forecasting in Sustainable Agriculture",
+   "title_ko": "지속 가능한 농업을 위한 조기 도열병 예측용 자원 효율적 멀티모달 융합",
+   "headline": "경량 멀티모달 AI 모델을 통해 연산 자원 제약 환경에서 96.93%의 정확도로 벼 도열병을 조기 예측함.",
+   "points": [
+    "연구 배경·목적: 기후 및 원격탐사 데이터를 활용해 연산 및 에너지 제약 속에서 적시에 벼 도열병을 예측하기 위한 자원 효율적 AI 프레임워크를 개발함.",
+    "방법: 주의 기반 위치 인코딩 트랜스포머와 CNN이 내장된 GRU를 결합한 경량 멀티모달 융합 아키텍처를 구축함.",
+    "핵심 결과: 증상 발현 5~10일 전에 도열병 위험을 예측하며 검증 정확도 96.93%, F1-스코어 95.79%를 달성하고 연산 복잡도와 탄소 배출을 저감함."
+   ],
+   "impact": "대규모 스마트 농업 현장에서 저비용·저전력으로 실시간 병해 예보 시스템을 구축하는 데 활용 가능함.",
+   "keywords": [
+    "벼도열병예측",
+    "멀티모달AI",
+    "스마트농업"
+   ],
+   "level": "응용연구",
+   "sector": "climate",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.LG)",
+   "core": false,
+   "authors": [
+    "Shubhajyoti Das",
+    "Pritam Bikram",
+    "Arindam Biswas",
+    "Samrat Paul",
+    "Parimal Sinha",
+    "Bhargab B. Bhattacharya"
+   ],
+   "url": "https://arxiv.org/abs/2611.33237",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33335",
+   "title": "FlowersBench: A FluidFlower-Inspired Dataset for Benchmarking Carbon Storage Surrogates Across Geological Structures",
+   "title_ko": "FlowersBench: 지질 구조 전반의 탄소 저장 대리 모델 벤치마킹을 위한 FluidFlower 영감 데이터셋",
+   "headline": "5,000건의 이산화탄소 저장 시뮬레이션 데이터셋 FlowersBench를 구축하여 지질 구조 일반화 성능을 평가함.",
+   "points": [
+    "연구 배경·목적: 지질 탄소 저장(GCS)의 불확실성 정량화를 위한 머신러닝 대리 모델 개발 시 미지의 지질 구조에 대한 일반화 성능 검증 데이터셋을 제공함.",
+    "방법: 244개의 구조 기하학적 형상을 바탕으로 5,000개의 2차원 저장 시뮬레이션을 수행하고 U-Net 대리 모델을 학습시킴.",
+    "핵심 결과: 기본 U-Net 모델이 이산화탄소 포화도 및 이동 경로를 예측함을 확인했으나, 미지의 단층 토폴로지 등 구조적 변화 환경에서는 예측 오차가 증가함."
+   ],
+   "impact": "탄소 포집·저장(CCGS) 기술의 지중 저장소 안전성 평가 및 대리 모델의 신뢰성 검증 표준으로 활용됨.",
+   "keywords": [
+    "지질탄소저장",
+    "대리모델",
+    "벤치마켓데이터셋"
+   ],
+   "level": "기초연구",
+   "sector": "climate",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.LG)",
+   "core": false,
+   "authors": [
+    "Farah Rabie",
+    "Hannah Menke",
+    "Florian Doster",
+    "Amy Gough",
+    "Ahmed H. Elsheikh"
+   ],
+   "url": "https://arxiv.org/abs/2611.33335",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34629",
+   "title": "Predicting acute food crises and discovering actionable drivers with causal machine learning",
+   "title_ko": "인과 머신러닝을 활용한 급성 식량 위기 예측 및 실행 가능한 동인 발견",
+   "headline": "결측치 대응 머신러닝 파이프라인을 통해 식량 위기를 예측하고, 무장 충돌이 핵심 인과 동인임을 규명함.",
+   "points": [
+    "연구 배경·목적: 80개국의 오픈 소스 식량 불안전성 데이터셋에 동인 변수를 결합하여 3, 6, 9개월 리드타임으로 위기 발생을 예측하고 인과 관계를 분석함.",
+    "방법: 중첩 교차 검증을 거친 머신러닝 예측 파이프라인과 TreeSHAP 설명력 분석, 이중 강건 인과 추정법을 적용함.",
+    "핵심 결과: PR-AUC 기준 기존 무기능 기준선 대비 15~50%p 높은 예측 성능을 보였으며, 예측 중요도가 낮았던 급성 충돌 사건이 식량 위기의 주요 인과 동인으로 나타남."
+   ],
+   "impact": "글로벌 식량 위기 대응을 위한 조기 경보 체계 고도화 및 선제적 정책 개입의 근거 자료로 활용 가능함.",
+   "keywords": [
+    "식량위기예측",
+    "인과머신러닝",
+    "식량불안전성"
+   ],
+   "level": "응용연구",
+   "sector": "climate",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.LG)",
+   "core": false,
+   "authors": [
+    "M\\'elissande Machefer",
+    "Michele Ronco",
+    "Michele Meroni",
+    "Jordi Cerd\\`a-Bautista",
+    "Francesco Collivignarelli",
+    "Chungmann Kim"
+   ],
+   "url": "https://arxiv.org/abs/2611.34629",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.33369",
+   "title": "Benchmarking Segmentation Models for Scalable Mangrove Mapping with Sentinel-1/2 Imagery",
+   "title_ko": "Sentinel-1/2 이미지를 활용한 확장 가능한 맹그로브 매핑용 세분화 모델 벤치마킹",
+   "headline": "오픈 센티넬 위성 데이터와 사전 학습된 딥러닝 모델을 결합하여 대규모 맹그로브 생태계 매핑에 성공함.",
+   "points": [
+    "연구 배경·목적: 기후변화에 취약한 맹그로브 생태계의 대규모 모니터링을 위해, 비용이 높은 고해상도 영상 대신 무료 위성 데이터를 활용한 딥러닝 세분화 성능을 평가함.",
+    "방법: Sentinel-1(레이더) 및 Sentinel-2(광학) 이미지와 고해상도 참고 맵을 활용해 CROMA 및 ResNet50 기반 4가지 세분화 구성을 비교함.",
+    "핵심 결과: CROMA와 UPerNet을 결합한 모델이 F1-스코어 0.9218, IoU 0.8549를 기록하며 가장 우수한 성능을 보임."
+   ],
+   "impact": "비용 효율적이고 지속 가능한 연안 생태계 모니터링 및 탄소 저장고 관리 체계 구축에 기여함.",
+   "keywords": [
+    "맹그로브매핑",
+    "위성이미지",
+    "딥러닝세분화"
+   ],
+   "level": "응용연구",
+   "sector": "climate",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.CV)",
+   "core": false,
+   "authors": [
+    "Damba Kon\\'e",
+    "Sara Mobsite",
+    "Joris Gu\\'erin",
+    "\\'Elodie Blanchard",
+    "Thibault Catry"
+   ],
+   "url": "https://arxiv.org/abs/2611.33369",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34473",
+   "title": "High-performance metapopulation models for epidemic emergencies: Scalability and performance of implicit and explicit mobility representations on CPUs and GPUs",
+   "title_ko": "전염병 비상 상황을 위한 고성능 메타개체군 모델: CPU 및 GPU에서의 암시적 및 명시적 이동성 표현의 확장성 및 성능",
+   "headline": "메타개체군 모델, 이동성 표현 방식 따라 결과 달라져",
+   "points": [
+    "전염병 확산 예측을 위한 메타개체군 모델의 CPU/GPU 병렬화 및 성능 분석",
+    "암시적 이동성 모델과 명시적 이동성 모델 비교, 이동성 주기 길이에 따라 결과 차이 발생",
+    "최대 16,384개 패치 모델에서 CPU 및 GPU 기반 병렬화 성능 분석, 데이터 재사용 및 이동성 이벤트 비용이 주요 성능 동인 확인"
+   ],
+   "impact": "전염병 비상 상황 대응 모델 개발 시 이동성 가정, 이벤트 빈도, 수치 해석기, 하드웨어 고려 필요",
+   "keywords": [
+    "메타개체군 모델",
+    "이동성 표현",
+    "병렬화 성능"
+   ],
+   "level": "응용연구",
+   "sector": "climate",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.DC)",
+   "core": false,
+   "authors": [
+    "Henrik Zunker",
+    "Carlotta Gerstein",
+    "Martin J. K\\\"uhn"
+   ],
+   "url": "https://arxiv.org/abs/2611.34473",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "W7239356275",
+   "title": "Biochar-immobilized Bacillus subtilis increases Apium graveolens yield under continuous cropping by improving soil fertility and microbial community: evidence from a pot experiment",
+   "title_ko": "바이오차 고정 바실러스 서브틸리스, 토양 비옥도 및 미생물 군집 개선으로 연속 재배 시 셀러리 수확량 증대: 포트 실험 증거",
+   "headline": "바이오차 고정 바실러스 서브틸리스, 셀러리 수확량 증대 효과 확인",
+   "points": [
+    "연속 재배 시 토양 악화 및 셀러리 수확량 감소 완화 효과 평가",
+    "바이오차 고정 바실러스 서브틸리스(BIB) 처리구에서 셀러리 생육, 토양 물리화학성, 효소 활성, 미생물 군집 구조 분석",
+    "BIB 처리구가 토양 비옥도 및 미생물 군집 구조 개선, 셀러리 수확량 증대 효과 확인 (수확량 수치 미포함)"
+   ],
+   "impact": "바이오차 고정 바실러스 서브틸리스 적용은 셀러리 수확량 증대 및 토양 환경 개선에 기여 가능",
+   "keywords": [
+    "바이오차",
+    "바실러스 서브틸리스",
+    "셀러리 수확량"
+   ],
+   "level": "실증·임상",
+   "sector": "climate",
+   "score": 5,
+   "hf_upvotes": 0,
+   "venue": "Soil Research",
+   "core": true,
+   "authors": [
+    "Xue Meng",
+    "Baoping Qin",
+    "Huihui Zheng",
+    "Jiaxuan Che",
+    "Xin Zhang",
+    "志刚 张"
+   ],
+   "url": "https://doi.org/10.1071/sr26031",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239350129",
+   "title": "The reshaping effect of digital knowledge stock on corporate energy intensity from the perspective of knowledge governance",
+   "title_ko": "지식 거버넌스 관점에서 본 기업 에너지 집약도에 대한 디지털 지식 스톡의 재편 효과",
+   "headline": "디지털 지식, 기업 에너지 집약도 감소 효과 확인",
+   "points": [
+    "기업의 디지털 지식 스톡이 에너지 집약도에 미치는 영향 분석",
+    "실현된 흡수 역량과 디지털-그린 지식 통합 경로 분석, 객관적 흡수 기반 및 경영진 녹색 인지 조절 역할 분석",
+    "디지털 지식 스톡은 에너지 집약도를 유의미하게 감소시키며, 흡수 역량 및 지식 통합이 매개 효과를 가짐"
+   ],
+   "impact": "디지털 지식 축적은 기업의 에너지 효율성 제고에 기여하며, 관련 정책 수립에 활용 가능",
+   "keywords": [
+    "디지털 지식",
+    "에너지 집약도",
+    "지식 거버넌스"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Journal of Knowledge Management",
+   "core": true,
+   "authors": [
+    "Haiyang He",
+    "Xipan Wang",
+    "Lei Jiao",
+    "Yi Yu"
+   ],
+   "url": "https://doi.org/10.1108/jkm-04-2026-0866",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239359470",
+   "title": "Crisis or opportunity? Reviewing the dynamics of intellectual capital, financial distress and earnings management practices in emerging economies",
+   "title_ko": "위기인가 기회인가? 신흥 경제에서의 지적 자본, 재무적 곤경 및 이익 관리 관행의 역학 관계 검토",
+   "headline": "신흥국 기업, 지적 자본으로 재무 위험 관리 가능",
+   "points": [
+    "신흥 7개국(E7) 기업의 지적 자본(IC)이 재무적 곤경(FD) 및 이익 관리(EM) 관행에 미치는 영향 분석",
+    "Driscoll and Kraay 패널 회귀 모델 및 2SLS 모델 활용, 선형 및 비선형 관계 탐색",
+    "지적 자본은 재무적 곤경을 감소시키며, 재무적으로 안정된 기업은 실제 이익 관리를, 위기 기업은 발생 이익 관리를 활용"
+   ],
+   "impact": "신흥국 기업의 재무 안정성 확보 및 이익 관리 투명성 제고를 위해 지적 자본 투자가 중요",
+   "keywords": [
+    "지적 자본",
+    "재무적 곤경",
+    "이익 관리"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Asian Review of Accounting",
+   "core": true,
+   "authors": [
+    "Swati Mohapatra"
+   ],
+   "url": "https://doi.org/10.1108/ara-09-2025-0298",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239373149",
+   "title": "Do directors make a difference? Examining the impact of board structure on GHG emissions and financial performance",
+   "title_ko": "이사가 변화를 만드는가? 이사회 구조가 온실가스 배출량 및 재무 성과에 미치는 영향 조사",
+   "headline": "이사회 구성, 기업 환경 성과와 재무 성과 연계 강화",
+   "points": [
+    "독립 이사 및 여성 이사(WOB)가 온실가스 배출량(GHG)과 재무 성과(FP)의 연계에 미치는 영향 분석",
+    "자원 기반 관점 및 스튜어드십 이론 기반, 인도 비금융 상장 기업 패널 데이터(2021-2024) 활용",
+    "이사회 구성은 환경 성과와 재무 성과의 연계를 긍정적으로 강화하며, 효과적인 지배구조는 균형 유지에 중요"
+   ],
+   "impact": "이사회 구성 개선은 기업의 환경 성과와 재무 성과 동시 달성에 기여할 수 있음",
+   "keywords": [
+    "이사회 구조",
+    "온실가스 배출량",
+    "재무 성과"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Corporate Governance",
+   "core": true,
+   "authors": [
+    "Amrita Rani",
+    "Nitin R. Mahankale"
+   ],
+   "url": "https://doi.org/10.1108/cg-09-2025-0660",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "W7239408187",
+   "title": "From digital entrepreneurship to financial results: the dynamic capabilities pathway",
+   "title_ko": "디지털 기업가 정신에서 재무 결과까지: 동적 역량 경로",
+   "headline": "디지털 기업가 정신, 동적 역량 통해 재무 성과 향상",
+   "points": [
+    "디지털 기업가 정신 의도(DEI)가 재무 성과(FP)에 미치는 직접적 및 간접적 영향 분석",
+    "계획된 행동 이론 및 자원 기반 관점 기반, 600개 중소·대기업 데이터 분석",
+    "DEI와 FP, DEI와 동적 역량, 동적 역량과 FP 간 긍정적 관계 확인, 동적 역량이 DEI-FP 관계에서 부분 매개 역할 수행"
+   ],
+   "impact": "디지털 기업가 정신 육성 및 동적 역량 개발 지원은 기업 재무 성과 향상에 필수적",
+   "keywords": [
+    "디지털 기업가 정신",
+    "동적 역량",
+    "재무 성과"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "International Journal of Entrepreneurial Behaviour & Research",
+   "core": true,
+   "authors": [
+    "Jiří Polách",
+    "Mehmet Civelek",
+    "Michal Erben",
+    "Jiří Strouhal",
+    "Stefano Bresciani"
+   ],
+   "url": "https://doi.org/10.1108/ijebr-06-2026-1040",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "W7239438977",
+   "title": "Corporate governance and CSR disclosure in emerging banking systems: evidence from Beninese banks",
+   "title_ko": "신흥 은행 시스템의 기업 지배구조와 CSR 공시: 베냉 은행의 실증 분석",
+   "headline": "베냉 은행 부문에서 이사회 규모와 여성 이사 비율이 CSR 공시 투명성을 높임.",
+   "points": [
+    "연구 배경·목적: 베냉 BRVM 상장 전통 은행들을 대상으로 기업 지배구조 메커니즘이 기업사회책임(CSR) 공시에 미치는 영향 분석.",
+    "방법: 2010~2023년 연차보고서 내용 분석 및 시스템 GMM 추정기를 활용한 동적 패널 데이터 회귀 분석 수행.",
+    "핵심 결과: 이사회 규모와 여성 이사 존재는 CSR 공시를 유의하게 촉진한 반면, 이사회 독립성과 경영진 지분은 부정적 연관성을 보임."
+   ],
+   "impact": "신흥국 은행 투자 시 이사회 구성과 지배구조가 비재무적 리스크 관리에 미치는 영향을 평가하는 기준을 제공함.",
+   "keywords": [
+    "기업 지배구조",
+    "CSR 공시",
+    "베냉 은행"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Corporate Governance",
+   "core": true,
+   "authors": [
+    "Ayebo Bolale Francine Laourou"
+   ],
+   "url": "https://doi.org/10.1108/cg-07-2025-0458",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239370091",
+   "title": "Institutionalizing innovation in sub-Saharan Africa: the impact evaluation of accelerators and venture capital",
+   "title_ko": "사하라 이남 아프리카의 혁신 제도화: 액셀러레이터와 벤처캐피탈의 영향 평가",
+   "headline": "액셀러레이터는 특허 출원을, 벤처캐피탈은 상표 등록을 각각 유의하게 촉진함.",
+   "points": [
+    "연구 배경·목적: 사하라 이남 아프리카 스타트업의 혁신 성과에 미치는 액셀러레이터 참여와 벤처캐피탈(VC) 자금의 영향 평가.",
+    "방법: GALI 데이터를 활용하고 선택 편향 조정을 위해 부트스트랩을 결합한 성향점수매칭(PSM) 추정기 사용.",
+    "핵심 결과: 액셀러레이터 참여 스타트업은 특허가 유의하게 증가한 반면, VC 자금은 특허가 아닌 상표 등록 가능성을 크게 높임."
+   ],
+   "impact": "아프리카 지역 투자 시 액셀러레이터는 기술 혁신을, VC는 상표 중심의 상업적 확장에 기여함을 시사함.",
+   "keywords": [
+    "액셀러레이터",
+    "벤처캐피탈",
+    "스타트업 혁신"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "International Journal of Innovation Science",
+   "core": true,
+   "authors": [
+    "Musa Abdu",
+    "Salihu Musa",
+    "Habiba Muhammad Abdullahi",
+    "Mamdouh Abdulaziz Saleh Al‐Faryan"
+   ],
+   "url": "https://doi.org/10.1108/ijis-03-2026-0199",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239402348",
+   "title": "Firm-level economic policy uncertainty, corporate finance and bank intermediation",
+   "title_ko": "기업 수준의 경제정책 불확실성, 기업 재무 및 은행 중개",
+   "headline": "기업의 불확실성 증가는 투자를 위축시키고 은행의 대출 축소와 유동성 확로 이어짐.",
+   "points": [
+    "연구 배경·목적: 기업 수준의 경제정책 불확실성(EPU)이 재무 의사결정에 미치는 영향과 은행 부문으로의 파급 효과 측정.",
+    "방법: 1994~2023년 미국 기업 및 은행 패널 데이터를 바탕으로 텍스트 분석 및 IV-GMM 프레임워크 적용.",
+    "핵심 결과: 기업 EPU 상승은 투자와 부채 발행을 줄이고 예비적 현금을 늘리며, 은행은 대출을 줄이고 유동 자산을 축적함."
+   ],
+   "impact": "거시경제 불확실성 국면에서 기업의 재무 건전성 변화가 지역 은행의 신용 공급에 미치는 리스크 관리 지침을 제공함.",
+   "keywords": [
+    "경제정책 불확실성",
+    "기업 재무",
+    "은행 중개"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Studies in Economics and Finance",
+   "core": true,
+   "authors": [
+    "Jifan Wang"
+   ],
+   "url": "https://doi.org/10.1108/sef-04-2026-0342",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239420060",
+   "title": "Does the leverage of financial technology companies (FinTechs) affect performance?",
+   "title_ko": "금융기술(핀테크) 기업의 레버리지가 성과에 미치는 영향",
+   "headline": "핀테크 기업의 자산수익률(ROA)은 부채비율과 역 U자형 관계를 나타냄.",
+   "points": [
+    "연구 배경·목적: 부채와 자기자본의 자금 조달 믹스가 핀테크 기업의 성과에 미치는 영향 분석.",
+    "방법: 2005~2024년 글로벌 핀테크 데이터를 활용하여 고정효과 모델 및 시스템 GMM 등 패널 회귀 분석 수행.",
+    "핵심 결과: ROA와 순이익률은 부채비율과 역 U자형 관계를 보이며, 자산 회전율은 반대의 패턴을 나타냄."
+   ],
+   "impact": "핀테크 기업 투자 및 경영 시 수익성과 효율성을 극대화하기 위한 최적의 자본 구조 설계 필요성을 시사함.",
+   "keywords": [
+    "핀테크",
+    "레버리지",
+    "기업 성과"
+   ],
+   "level": "응용연구",
+   "sector": "econ",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Review of Accounting and Finance",
+   "core": true,
+   "authors": [
+    "Silvia Bressan"
+   ],
+   "url": "https://doi.org/10.1108/raf-12-2025-0467",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239408547",
+   "title": "Ethical leadership and human capital sustainability in industry 5.0: the roles of organizational culture and resilient organizational behavior",
+   "title_ko": "인더스트리 5.0 시대의 윤리적 리더십과 인적 자본 지속가능성: 조직문화와 회복력 있는 조직 행동의 역할",
+   "headline": "윤리적 리더십은 조직문화를 매개로 인적 자본의 지속가능성에 긍정적 영향을 미침.",
+   "points": [
+    "연구 배경·목적: 인더스트리 5.0 환경에서 윤리적 리더십이 인적 자본 지속가능성을 지원하는 메커니즘 규명.",
+    "방법: 유럽 민간 부문 직원 828명의 설문조사 데이터를 바탕으로 SmartPLS 구조방정식 모델링 실시.",
+    "핵심 결과: 윤리적 리더십은 인적 자본 지속가능성에 직접적인 정적 효과를 보이며, 조직문화와 회복력 있는 행동이 매개 역할을 함."
+   ],
+   "impact": "AI 전환기 조직에서 인적 자본 리스크를 관리하고 지속가능 경영을 구축하는 HR 및 리더십 전략 수립에 기여함.",
+   "keywords": [
+    "윤리적 리더십",
+    "인적 자본",
+    "인더스트리 5.0"
+   ],
+   "level": "응용연구",
+   "sector": "social",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "European Business Review",
+   "core": true,
+   "authors": [
+    "Ioannis M. Zervas",
+    "Sotiria Triantari"
+   ],
+   "url": "https://doi.org/10.1108/ebr-04-2026-0171",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239413260",
+   "title": "Digital leadership and sustainability as catalysts of the dynamic capability cluster: evidence from Central Java’s industrial ecosystem",
+   "title_ko": "동적 역량 클러스터의 촉매로서 디지털 리더십과 지속가능성: 인도네시아 중부 자바 산업 생태계 증거",
+   "headline": "디지털 리더십과 인프라는 오케스트레이션된 클러스터를 통해 혁신 성과로 연결됨.",
+   "points": [
+    "연구 배경·목적: 기술, 인지, 전략적 요소들이 동적 역량 클러스터와 디지털 혁신 성과로 수렴하는 오케스트레이션 구조 검증.",
+    "방법: 인도네시아 중부 자바의 312개 기업 데이터를 대상으로 공분산 기반 구조방정식 모델링 적용.",
+    "핵심 결과: 디지털 리더십이 가장 큰 영향력을 보였으며, 개별 요소들은 직접적인 경로가 아닌 역량 클러스터를 통해 간접적으로 혁신 성과에 기여함."
+   ],
+   "impact": "디지털 전환 투자 시 단순 인프라 도입을 넘어 리더십 역량과 지속가능성 기준을 통합하는 실행 전략의 중요성을 확인함.",
+   "keywords": [
+    "디지털 리더십",
+    "동적 역량",
+    "혁신 성과"
+   ],
+   "level": "응용연구",
+   "sector": "social",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "RAUSP Management Journal",
+   "core": true,
+   "authors": [
+    "Daryono Daryono",
+    "Budi Rahardjo",
+    "Rizki Prayogo"
+   ],
+   "url": "https://doi.org/10.1108/rausp-12-2025-0300",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7171628795",
+   "title": "Preprints Without Curation Are Increasingly Cited by Journals",
+   "title_ko": "검증되지 않은 프리프린트의 학술지 인용 증가 추세",
+   "headline": "프리프린트 서버의 미검증 논문이 학술지에 인용되는 비중이 지속적으로 증가함",
+   "points": [
+    "연구 배경·목적: 정식 심사 이전 지식 공개 필요성이 커짐에 따라 주요 프리프린트 서버와 데이터베이스를 연계하여 인용률 변화 추이를 비교함.",
+    "방법: 6개 주요 프리프린트 서버 데이터를 세계 최대 서지 참조 데이터베이스와 연결하고 상위 학술지 인용으로 제한하여 널 모델과 비교함.",
+    "핵심 결과: 프리프린트는 문헌 점유율에 비해 5~10배 적게 인용되나, 2013년 이후 학술지의 프리프린트 인용은 지속적으로 증가함."
+   ],
+   "impact": "학술 출판 생태계에서 프리프린트의 신뢰도가 높아짐에 따라 관련 인용 관행과 학술지 정책의 변화가 요구됨.",
+   "keywords": [
+    "프리프린트",
+    "학술 인용",
+    "피어 리뷰"
+   ],
+   "level": "기초연구",
+   "sector": "social",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Quantitative Science Studies",
+   "core": true,
+   "authors": [
+    "Chiaki Miura",
+    "Ichiro Sakata"
+   ],
+   "url": "https://doi.org/10.1162/qss.a.527",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "W7239345422",
+   "title": "Storytelling as a powerful tool for microbiology education in the age of artificial intelligence",
+   "title_ko": "인공지능 시대의 미생물학 교육을 위한 강력한 도구로서의 스토리텔링",
+   "headline": "스토리텔링 기반 미생물학 교육 과정이 학생들의 참여도와 비판적 사고를 향상시킴",
+   "points": [
+    "연구 배경·목적: AI 시대의 온라인 수업과 도구가 학생들에게 소외감을 줄 수 있어 스토리텔링을 통한 교육 과정의 효과를 검증하고자 함.",
+    "방법: 호주 웨스턴오스트레일리아 대학교의 '혁신적 미생물 발견' 강좌 수강생을 대상으로 설문조사 및 등록생 수 변화를 분석함.",
+    "핵심 결과: 2026년 설문 응답 학생의 100%가 지적 자극을 받았다고 응답했으며, 수강생 수는 1년 만에 37명에서 75명으로 2배 증가함."
+   ],
+   "impact": "AI 활용 환경에서 인문학적 스토리텔링 결합 교육이 학생 참여와 윤리적 사고 배양에 유효한 모델임을 입증함.",
+   "keywords": [
+    "미생물학 교육",
+    "스토리텔링",
+    "인공지능"
+   ],
+   "level": "응용연구",
+   "sector": "social",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Microbiology Australia",
+   "core": true,
+   "authors": [
+    "Calila Santos",
+    "Katherine A. Hammer",
+    "Charlene M. Kahler"
+   ],
+   "url": "https://doi.org/10.1071/ma26056",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239346647",
+   "title": "From chain-of-thought to case law: governing AI-powered lawyering in Indonesia",
+   "title_ko": "사고 사슬에서 판례까지: 인도에서의 AI 활용 법률 실무 거버넌스",
+   "headline": "법률 AI의 검색 접지가 환각 현상을 줄이나 법원 수용 수준에는 미치지 못함",
+   "points": [
+    "연구 배경·목적: 추론형 언어 모델과 검색증강생성(RAG)이 법률 업무를 변화시키는 가운데 인도 법조계의 규제 공백과 기술적 한계를 분석함.",
+    "방법: 인도, EU, 미국, 영국, 싱가포르, 중국의 1차 법적 자료와 법률 AI 환각에 관한 실증 연구를 규범적·법률적으로 비교 분석함.",
+    "핵심 결과: 검색 접지로 환각이 줄어들지만 여전히 인간 작성 서류보다 오류율이 높아 법원 기준을 충족하지 못하며 규제는 분산되어 있음."
+   ],
+   "impact": "법률 분야 AI 도입 시 정교한 법적 규제와 실무적 안전장치 마련이 필수적임을 시사함.",
+   "keywords": [
+    "법률 AI",
+    "검색증강생성",
+    "AI 거버넌스"
+   ],
+   "level": "응용연구",
+   "sector": "social",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "International Journal of Law and Management",
+   "core": true,
+   "authors": [
+    "Rezzy Eko Caraka",
+    "Dodik Pranata Wijaya"
+   ],
+   "url": "https://doi.org/10.1108/ijlma-08-2026-0425",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239353759",
+   "title": "Cognitive diversity as competitive advantage: neurodiversity in the information technology ecosystem",
+   "title_ko": "경쟁 우위로서의 인지 다양성: 정보 기술 생태계 속의 신경다양성",
+   "headline": "IT 조직 내 신경다양성 인재 포용이 기술 인력 부족 해소와 혁신의 핵심 동력이 됨",
+   "points": [
+    "연구 배경·목적: IT 인력 부족과 혁신 요구 속에서 신경다양성 개인의 인지적 강점을 활용하고 실무적 포용 방안을 모색함.",
+    "방법: 사회기술적 시스템 관점과 학제간 문헌 검토를 통해 신경포용적 IT 직장의 5대 동인과 4대 운영 관행을 분석함.",
+    "핵심 결과: 패턴 인식, 집중력 등 강점을 지닌 신경다양성 인재의 채용, 옹호, 개인화된 지원이 조직 혁신으로 이어짐을 확인 함."
+   ],
+   "impact": "기업들이 맞춤형 유연 디자인을 도입하여 IT 인재 풀을 다변화하고 기술 경쟁력을 제고할 수 있는 근거를 제공함.",
+   "keywords": [
+    "신경다양성",
+    "정보 기술",
+    "업무 환경"
+   ],
+   "level": "기초연구",
+   "sector": "social",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Foundations and Trends® in Information Systems",
+   "core": true,
+   "authors": [
+    "Eleanor T. Loiacono",
+    "Hala Annabi"
+   ],
+   "url": "https://doi.org/10.1108/ftisy-03-2026-0041",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239382923",
+   "title": "Beyond assistance: unpacking cognitive and affective pathways linking AI study assistants to procrastination reduction and study persistence",
+   "title_ko": "보조를 넘어: AI 학습 보조원과 미루기 감소 및 학습 지속성을 연결하는 인지적·정서적 경로 규명",
+   "headline": "AI 학습 보조원의 특성이 인지적·정서적 경로를 통해 학습자의 미루기를 줄이고 지속성을 높임",
+   "points": [
+    "연구 배경·목적: AI 학습 보조원 활용이 학생들의 인지 및 정서적 메커니즘을 통해 학습 행동에 미치는 영향을 규명함.",
+    "방법: AI 학습 보조원 사용 경험이 있는 베트남 대학생 264명의 데이터를 수집하여 부분 최소제곱 구조방정식 모형(PLS-SEM)으로 분석함.",
+    "핵심 결과: AI의 동반자 관계와 학습 안내는 책임감과 동기부여를 모두 높이는 반면, 반응성은 동기부여에만 유의미한 연관을 보임."
+   ],
+   "impact": "에드테크 서비스 설계 시 단순 기능 제공을 넘어 동반자적 역할과 동기 부여 기능을 강화해야 함을 시사함.",
+   "keywords": [
+    "AI 학습 보조원",
+    "학습 지속성",
+    "구조방정식모형"
+   ],
+   "level": "응용연구",
+   "sector": "social",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Journal of Research in Innovative Teaching & Learning",
+   "core": true,
+   "authors": [
+    "Le Thi My Danh",
+    "Van Hai Phuoc Pham",
+    "Le Phuoc Lam Vo",
+    "Thanh Lam Vu",
+    "Nguyễn Thành Trung",
+    "Xuan Minh Tri Hoang"
+   ],
+   "url": "https://doi.org/10.1108/jrit-05-2026-0157",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239404902",
+   "title": "Environmental determinants of youth criminal behaviour: integrating blood lead biomonitoring and socio-economic profiling in gauteng province, South Africa",
+   "title_ko": "청소년 범죄 행위의 환경적 결정요인: 남아프리카공화국 하우텡 주의 혈중 납 생체모니터링과 사회경제적 프로파일링 통합 연구",
+   "headline": "청소년의 높은 혈중 납 농도가 폭력적 범죄 행위 증가와 독립적으로 연관됨",
+   "points": [
+    "연구 배경·목적: 고소득 국가 중심의 환경 납 노출 연구를 폭력 범죄율이 높은 저중소득국가(LMIC) 청소년 소년범으로 확장하여 분석함.",
+    "방법: 남아프리카공화국 하우텡 주의 소년원 남성 수감자 192명(폭력 범죄 111명, 비폭력 범죄 81명)의 혈중 납 농도(BLL)와 설문 데이터를 분석함.",
+    "핵심 결과: 혈중 납 농도가 3.50 μg/dL 이상인 경우 폭력 범죄 발생 오즈비가 12.12배 높았으며, 학대 이력과 약물 사용도 유의미한 연관을 보임."
+   ],
+   "impact": "환경 유해 물질 관리가 공중보건뿐만 아니라 강력 범죄 예방을 위한 사회적 투자 관점에서도 중요함을 증명함.",
+   "keywords": [
+    "혈중 납 농도",
+    "청소년 범죄",
+    "환경 독성학"
+   ],
+   "level": "실증·임상",
+   "sector": "social",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Frontiers in Toxicology",
+   "core": true,
+   "authors": [
+    "Thokozani Patrick Mbonane",
+    "Angela Mathee",
+    "Andre Swart",
+    "Nisha Naicker"
+   ],
+   "url": "https://doi.org/10.3389/ftox.2026.1990348",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239349842",
+   "title": "Fourier-Enhanced In-Context Transformers for Generalizable PDE Operator Learning",
+   "title_ko": "일반화 가능한 PDE 연산자 학습을 위한 푸리에 강화 인컨텍스트 트랜스포머",
+   "headline": "푸리에 연산자를 결합한 F-ICON 모델로 PDE 대리 모델의 예측 정확도와 안정성 대폭 향상",
+   "points": [
+    "연구 배경·목적: 기존 인컨텍스트 연산자 네트워크(ICON)는 원시 공간 샘플 토큰화로 인해 연산 비용이 높고 물리적 스펙트럼 편향이 부족하여 이를 개선하기 위한 글로벌 스펙트럼 사전 정보 주입 목적",
+    "방법: 표준 토큰화를 경량 푸리에 신경 연산자(FNO)로 대체하고, 잔차 스펙트럼 융합과 교차 주의를 결합한 F-ICON 아키텍처를 제안하여 1차원 버거스 방정식, 2차원 다시 흐름, 캐비티 흐름 벤치마크에서 테스트",
+    "핵심 결과: 표준 ICON 대비 평균 상대 L² 오차가 버거스 59.2%, 다시 흐름 74.9%, 캐비티 흐름 11.6% 감소함"
+   ],
+   "impact": "복잡한 물리 시스템 시뮬레이션에서 대리 모델의 연산 효율과 일반화 성능을 높여 산업용 CAE 및 디지털 트윈 구축 비용을 절감함.",
+   "keywords": [
+    "인컨텍스트 러닝",
+    "푸리에 신경 연산자",
+    "편미분방정식"
+   ],
+   "level": "응용연구",
+   "sector": "math",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "Communications in Computational Physics",
+   "core": true,
+   "authors": [
+    "Xinyi Wang",
+    "Jiancheng Hu"
+   ],
+   "url": "https://doi.org/10.4208/cicp.oa-2026-0066",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239402434",
+   "title": "From Order to Chaos: A Unified Neural Operator for Lattice Dynamics",
+   "title_ko": "질서에서 혼돈으로: 격자 역학을 위한 통합 신경 연산자",
+   "headline": "다중 스냅샷 창 기반 Seq-FNO 모델로 가적분 및 혼돈 격자 역학의 장기 예측 성능 입증",
+   "points": [
+    "연구 배경·목적: 적분 가능 및 혼돈 체제를 아우르는 비선형 격자 역학에 대해 고밀도 감독 학습 없이 데이터 효율적인 연산자 학습 수행 목적",
+    "방법: 초기 조건 앙상블에서 추출한 다중 스냅샷 창으로 훈련되는 Sequence-Fourier Neural Operator(Seq-FNO)를 도입하고, 시간적 다중 해상도 예측을 위한 시간적 개선 메커니즘을 적용",
+    "핵심 결과: 토다 및 지수 격자에서 락스 행렬 재구성 및 보존량을 정확히 보존함을 확인하였으며, 혼돈 헨론-하일레스 시스템에서 랴푸노프 시간 범위 내 예측 성능을 체계적으로 평가함"
+   ],
+   "impact": "복잡한 비선형 물리 현상의 장기 예측 및 보존량 유지 검증을 통해 재료 과학 및 물리학 시뮬레이션 고도화에 기여함.",
+   "keywords": [
+    "신경 연산자",
+    "격자 역학",
+    "혼돈 시스템"
+   ],
+   "level": "기초연구",
+   "sector": "math",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "Communications in Computational Physics",
+   "core": true,
+   "authors": [
+    "Tao Sun",
+    "Yixian Gao",
+    "Jian Zu",
+    "Hongkun Zhang"
+   ],
+   "url": "https://doi.org/10.4208/cicp.oa-2025-0316",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239436009",
+   "title": "NURBS-Integrated Data Enhanced Gradient Adaptive Quadratic PINN for Solving PDEs on 3D Irregular Domains",
+   "title_ko": "3D 불규칙 도메인의 PDE 해법을 위한 NURBS 통합 데이터 강화 경사 적응형 이차 PINN",
+   "headline": "NURBS와 적응형 경사 균형을 결합한 NDGQ-PINN으로 3D 불규칙 형상 PDE 해법의 오차 대폭 감소",
+   "points": [
+    "연구 배경·목적: 명시적 해석적 표현이 없는 기하학적 복잡 3D 불규칙 영역에서 기존 물리 정보 신경망(PINN)의 한계를 극복하기 위함",
+    "방법: 비유일성 유리 B-스플라인(NURBS)을 활용해 물리 도메인으로의 정확한 전사 구현, 삼각함수-다항식 하이브리드 특징 맵, 저랭크 이차 레이어 및 적응형 경사 균형 전략 도입",
+    "핵심 결과: 훈련 중 최적화 정체 현상을 효과적으로 회피하고 L² 상대 오차를 1~2자리 수 수준으로 감소시켜 고정밀 산업용 엔지니어링 분석을 위한 무격자 해법 제공"
+   ],
+   "impact": "복잡한 3D CAD 형상을 지닌 산업 부품의 시뮬레이션 및 설계 최적화 과정에서 격자 생성 부담 없이 고정밀 해석을 수행함.",
+   "keywords": [
+    "물리 정보 신경망",
+    "NURBS",
+    "불규칙 도메인"
+   ],
+   "level": "응용연구",
+   "sector": "math",
+   "score": 8,
+   "hf_upvotes": 0,
+   "venue": "Communications in Computational Physics",
+   "core": true,
+   "authors": [
+    "Xiang Zeng",
+    "YuanPeng ZHU"
+   ],
+   "url": "https://doi.org/10.4208/cicp.oa-2026-0060",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W4399596508",
+   "title": "Reduced Basis method for finite volume simulations of parabolic PDEs applied to porous media flows",
+   "title_ko": "다공성 매질 흐름에 적용되는 포물선형 PDE의 유한 체적 시뮬레이션을 위한 축소 기저 방법",
+   "headline": "POD-Greedy 알고리즘과 오차 추정자를 이용한 축소 기저 방법으로 지하 다공성 매질 흐름 시뮬레이션 비용 절감",
+   "points": [
+    "연구 배경·목적: 염수 대수층 내 CO₂ 지하 저장 등에서 매개변수 불확실성 평가 및 시나리오 최적화를 위해 반복 수행되는 다공성 매질 다시 포물선 모델의 높은 연산 비용 절감 목적",
+    "방법: 매개변수에 독립적인 이산 시공간 에너지 노름 기반의 목표 지향적 오차 추정자를 설계하고, 이를 활용한 표준 POD-Greedy 알고리즘으로 축소 기저 구축",
+    "핵심 결과: 제안된 오차 추정자의 효율성을 수치 실험을 통해 검증하였으며, 투과율 등 다양한 매개변수 값에 따른 압력 선형 형태를 신속하게 평가할 수 있음을 확인"
+   ],
+   "impact": "에너지 자원 개발 및 탄소 포집·저장(CCUS) 프로젝트에서 대규모 유체 흐름 시뮬레이션 연산 속도를 획기적으로 개선함.",
+   "keywords": [
+    "축소 기저 방법",
+    "다공성 매질",
+    "유한 체적법"
+   ],
+   "level": "응용연구",
+   "sector": "math",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "ESAIM Mathematical Modelling and Numerical Analysis",
+   "core": true,
+   "authors": [
+    "Guillaume Enchéry",
+    "Jana Tarhini",
+    "Sébastien Boyaval",
+    "Quang Huy Tran",
+    "Baptiste Guilbery"
+   ],
+   "url": "https://doi.org/10.1051/m2an/2026099",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239423262",
+   "title": "An Accelerated Projected Gradient Flow Method for Computing the Ground States of Rotating Bose-Einstein Condensates with Higher-Order Interactions",
+   "title_ko": "고차 상호작용을 갖는 회전하는 보스-아인슈타인 응축수의 바닥 상태 계산을 위한 가속 투영 경사 유동법",
+   "headline": "APGF-BEHS 수치 기법을 통해 고차 상호작용을 갖는 회전형 BEC의 바닥 상태를 고효율 고정밀로 계산",
+   "points": [
+    "연구 배경·목적: 고차 상호작용(HOI)을 포함하는 회전형 보스-아인슈타인 응축수(BEC)의 바닥 상태를 효율적이고 안정적으로 계산하기 위함",
+    "방법: 표준 투영 경사 유동에 2차 시간 미분 항을 도입한 가속 투영 경사 유동(APGF) 메서드를 제안하고, HOI 처리 방식에 따라 APGF-BE 및 APGF-BEHS 반음함수적 역방향 오일러 체계 구축",
+    "핵심 결과: APGF-BEHS 체계가 기존 방식 대비 더 큰 시간 간격으로 수렴하며 향상된 안정성을 보이고, 규격 보존 및 수정된 에너지 감소 특성을 수학적으로 증명함"
+   ],
+   "impact": "극저온 양자 물리 연구 및 BEC 응용 시스템 시뮬레이션에서 복잡한 상호작용 상태를 정확하고 빠르게 도출할 수 있음.",
+   "keywords": [
+    "보스-아인슈타인 응축수",
+    "경사 유동",
+    "수치 해석"
+   ],
+   "level": "기초연구",
+   "sector": "math",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "Communications in Computational Physics",
+   "core": true,
+   "authors": [
+    "TANG Kaizhi",
+    "Bing Hu",
+    "Qinglin Tang",
+    "Shaobo Zhang"
+   ],
+   "url": "https://doi.org/10.4208/cicp.oa-2026-0069",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "W7239348304",
+   "title": "Fractal-Fractional Calculus: The Exact Inverse Operator for Caputo-Type Derivatives and Its Role in Modeling Complex Systems",
+   "title_ko": "프랙탈-분수차 미적분학: Caputo형 도함수의 정확한 역연산자와 복잡계 모델링에서의 역할",
+   "headline": "Atangana 프랙탈-분수차 적분을 개발하여 Caputo형 미분학의 일관된 해석 및 수치 연산 프레임워크 구축",
+   "points": [
+    "연구 배경·목적: 멱법칙, 지수 감쇠, 미타그-레플러 커널을 가진 Caputo형 프랙탈-분수차 도함수에 대응하는 적분 연산자 및 정확한 역연산자 개발 목적",
+    "방법: 코시 문제 정의로부터 적분 연산자를 직접 유도하고 기본 합성 관계를 정립하였으며, 조각별 선형 보간법 기반의 구조 보존형 수치 해법 구축",
+    "핵심 결과: 멱법칙 경우에 대해 전역적 존재성과 유일성을 증명하고, 해당 수치법이 양의 값 보존 및 2차 수렴 속도를 가짐을 이론 및 수치 예제로 확인"
+   ],
+   "impact": "메모리 효과와 프랙탈 특성을 지닌 복잡계 및 비정상 유체 역학 현상의 수학적 모델링 정확도 향상에 기여함.",
+   "keywords": [
+    "프랙탈-분수차 미적분학",
+    "역연산자",
+    "수치 방법"
+   ],
+   "level": "기초연구",
+   "sector": "math",
+   "score": 6,
+   "hf_upvotes": 0,
+   "venue": "Numerical Mathematics Theory Methods and Applications",
+   "core": true,
+   "authors": [
+    "Abdon Atangana"
+   ],
+   "url": "https://doi.org/10.4208/nmtma.oa-2026-0128",
+   "lang": "en",
+   "source": "OpenAlex",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.33766",
+   "title": "Don't Waste the Population: Post-Anneal Refinement for Combinatorial Optimization",
+   "title_ko": "인구수를 낭비하지 마라: 조합 최적화를 위한 후어닐링 정제",
+   "headline": "병렬 어닐링의 다양한 후보 해를 활용하는 I-PRP 기법으로 최적화 성능 향상",
+   "points": [
+    "연구 배경·목적: 기존 후처리 방식은 최적해 하나만 정제하여 다수의 후보 해 잠재력이 버려지는 문제를 해결하고자 함.",
+    "방법: 유망한 후보를 선택하고 국소 최적해 사이의 비용 유도 경로를 탐색하는 결정론적 학습 불필요 방법인 I-PRP를 제안함.",
+    "핵심 결과: MaxCut, MaxClique 등 벤치마크에서 기존 단일 후보 정제 대비 품질 저하 없이 성능 향상을 달성함."
+   ],
+   "impact": "조합 최적화가 필요한 물류, 금융 등의 분야에서 병렬 연산 효율성을 높이는 실용적 알고리즘으로 적용 가능함.",
+   "keywords": [
+    "조합 최적화",
+    "병렬 어닐링",
+    "경로 재연결"
+   ],
+   "level": "응용연구",
+   "sector": "math",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.LG)",
+   "core": false,
+   "authors": [
+    "Yuma Ichikawa"
+   ],
+   "url": "https://arxiv.org/abs/2611.33766",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  },
+  {
+   "id": "arxiv:2611.34928",
+   "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+   "title_ko": "고난도 수학 문제를 위한 다양한 대안적 추론 자취",
+   "headline": "거부된 추론 과정을 활용하는 DART 기법으로 LLM 수학 추론 학습 데이터 효율 극대화",
+   "points": [
+    "연구 배경·목적: 고난도 수학 문제에서 몬테카를로 샘플링으로 정답에 도달하는 추론 과정을 얻기 어려운 한계를 극복하고자 함.",
+    "방법: 거부된 추론 과정을 분해하고 불확실성에 따라 순위를 매겨 대안 후보를 생성하는 DART 채굴 방법을 제안함.",
+    "핵심 결과: DART는 MC 샘플링 대비 37% 더 많은 문제를 복구하고 AIME 및 MATH-500 평가에서 우수한 성능을 기록함."
+   ],
+   "impact": "고성능 언어모델의 수학적 추론 능력 향상을 위한 고품질 학습 데이터 구축 비용을 절감하는 데 기여함.",
+   "keywords": [
+    "대형 언어 모델",
+    "수학적 추론",
+    "데이터 채굴"
+   ],
+   "level": "응용연구",
+   "sector": "math",
+   "score": 7,
+   "hf_upvotes": 0,
+   "venue": "arXiv (cs.CL)",
+   "core": false,
+   "authors": [
+    "Lukas Aichberger",
+    "Adam Golinski",
+    "Arno Blaas",
+    "Arwen Bradley",
+    "Jacob Springer",
+    "Mehrdad Farajtabar"
+   ],
+   "url": "https://arxiv.org/abs/2611.34928",
+   "lang": "en",
+   "source": "arXiv",
+   "date": null
+  }
+ ]
+}
